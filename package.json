@@ -1,0 +1,64 @@
+{
+  "name": "@cherryblossom/eslint-config",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "license": "MIT",
+  "description": "@cherryblossom000's ESLint configuration.",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslintconfig"
+  ],
+  "author": {
+    "name": "cherryblossom",
+    "url": "https://github.com/cherryblossom000"
+  },
+  "homepage": "https://github.com/cherryblossom/eslint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cherryblossom000/eslint-config"
+  },
+  "bugs": "https://github.com/cherryblossom000/eslint-config/issues",
+  "files": [
+    "**/*.js"
+  ],
+  "scripts": {
+    "lint": "eslint **/*.js"
+  },
+  "engines": {
+    "node": "^8.10.0 || ^10.13.0 || >=11.10.1"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^3.0.2"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": ">=2.33",
+    "eslint": ">=7.1",
+    "eslint-plugin-eslint-comments": ">=3.2",
+    "eslint-plugin-import": ">=2.19",
+    "eslint-plugin-jsdoc": ">=25",
+    "eslint-plugin-node": ">=11.1",
+    "typescript": "*"
+  },
+  "devDependencies": {
+    "@cherryblossom/eslint-config": "file:.",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "commitizen": "^4.1.2",
+    "cz-conventional-changelog": "^3.2.0",
+    "eslint": "^7.1.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsdoc": "^26.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "semantic-release": "^17.0.8",
+    "typescript": "^3.9.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}

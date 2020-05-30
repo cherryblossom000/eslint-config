@@ -2,7 +2,7 @@
   "name": "@cherryblossom/eslint-config",
   "version": "1.0.0",
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "license": "MIT",
   "description": "@cherryblossom000's ESLint configuration.",
@@ -25,7 +25,8 @@
     "**/*.js"
   ],
   "scripts": {
-    "lint": "eslint **/*.js"
+    "lint": "eslint **/*.js",
+    "release": "pnpx semantic-release"
   },
   "engines": {
     "node": "^8.10.0 || ^10.13.0 || >=11.10.1"

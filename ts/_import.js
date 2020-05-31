@@ -20,6 +20,9 @@ module.exports = {
     'import/no-commonjs': 0,
 
     // Compiled by TS
-    'import/unambiguous': 0
+    'import/unambiguous': 0,
+
+    // Doesn't support grouping type vs non-type imports
+    'import/order': 0
   }
 }

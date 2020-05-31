@@ -146,6 +146,8 @@ module.exports = {
     'node/no-missing-import': 0,
 
     // Doesn't work for class fields
-    'no-invalid-this': 0
+    'no-invalid-this': 0,
+    // Doesn't support numeric separators
+    'no-loss-of-precision': 0
   }
 }

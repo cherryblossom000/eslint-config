@@ -145,9 +145,6 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 0,
     'node/no-missing-import': 0,
 
-    // Doesn't work with import type
-    'no-duplicate-imports': 0,
-
     // Doesn't work for class fields
     'no-invalid-this': 0
   }

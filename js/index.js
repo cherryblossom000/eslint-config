@@ -191,7 +191,6 @@ module.exports = {
     'arrow-parens': [1, 'as-needed'],
     'arrow-spacing': 1,
     'generator-star-spacing': [1, {before: false, after: true, method: 'before'}],
-    'no-duplicate-imports': 1,
     'no-useless-computed-key': [1, {enforceForClassMembers: true}],
     'no-useless-constructor': 1,
     'no-useless-rename': 1,

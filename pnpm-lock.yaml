@@ -1,5 +1,5 @@
 dependencies:
-  '@typescript-eslint/parser': 3.0.2_eslint@7.1.0+typescript@3.9.3
+  '@typescript-eslint/parser': 3.1.0_eslint@7.1.0
 devDependencies:
   '@cherryblossom/eslint-config': 'link:'
   '@semantic-release/changelog': 5.0.1_semantic-release@17.0.8
@@ -347,17 +347,15 @@ packages:
       node: ^10.12.0 || >=12.0.0
     peerDependencies:
       eslint: '*'
-      typescript: '*'
     resolution:
-      integrity: sha512-4Wc4EczvoY183SSEnKgqAfkj1eLtRgBQ04AAeG+m4RhTVyaazxc1uI8IHf0qLmu7xXe9j1nn+UoDJjbmGmuqXQ==
-  /@typescript-eslint/parser/3.0.2_eslint@7.1.0+typescript@3.9.3:
+      integrity: sha512-Zf8JVC2K1svqPIk1CB/ehCiWPaERJBBokbMfNTNRczCbQSlQXaXtO/7OfYz9wZaecNvdSvVADt6/XQuIxhC79w==
+  /@typescript-eslint/parser/3.1.0_eslint@7.1.0:
     dependencies:
       '@types/eslint-visitor-keys': 1.0.0
-      '@typescript-eslint/experimental-utils': 3.0.2_eslint@7.1.0+typescript@3.9.3
-      '@typescript-eslint/typescript-estree': 3.0.2_typescript@3.9.3
+      '@typescript-eslint/experimental-utils': 3.1.0_eslint@7.1.0
+      '@typescript-eslint/typescript-estree': 3.1.0
       eslint: 7.1.0
       eslint-visitor-keys: 1.1.0
-      typescript: 3.9.3
     dev: false
     engines:
       node: ^10.12.0 || >=12.0.0
@@ -368,8 +366,8 @@ packages:
       typescript:
         optional: true
     resolution:
-      integrity: sha512-80Z7s83e8QXHNUspqVlWwb4t5gdz/1bBBmafElbK1wwAwiD/yvJsFyHRxlEpNrt4rdK6eB3p+2WEFkEDHAKk9w==
-  /@typescript-eslint/typescript-estree/3.0.2_typescript@3.9.3:
+      integrity: sha512-NcDSJK8qTA2tPfyGiPes9HtVKLbksmuYjlgGAUs7Ld2K0swdWibnCq9IJx9kJN8JJdgUJSorFiGaPHBgH81F/Q==
+  /@typescript-eslint/typescript-estree/3.1.0:
     dependencies:
       debug: 4.1.1
       eslint-visitor-keys: 1.1.0
@@ -377,8 +375,7 @@ packages:
       is-glob: 4.0.1
       lodash: 4.17.15
       semver: 7.3.2
-      tsutils: 3.17.1_typescript@3.9.3
-      typescript: 3.9.3
+      tsutils: 3.17.1
     dev: false
     engines:
       node: ^10.12.0 || >=12.0.0
@@ -388,7 +385,7 @@ packages:
       typescript:
         optional: true
     resolution:
-      integrity: sha512-cs84mxgC9zQ6viV8MEcigfIKQmKtBkZNDYf8Gru2M+MhnA6z9q0NFMZm2IEzKqAwN8lY5mFVd1Z8DiHj6zQ3Tw==
+      integrity: sha512-+4nfYauqeQvK55PgFrmBWFVYb6IskLyOosYEmhH3mSVhfBp9AIJnjExdgDmKWoOBHRcPM8Ihfm2BFpZf0euUZQ==
   /JSONStream/1.3.5:
     dependencies:
       jsonparse: 1.3.1

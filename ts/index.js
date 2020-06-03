@@ -20,6 +20,11 @@ module.exports = {
   rules: {
     '@typescript-eslint/adjacent-overload-signatures': 1,
     '@typescript-eslint/array-type': 1,
+    '@typescript-eslint/ban-ts-comment': [2, {
+      'ts-expect-error': 'allow-with-description',
+      'ts-ignore': 'allow-with-description',
+      'ts-nocheck': 'allow-with-description'
+    }],
     '@typescript-eslint/ban-types': 2,
     '@typescript-eslint/class-literal-property-style': 2,
     '@typescript-eslint/consistent-type-assertions': 2,

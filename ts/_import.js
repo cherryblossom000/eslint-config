@@ -5,7 +5,15 @@ module.exports = {
     '../js/_import',
     'plugin:import/typescript'
   ],
-  plugins: ['import'],
+  plugins: [
+    'import',
+    'node'
+  ],
+  settings: {
+    node: {
+      tryExtensions: ['.js', '.tsx', '.json', '.ts', '.tsx']
+    }
+  },
   rules: {
     // TS requires the json extension
     'import/extensions': [1, 'never', {json: 'always'}],

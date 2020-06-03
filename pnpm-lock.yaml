@@ -9,7 +9,7 @@ devDependencies:
   eslint: 7.1.0
   eslint-plugin-eslint-comments: 3.2.0_eslint@7.1.0
   eslint-plugin-import: 2.20.2_eslint@7.1.0
-  eslint-plugin-jsdoc: 26.0.0_eslint@7.1.0
+  eslint-plugin-jsdoc: 27.0.0_eslint@7.1.0
   eslint-plugin-node: 11.1.0_eslint@7.1.0
   semantic-release: 17.0.8_semantic-release@17.0.8
   typescript: 3.9.3
@@ -1293,7 +1293,7 @@ packages:
       eslint: 2.x - 6.x
     resolution:
       integrity: sha512-FObidqpXrR8OnCh4iNsxy+WACztJLXAHBO5hK79T1Hc77PgQZkyDGA5Ag9xAvRpglvLNxhH/zSmZ70/pZ31dHg==
-  /eslint-plugin-jsdoc/26.0.0_eslint@7.1.0:
+  /eslint-plugin-jsdoc/27.0.0_eslint@7.1.0:
     dependencies:
       comment-parser: 0.7.4
       debug: 4.1.1
@@ -1309,7 +1309,7 @@ packages:
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0
     resolution:
-      integrity: sha512-/oEywHPBn6eVDExTgDTwdwyQlVIuJziovXOPXBROW8yW93vk6/IGezW5jbzmA2pX4tVRCQc/jz5/mZea+FCmfw==
+      integrity: sha512-cgojh/+T8JNB3yBmLerFZz/md+h9rQgmz0qCbeezlPoS5eSMAzsTl3io4Ac4N9Z6o/6ilDKzmqwJHw0Z21RYKg==
   /eslint-plugin-node/11.1.0_eslint@7.1.0:
     dependencies:
       eslint: 7.1.0
@@ -4377,7 +4377,7 @@ specifiers:
   eslint: ^7.1.0
   eslint-plugin-eslint-comments: ^3.2.0
   eslint-plugin-import: ^2.20.2
-  eslint-plugin-jsdoc: ^26.0.0
+  eslint-plugin-jsdoc: ^27.0.0
   eslint-plugin-node: ^11.1.0
   semantic-release: ^17.0.8
   typescript: ^3.9.3

@@ -149,6 +149,16 @@ module.exports = {
     'no-multiple-empty-lines': [1, {max: 1, maxBOF: 0, maxEOF: 0}],
     'no-negated-condition': 1,
     'no-new-object': 1,
+    'no-restricted-syntax': [2,
+      {
+        selector: 'ForInStatement:not(:has(ReturnStatement)):not(:has(BreakStatement))',
+        message: 'Use Object.keys(object).forEach instead.'
+      },
+      {
+        selector: 'ForOfStatement[await=false]:not(:has(ReturnStatement)):not(:has(BreakStatement))',
+        message: 'Use forEach instead.'
+      }
+    ],
     'no-tabs': 1,
     'no-trailing-spaces': 1,
     'no-unneeded-ternary': [2, {defaultAssignment: false}],

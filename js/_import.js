@@ -7,7 +7,7 @@ module.exports = {
     // Static Analysis
     'node/no-missing-import': 0,
     'import/no-absolute-path': 2,
-    'import/no-cycle': 2,
+    'import/no-cycle': [2, {ignoreExternal: true}],
     'import/no-self-import': 2,
     'import/no-useless-path-segments': [1, {noUselessIndex: true}],
     'import/no-webpack-loader-syntax': 2,

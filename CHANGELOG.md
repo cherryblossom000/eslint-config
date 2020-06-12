@@ -1,5 +1,26 @@
 # Changelog
 
+# [3.0.0](https://github.com/cherryblossom000/eslint-config/compare/v2.0.0...v3.0.0) (2020-06-12)
+
+
+### Bug Fixes
+
+* ignore strings in max-len ([aa392e2](https://github.com/cherryblossom000/eslint-config/commit/aa392e204de2267e6a480e5b927cdd707706b74e))
+
+
+### Features
+
+* add one-var ([1c06713](https://github.com/cherryblossom000/eslint-config/commit/1c06713480087ffe6ac7e20a4cea6e108b2dc618))
+* ignore external modules for import/no-cycle ([7ef81c7](https://github.com/cherryblossom000/eslint-config/commit/7ef81c73685997ff9817dfdee45dbdd7e45b2792))
+* **ts:** use allow-with-description in ban-ts-comment ([7887409](https://github.com/cherryblossom000/eslint-config/commit/7887409ac7642a9d5c22eafd1d2c4f5de746975f))
+
+
+### BREAKING CHANGES
+
+* This requires the peer dependency `eslint-plugin-import` to be `>=2.21`.
+* Multiple initialised variables in a single declaration now trigger a warning.
+* **ts:** This requires a peer dependency of @typescript-eslint/eslint-plugin of `>=3.1`.
+
 # [2.0.0](https://github.com/cherryblossom000/eslint-config/compare/v1.0.1...v2.0.0) (2020-06-03)
 
 

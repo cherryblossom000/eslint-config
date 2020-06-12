@@ -166,6 +166,7 @@ module.exports = {
     'object-curly-newline': 1,
     'object-curly-spacing': 1,
     'object-property-newline': [1, {allowAllPropertiesOnSameLine: true}],
+    'one-var': [1, {initialized: 'never'}],
     'one-var-declaration-per-line': 1,
     'operator-assignment': 1,
     'operator-linebreak': [1, 'after', {overrides: {'?': 'before', ':': 'before', '|>': 'before'}}],

@@ -131,7 +131,7 @@ module.exports = {
     'line-comment-position': [1, {position: 'above', applyDefaultIgnorePatterns: false}],
     'linebreak-style': 1,
     'max-depth': 1,
-    'max-len': [1, {code: 125, ignoreTemplateLiterals: true, ignoreRegExpLiterals: true}],
+    'max-len': [1, {code: 125, ignoreStrings: true, ignoreTemplateLiterals: true, ignoreRegExpLiterals: true}],
     'max-lines': [1, {max: 500, skipBlankLines: true, skipComments: true}],
     'max-lines-per-function': [1, {max: 100, skipBlankLines: true, skipComments: true}],
     'max-nested-callbacks': 1,

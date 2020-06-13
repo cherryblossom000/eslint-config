@@ -79,6 +79,7 @@ module.exports = {
     '@typescript-eslint/no-inferrable-types': 2,
     '@typescript-eslint/no-misused-promises': [2, {checksVoidReturn: false}],
     '@typescript-eslint/no-non-null-assertion': 0,
+    '@typescript-eslint/no-var-requires': 0,
     '@typescript-eslint/no-require-imports': 2,
     '@typescript-eslint/no-this-alias': 2,
     'no-throw-literal': 0,

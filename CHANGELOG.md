@@ -1,5 +1,15 @@
 # Changelog
 
+## [3.0.1](https://github.com/cherryblossom000/eslint-config/compare/v3.0.0...v3.0.1) (2020-06-24)
+
+
+### Bug Fixes
+
+* **js/node:** now requires extensions (except packages) and full paths for imports ([4a01024](https://github.com/cherryblossom000/eslint-config/commit/4a010244929c75f97eab312298c1b0dcb2de4c7b))
+* **ts:** disable @typescript-eslint/no-var-requires ([4f0700c](https://github.com/cherryblossom000/eslint-config/commit/4f0700c0b0c7d6a66cf6166cce4b86519cdefe33))
+* **ts:** disable default-param-last ([b5caf64](https://github.com/cherryblossom000/eslint-config/commit/b5caf64b2cea2da213785a49ffe3dfa3f4774901))
+* **ts:** remove node plugin in base ts config ([f2ede6b](https://github.com/cherryblossom000/eslint-config/commit/f2ede6b9b1ce819fb77806b5b5eef59083d55bd1))
+
 # [3.0.0](https://github.com/cherryblossom000/eslint-config/compare/v2.0.0...v3.0.0) (2020-06-12)
 
 

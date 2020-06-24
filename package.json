@@ -1,26 +1,17 @@
 {
   "name": "@cherryblossom/eslint-config",
   "version": "3.0.1",
-  "publishConfig": {
-    "access": "public"
-  },
-  "license": "MIT",
   "description": "@cherryblossom000's ESLint configuration.",
   "keywords": [
     "eslint",
     "eslint-config",
     "eslintconfig"
   ],
-  "author": {
-    "name": "cherryblossom",
-    "url": "https://github.com/cherryblossom000"
-  },
   "homepage": "https://github.com/cherryblossom/eslint-config#readme",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/cherryblossom000/eslint-config"
-  },
+  "repository": "github:cherryblossom000/eslint-config",
   "bugs": "https://github.com/cherryblossom000/eslint-config/issues",
+  "license": "MIT",
+  "author": "cherryblossom (https://github.com/cherryblossom000)",
   "files": [
     "**/*.js"
   ],
@@ -28,8 +19,11 @@
     "node": "^8.10.0 || ^10.13.0 || >=11.10.1"
   },
   "scripts": {
-    "lint": "eslint **/*.js",
-    "release": "pnpx semantic-release"
+    "lint": "eslint --report-unused-disable-directives .",
+    "lint:dev": "pnpm run lint -- --cache"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "config": {
     "commitizen": {

@@ -5,6 +5,12 @@ module.exports = {
     '../js/node',
     '.'
   ],
+  plugins: ['node'],
+  settings: {
+    node: {
+      tryExtensions: ['.js', '.tsx', '.json', '.ts', '.tsx']
+    }
+  },
   rules: {
     // Already checked by TS
     'node/process-exit-as-throw': 0,

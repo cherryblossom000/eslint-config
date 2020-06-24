@@ -107,8 +107,6 @@ module.exports = {
     '@typescript-eslint/brace-style': rules['brace-style'],
     'comma-spacing': 0,
     '@typescript-eslint/comma-spacing': rules['comma-spacing'],
-    'default-param-last': 0,
-    '@typescript-eslint/default-param-last': rules['default-param-last'],
     'func-call-spacing': 0,
     '@typescript-eslint/func-call-spacing': rules['func-call-spacing'],
     indent: 0,
@@ -148,6 +146,7 @@ module.exports = {
     // Already checked by TS
     'array-callback-return': 0,
     'consistent-return': 0,
+    'default-param-last': 0,
     '@typescript-eslint/no-unused-vars': 0,
     'node/no-missing-import': 0,
 

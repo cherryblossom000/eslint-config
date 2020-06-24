@@ -1,5 +1,17 @@
 # Changelog
 
+# [4.0.0](https://github.com/cherryblossom000/eslint-config/compare/v3.0.1...v4.0.0) (2020-06-24)
+
+
+### Features
+
+* **js:** enable `no-promise-executor-return` and `no-unreachable-loop` ([73eac53](https://github.com/cherryblossom000/eslint-config/commit/73eac53f4d101d7e701b40138aec230b76de133f))
+
+
+### BREAKING CHANGES
+
+* **js:** The ESLint peer dependency now has to be `>=7.3` (vs `>=7.1` before).
+
 ## [3.0.1](https://github.com/cherryblossom000/eslint-config/compare/v3.0.0...v3.0.1) (2020-06-24)
 
 

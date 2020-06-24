@@ -32,9 +32,11 @@ module.exports = {
       extends: ['./_import'],
       rules: {
         'node/no-extraneous-import': 0,
+        'import/extensions': [2, 'ignorePackages'],
+        'import/no-commonjs': [2, {allowConditionalRequire: false}],
         'import/no-extraneous-dependencies': 2,
         'import/no-unused-modules': [1, {missingExports: true, unusedExports: true}],
-        'import/no-commonjs': [2, {allowConditionalRequire: false}]
+        'import/no-useless-path-segments': 0
       }
     }
   ],

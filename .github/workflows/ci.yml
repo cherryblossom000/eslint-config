@@ -24,6 +24,13 @@ jobs:
     - uses: actions/setup-node@v2-beta
       with:
         node-version: '12'
+    - uses: crazy-max/ghaction-import-gpg@v2
+      with:
+        git_user_signingkey: true
+        git_commit_gpgsign: true
+      env:
+        GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
+        PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
     - name: Install
       run: npm i -g pnpm && pnpm i
     - name: Release

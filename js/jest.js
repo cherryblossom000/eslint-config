@@ -28,6 +28,6 @@ module.exports = {
     'jest/prefer-todo': 1,
     'jest/require-to-throw-message': 2,
     'jest/require-top-level-describe': 1,
-    'jest/valid-expect': [2, {alwaysAwait: true}],
+    'jest/valid-expect': [2, {alwaysAwait: true}]
   }
 }

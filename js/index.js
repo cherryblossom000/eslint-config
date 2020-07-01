@@ -140,7 +140,6 @@ module.exports = {
     'max-params': [1, {max: 5}],
     'max-statements': [1, 20, {ignoreTopLevelFunctions: true}],
     'max-statements-per-line': 1,
-    'multiline-comment-style': 0,
     'new-cap': [1, {capIsNewExceptions: ['AsyncFunction', 'GeneratorFunction', 'AsyncGeneratorFunction']}],
     'new-parens': 1,
     'newline-per-chained-call': [1, {ignoreChainWithDepth: 4}],

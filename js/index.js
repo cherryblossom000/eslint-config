@@ -111,7 +111,7 @@ module.exports = {
     'array-bracket-newline': [1, 'consistent'],
     'array-bracket-spacing': 1,
     'array-element-newline': [1, 'consistent'],
-    'block-spacing': [1, 'never'],
+    'block-spacing': 1,
     'brace-style': 1,
     camelcase: 1,
     'comma-dangle': 1,

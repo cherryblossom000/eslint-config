@@ -1,5 +1,13 @@
 # Changelog
 
+## [4.0.1](https://github.com/cherryblossom000/eslint-config/compare/v4.0.0...v4.0.1) (2020-07-01)
+
+
+### Bug Fixes
+
+* **js:** exclude `(Async)(Generator)Function` from `new-cap` ([b994eff](https://github.com/cherryblossom000/eslint-config/commit/b994eff1f512a9f51314ea2c40d897efc4b50dda))
+* **ts:** allow PascalCase enum members ([655d256](https://github.com/cherryblossom000/eslint-config/commit/655d256b440c17d10c173cf421c82af366af4329))
+
 # [4.0.0](https://github.com/cherryblossom000/eslint-config/compare/v3.0.1...v4.0.0) (2020-06-24)
 
 

@@ -5,7 +5,6 @@ module.exports = {
     '../js/_import',
     'plugin:import/typescript'
   ],
-  plugins: ['import'],
   rules: {
     // TS requires the json extension
     'import/extensions': [1, 'never', {json: 'always'}],

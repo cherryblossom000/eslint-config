@@ -230,6 +230,7 @@ module.exports = {
     'jsdoc/require-description': 1,
     'jsdoc/require-description-complete-sentence': 1,
     'jsdoc/require-hyphen-before-param-description': [1, 'never'],
-    'jsdoc/require-param': [1, {checkRestProperty: true}]
+    'jsdoc/require-param': [1, {checkRestProperty: true}],
+    'jsdoc/require-throws': 1
   }
 }

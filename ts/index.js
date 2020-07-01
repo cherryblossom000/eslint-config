@@ -124,6 +124,8 @@ module.exports = {
     '@typescript-eslint/no-extra-parens': rules['no-extra-parens'],
     'no-extra-semi': 0,
     '@typescript-eslint/no-extra-semi': rules['no-extra-semi'],
+    'no-loss-of-precision': 0,
+    '@typescript-eslint/no-loss-of-precision': rules['no-loss-of-precision'],
     'no-unused-expressions': 0,
     '@typescript-eslint/no-unused-expressions': rules['no-unused-expressions'],
     'no-useless-constructor': 0,
@@ -152,8 +154,6 @@ module.exports = {
     'node/no-missing-import': 0,
 
     // Doesn't work for class fields
-    'no-invalid-this': 0,
-    // Doesn't support numeric separators
-    'no-loss-of-precision': 0
+    'no-invalid-this': 0
   }
 }

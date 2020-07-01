@@ -10,10 +10,6 @@ module.exports = {
     'eslint-comments',
     'jsdoc'
   ],
-  overrides: [{
-    files: ['tests/**/*.test.js'],
-    env: {jest: true}
-  }],
   rules: {
     // Possible Errors
     'no-await-in-loop': 2,

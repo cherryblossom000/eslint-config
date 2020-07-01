@@ -9,14 +9,17 @@
 - `index`
 - `browser`
 - `node`
+- `jest`
 - `js`
   - `index`
   - `browser`
   - `node`
+  - `jest`
 - `ts`
   - `index`
   - `browser`
   - `node`
+  - `jest`
 
 ## License
 

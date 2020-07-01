@@ -13,10 +13,6 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   parserOptions: {project: './tsconfig.json'},
   settings: {jsdoc: {mode: 'typescript'}},
-  overrides: [{
-    files: ['tests/**/*.test.ts'],
-    env: {jest: true}
-  }],
   rules: {
     '@typescript-eslint/adjacent-overload-signatures': 1,
     '@typescript-eslint/array-type': 1,

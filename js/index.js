@@ -122,7 +122,6 @@ module.exports = {
     'function-call-argument-newline': [1, 'consistent'],
     'id-length': [1, {min: 1, max: 30}],
     indent: [1, 2, {SwitchCase: 1, flatTernaryExpressions: true}],
-    'jsx-quotes': [1, 'prefer-single'],
     'key-spacing': 1,
     'keyword-spacing': 1,
     'lines-between-class-members': [1, 'always', {exceptAfterSingleLine: true}],

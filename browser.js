@@ -4,7 +4,7 @@ module.exports = {
   extends: ['./js/browser'],
   overrides: [
     {
-      files: ['**/*.ts', '**/*.tsx'],
+      files: ['**/*.ts'],
       extends: ['./ts/browser']
     }
   ]

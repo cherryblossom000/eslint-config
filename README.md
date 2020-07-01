@@ -12,6 +12,7 @@ All of these require the following ESLint plugins: eslint-comments, jsdoc
 
 - `index` (typescript-eslint, typescript)
 - `browser` (import)
+- `react` (import, react-hooks, typescript-eslint, typescript)
 - `node` (import, node, typescript-eslint, typescript)
 - `jest` (jest)
 - `js`
@@ -19,9 +20,11 @@ All of these require the following ESLint plugins: eslint-comments, jsdoc
   - `browser` (import)
   - `node` (import, node)
   - `jest` (jest)
+  - `react` (import, react-hooks)
 - `ts`
   - `index` (typescript-eslint, typescript)
   - `browser` (import, typescript-eslint, typescript)
+  - `react` (import, react-hooks, typescript-eslint, typescript)
   - `node` (import, node, typescript-eslint, typescript)
   - `jest` (jest, typescript-eslint, typescript)
 

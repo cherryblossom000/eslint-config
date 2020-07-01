@@ -7,7 +7,7 @@ module.exports = {
   ],
   settings: {
     node: {
-      tryExtensions: ['.js', '.tsx', '.json', '.ts', '.tsx']
+      tryExtensions: ['.js', '.json', '.ts']
     }
   },
   rules: {

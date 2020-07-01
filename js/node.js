@@ -9,7 +9,7 @@ module.exports = {
     es2017: true,
     node: true
   },
-  plugins: ['node'],
+  plugins: ['import', 'node'],
   parserOptions: {ecmaVersion: 10},
   overrides: [
     {

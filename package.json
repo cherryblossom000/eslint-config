@@ -36,18 +36,26 @@
   "peerDependencies": {
     "eslint": "^7.3",
     "eslint-plugin-eslint-comments": "^3.2",
+    "eslint-plugin-html": "^6.0.2",
     "eslint-plugin-import": "^2.21",
     "eslint-plugin-jest": "^23.16",
     "eslint-plugin-jsdoc": "^27.1 || ^28",
+    "eslint-plugin-markdown": "^1",
     "eslint-plugin-node": "^11.1",
     "eslint-plugin-react-hooks": "^4",
     "typescript": "*"
   },
   "peerDependenciesMeta": {
+    "eslint-plugin-html": {
+      "optional": true
+    },
     "eslint-plugin-import": {
       "optional": true
     },
     "eslint-plugin-jest": {
+      "optional": true
+    },
+    "eslint-plugin-markdown": {
       "optional": true
     },
     "eslint-plugin-node": {

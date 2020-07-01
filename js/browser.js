@@ -1,5 +1,7 @@
 'use strict'
 
+const {hasPackage} = require('../src/util')
+
 module.exports = {
   extends: [
     '.',
@@ -11,5 +13,13 @@ module.exports = {
   },
   rules: {
     'import/no-nodejs-modules': 2
-  }
+  },
+  ...hasPackage('eslint-plugin-html')
+    ? {
+      plugins: ['html'],
+      settings: {
+        'html/report-bad-indent': 1
+      }
+    }
+    : {}
 }

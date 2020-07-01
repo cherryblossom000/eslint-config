@@ -6,20 +6,24 @@
 
 ## Configs
 
-- `index`
-- `browser`
-- `node`
-- `jest`
+> `config name` (requires plugin/peer dependency 1, plugin 2)
+
+All of these require the following ESLint plugins: eslint-comments, jsdoc
+
+- `index` (typescript-eslint, typescript)
+- `browser` (import)
+- `node` (import, node, typescript-eslint, typescript)
+- `jest` (jest)
 - `js`
   - `index`
-  - `browser`
-  - `node`
-  - `jest`
+  - `browser` (import)
+  - `node` (import, node)
+  - `jest` (jest)
 - `ts`
-  - `index`
-  - `browser`
-  - `node`
-  - `jest`
+  - `index` (typescript-eslint, typescript)
+  - `browser` (import, typescript-eslint, typescript)
+  - `node` (import, node, typescript-eslint, typescript)
+  - `jest` (jest, typescript-eslint, typescript)
 
 ## License
 

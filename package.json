@@ -38,9 +38,23 @@
     "eslint-plugin-eslint-comments": "^3.2",
     "eslint-plugin-import": "^2.21",
     "eslint-plugin-jest": "^23.16",
-    "eslint-plugin-jsdoc": "^27.1",
+    "eslint-plugin-jsdoc": "^27.1 || ^28",
     "eslint-plugin-node": "^11.1",
     "typescript": "*"
+  },
+  "peerDependenciesMeta": {
+    "eslint-plugin-import": {
+      "optional": true
+    },
+    "eslint-plugin-jest": {
+      "optional": true
+    },
+    "eslint-plugin-node": {
+      "optional": true
+    },
+    "typescript": {
+      "optional": true
+    }
   },
   "devDependencies": {
     "@cherryblossom/eslint-config": "file:.",

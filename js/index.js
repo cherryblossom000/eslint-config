@@ -5,7 +5,9 @@ module.exports = {
     'eslint:recommended',
     'plugin:eslint-comments/recommended',
     'plugin:jsdoc/recommended'
+    // Don't extend unicorn's recommended config because it sets the env and parserOptions
   ],
+  plugins: ['unicorn'],
   rules: {
     // Possible Errors
     'no-await-in-loop': 2,
@@ -222,6 +224,37 @@ module.exports = {
     'jsdoc/require-description-complete-sentence': 1,
     'jsdoc/require-hyphen-before-param-description': [1, 'never'],
     'jsdoc/require-param': [1, {checkRestProperty: true}],
-    'jsdoc/require-throws': 1
+    'jsdoc/require-throws': 1,
+
+    // Unicorn
+    'unicorn/better-regex': 1,
+    'unicorn/catch-error-name': 1,
+    'unicorn/consistent-function-scoping': 1,
+    'unicorn/custom-error-definition': 2,
+    'unicorn/error-message': 1,
+    'unicorn/escape-case': 1,
+    'unicorn/new-for-builtins': 1,
+    'unicorn/no-array-instanceof': 2,
+    'unicorn/no-console-spaces': 1,
+    'unicorn/no-for-loop': 2,
+    'unicorn/no-hex-escape': 1,
+    'unicorn/no-unsafe-regex': 2,
+    'unicorn/no-unused-properties': 1,
+    'unicorn/no-useless-undefined': 1,
+    'unicorn/no-zero-fractions': 1,
+    'unicorn/number-literal-case': 1,
+    // 'unicorn/prefer-array-find': 2,
+    'unicorn/prefer-flat-map': 2,
+    'unicorn/prefer-includes': 1,
+    'unicorn/prefer-negative-index': 2,
+    'unicorn/prefer-optional-catch-binding': 1,
+    'unicorn/prefer-reflect-apply': 2,
+    // 'unicorn/prefer-replace-all': 2,
+    'unicorn/prefer-set-has': 2,
+    'unicorn/prefer-spread': 1,
+    'unicorn/prefer-starts-ends-with': 1,
+    'unicorn/prefer-string-slice': 2,
+    'unicorn/prefer-trim-start-end': 1,
+    'unicorn/prefer-type-error': 2
   }
 }

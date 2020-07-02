@@ -8,7 +8,10 @@
 
 > `config name` (requires plugin/peer dependency 1, plugin 2)
 
-- All of these require the following ESLint plugins: eslint-comments, jsdoc
+- All of these require the following ESLint plugins:
+  - eslint-comments
+  - jsdoc
+  - unicorn
 - For `browser`, `js/browser`, and `ts/browser`, you can optionally install eslint-plugin-html to lint JS in HTML.
 - *ts deps* means:
   - @typescript-eslint/eslint-plugin

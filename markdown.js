@@ -12,6 +12,7 @@ module.exports = {
     rules: {
       'no-unused-vars': 0,
       strict: 0,
+      'unicorn/no-unused-properties': 0,
       ...hasPackage('eslint-plugin-jsdoc')
         ? {
           'jsdoc/require-description': 0,

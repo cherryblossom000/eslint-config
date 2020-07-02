@@ -12,7 +12,6 @@ module.exports = {
     es2020: true,
     browser: true
   },
-  plugins: ['compat'],
   rules: {
     'import/no-nodejs-modules': 2
   },

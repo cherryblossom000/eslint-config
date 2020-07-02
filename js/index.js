@@ -6,10 +6,6 @@ module.exports = {
     'plugin:eslint-comments/recommended',
     'plugin:jsdoc/recommended'
   ],
-  plugins: [
-    'eslint-comments',
-    'jsdoc'
-  ],
   rules: {
     // Possible Errors
     'no-await-in-loop': 2,

@@ -2,7 +2,6 @@
 
 module.exports = {
   extends: ['plugin:import/recommended'],
-  plugins: ['import'],
   rules: {
     // Static Analysis
     'node/no-missing-import': 0,

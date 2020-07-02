@@ -10,14 +10,18 @@
 
 - All of these require the following ESLint plugins: eslint-comments, jsdoc
 - For `browser`, `js/browser`, and `ts/browser`, you can optionally install eslint-plugin-html to lint JS in HTML.
+- *ts deps* means:
+  - @typescript-eslint/eslint-plugin
+  - @typescript-eslint/parser
+  - typescript
 
 <!-- -->
 
-- `index` (typescript-eslint, typescript)
-- `browser` (import, compat)
-- `react` (import, compat, react-hooks, typescript-eslint, typescript)
-- `node` (import, node, typescript-eslint, typescript)
-- `jest` (jest)
+- `index` (*ts deps*)
+- `browser` (import, compat, *ts deps*)
+- `react` (import, compat, react-hooks, *ts deps*)
+- `node` (import, node, *ts deps*)
+- `jest` (jest, *ts deps*)
 - `markdown` (markdown)
 - `js`
   - `index`
@@ -25,7 +29,7 @@
   - `node` (import, node)
   - `jest` (jest)
   - `react` (import, compat, react-hooks)
-- `ts`: all of the following require typescript-eslint and typescript
+- `ts`: all of the following require *ts deps*
   - `index`
   - `browser` (import, compat)
   - `react` (import, compat, react-hooks)

@@ -2,11 +2,9 @@
 
 module.exports = {
   extends: [
-    '.',
     'plugin:jest/recommended',
     'plugin:jest/style'
   ],
-  plugins: ['jest'],
   overrides: [{
     files: ['tests/**/*.test.js'],
     env: {jest: true}

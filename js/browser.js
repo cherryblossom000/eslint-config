@@ -5,12 +5,14 @@ const {hasPackage} = require('../src/util')
 module.exports = {
   extends: [
     '.',
-    './_import'
+    './_import',
+    'plugin:compat/recommended'
   ],
   env: {
     es2020: true,
     browser: true
   },
+  plugins: ['compat'],
   rules: {
     'import/no-nodejs-modules': 2
   },

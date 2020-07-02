@@ -14,23 +14,23 @@
 <!-- -->
 
 - `index` (typescript-eslint, typescript)
-- `browser` (import)
-- `react` (import, react-hooks, typescript-eslint, typescript)
+- `browser` (import, compat)
+- `react` (import, compat, react-hooks, typescript-eslint, typescript)
 - `node` (import, node, typescript-eslint, typescript)
 - `jest` (jest)
 - `markdown` (markdown)
 - `js`
   - `index`
-  - `browser` (import)
+  - `browser` (import, compat)
   - `node` (import, node)
   - `jest` (jest)
-  - `react` (import, react-hooks)
-- `ts`
-  - `index` (typescript-eslint, typescript)
-  - `browser` (import, typescript-eslint, typescript)
-  - `react` (import, react-hooks, typescript-eslint, typescript)
-  - `node` (import, node, typescript-eslint, typescript)
-  - `jest` (jest, typescript-eslint, typescript)
+  - `react` (import, compat, react-hooks)
+- `ts`: all of the following require typescript-eslint and typescript
+  - `index`
+  - `browser` (import, compat)
+  - `react` (import, compat, react-hooks)
+  - `node` (import, node)
+  - `jest` (jest)
 
 ## License
 

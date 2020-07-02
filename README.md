@@ -13,18 +13,14 @@
   - jsdoc
   - unicorn
 - For `browser`, `js/browser`, and `ts/browser`, you can optionally install eslint-plugin-html to lint JS in HTML.
-- *ts deps* means:
-  - @typescript-eslint/eslint-plugin
-  - @typescript-eslint/parser
-  - typescript
 
 <!-- -->
 
-- `index` (*ts deps*)
-- `browser` (import, compat, *ts deps*)
-- `react` (import, compat, react-hooks, *ts deps*)
-- `node` (import, node, *ts deps*)
-- `jest` (jest, *ts deps*)
+- `index` (@typescript-eslint/eslint-plugin)
+- `browser` (import, compat, @typescript-eslint/eslint-plugin)
+- `react` (import, compat, react-hooks, @typescript-eslint/eslint-plugin)
+- `node` (import, node, @typescript-eslint/eslint-plugin)
+- `jest` (jest, @typescript-eslint/eslint-plugin)
 - `markdown` (markdown)
 - `js`
   - `index`
@@ -32,7 +28,7 @@
   - `node` (import, node)
   - `jest` (jest)
   - `react` (import, compat, react-hooks)
-- `ts`: all of the following require *ts deps*
+- `ts`: all of the following require @typescript-eslint/eslint-plugin
   - `index`
   - `browser` (import, compat)
   - `react` (import, compat, react-hooks)

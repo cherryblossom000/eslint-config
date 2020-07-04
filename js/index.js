@@ -144,7 +144,6 @@ module.exports = {
     'new-parens': 1,
     'newline-per-chained-call': [1, {ignoreChainWithDepth: 4}],
     'no-array-constructor': 1,
-    'no-inline-comments': 1,
     'no-lonely-if': 1,
     'no-multi-assign': 2,
     'no-multiple-empty-lines': [1, {max: 1, maxBOF: 0, maxEOF: 0}],

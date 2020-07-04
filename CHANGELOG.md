@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.0.2](https://github.com/cherryblossom000/eslint-config/compare/v4.0.1...v4.0.2) (2020-07-04)
+
+
+### Bug Fixes
+
+* fix dupliated errors for inline comments ([7d6db59](https://github.com/cherryblossom000/eslint-config/commit/7d6db59b607d07baf24fa2f6ed52b39b3dad46ed))
+
 ## [4.0.1](https://github.com/cherryblossom000/eslint-config/compare/v4.0.0...v4.0.1) (2020-07-01)
 
 

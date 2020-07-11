@@ -1,5 +1,13 @@
 # Changelog
 
+## [4.0.3](https://github.com/cherryblossom000/eslint-config/compare/v4.0.2...v4.0.3) (2020-07-11)
+
+
+### Bug Fixes
+
+* **ts:** allow declared namespaces ([ae70458](https://github.com/cherryblossom000/eslint-config/commit/ae70458707fc03759937e71fe6bee2a18649b586))
+* remove jsdoc/match-description ([5e729a7](https://github.com/cherryblossom000/eslint-config/commit/5e729a7b3e60e0ab1d96178c99480a3d4b6ba30a))
+
 ## [4.0.2](https://github.com/cherryblossom000/eslint-config/compare/v4.0.1...v4.0.2) (2020-07-04)
 
 

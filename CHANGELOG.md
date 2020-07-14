@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.0.4](https://github.com/cherryblossom000/eslint-config/compare/v4.0.3...v4.0.4) (2020-07-14)
+
+
+### Bug Fixes
+
+* allow reflect-metadata for `import/no-unassigned-import` ([402e007](https://github.com/cherryblossom000/eslint-config/commit/402e0071ae9b258de7020b69b3b966ef2cb2a3f4))
+
 ## [4.0.3](https://github.com/cherryblossom000/eslint-config/compare/v4.0.2...v4.0.3) (2020-07-11)
 
 

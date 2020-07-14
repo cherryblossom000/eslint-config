@@ -230,6 +230,7 @@ module.exports = {
     // Promise
     // then can be used for side effects
     'promise/always-return': 0,
+    'promise/catch-or-return': [2, {allowFinally: true}],
     'promise/param-names': 1,
     'promise/prefer-await-to-then': 2,
     'promise/prefer-await-to-callbacks': 2,

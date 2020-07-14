@@ -1,4 +1,8 @@
 ---
+branches:
+- master
+- name: next
+  prerelease: true
 plugins:
 - - '@semantic-release/changelog'
   - changelogTitle: '# Changelog'

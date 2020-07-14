@@ -12,6 +12,7 @@ module.exports = {
   },
   rules: {
     // Already checked by TS
+    'node/no-missing-import': 0,
     'node/process-exit-as-throw': 0,
 
     // Compiled by TS

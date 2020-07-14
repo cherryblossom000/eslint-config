@@ -4,7 +4,8 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:eslint-comments/recommended',
-    'plugin:jsdoc/recommended'
+    'plugin:jsdoc/recommended',
+    'plugin:promise/recommended'
     // Don't extend unicorn's recommended config because it sets the env and parserOptions
   ],
   plugins: ['unicorn'],
@@ -225,6 +226,14 @@ module.exports = {
     'jsdoc/require-hyphen-before-param-description': [1, 'never'],
     'jsdoc/require-param': [1, {checkRestProperty: true}],
     'jsdoc/require-throws': 1,
+
+    // Promise
+    // then can be used for side effects
+    'promise/always-return': 0,
+    'promise/param-names': 1,
+    'promise/prefer-await-to-then': 2,
+    'promise/prefer-await-to-callbacks': 2,
+    'promise/valid-params': 2,
 
     // Unicorn
     'unicorn/better-regex': 1,

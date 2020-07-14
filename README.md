@@ -12,15 +12,16 @@
   - eslint-comments
   - jsdoc
   - unicorn
+  - promise
 - For `browser`, `js/browser`, and `ts/browser`, you can optionally install eslint-plugin-html to lint JS in HTML.
 
 <!-- -->
 
-- `index` (@typescript-eslint/eslint-plugin)
-- `browser` (import, compat, @typescript-eslint/eslint-plugin)
-- `react` (import, compat, react-hooks, @typescript-eslint/eslint-plugin)
-- `node` (import, node, @typescript-eslint/eslint-plugin)
-- `jest` (jest, @typescript-eslint/eslint-plugin)
+- `index` (@typescript-eslint)
+- `browser` (import, compat, @typescript-eslint)
+- `react` (import, compat, react-hooks, @typescript-eslint)
+- `node` (import, node, @typescript-eslint)
+- `jest` (jest, @typescript-eslint)
 - `markdown` (markdown)
 - `js`
   - `index`
@@ -28,7 +29,7 @@
   - `node` (import, node)
   - `jest` (jest)
   - `react` (import, compat, react-hooks)
-- `ts`: all of the following require @typescript-eslint/eslint-plugin
+- `ts`: all of the following require @typescript-eslint
   - `index`
   - `browser` (import, compat)
   - `react` (import, compat, react-hooks)

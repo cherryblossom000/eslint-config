@@ -71,6 +71,8 @@ module.exports = {
     '@typescript-eslint/no-dynamic-delete': 2,
     '@typescript-eslint/no-explicit-any': 0,
     '@typescript-eslint/no-extraneous-class': 2,
+    // Covered by no-floating-promises
+    'promise/catch-or-return': 0,
     'no-implied-eval': 0,
     '@typescript-eslint/no-inferrable-types': 2,
     '@typescript-eslint/no-misused-promises': [2, {checksVoidReturn: false}],
@@ -148,7 +150,8 @@ module.exports = {
     'consistent-return': 0,
     'default-param-last': 0,
     '@typescript-eslint/no-unused-vars': 0,
-    'node/no-missing-import': 0,
+    'promise/no-new-static': 0,
+    'promise/valid-params': 0,
 
     // Doesn't work for class fields
     'no-invalid-this': 0

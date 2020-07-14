@@ -1,5 +1,46 @@
 # Changelog
 
+# [5.0.0](https://github.com/cherryblossom000/eslint-config/compare/v4.0.3...v5.0.0) (2020-07-14)
+
+
+### Bug Fixes
+
+* fix @typescript-eslint/parser and typescript dependencies ([c0263d3](https://github.com/cherryblossom000/eslint-config/commit/c0263d3f5a3777e63a7d5913fd6ec0934663322f))
+* **js/node:** specify import plugin ([6b530bb](https://github.com/cherryblossom000/eslint-config/commit/6b530bbc1d0dca096a9aab926e6c88fe201a238a))
+* allow reflect-metadata for `import/nounassigned-import` ([3bf6180](https://github.com/cherryblossom000/eslint-config/commit/3bf6180a48a78c496dbc2baa21b92ea3b9c9bcc9))
+* change `block-spacing` to `always` ([f6ee457](https://github.com/cherryblossom000/eslint-config/commit/f6ee457d762477616169eeb5270f1ca8cf1accb3))
+* make peer deps satisfy major versions ([1e2f8ac](https://github.com/cherryblossom000/eslint-config/commit/1e2f8acab780ac236e25ec4008b8d1155989fb4a))
+
+
+### chore
+
+* fix peer deps ([6b540cf](https://github.com/cherryblossom000/eslint-config/commit/6b540cf9de2f6d65ce02fe971c5bcaeacb126de8))
+
+
+### Features
+
+* add `eslint-plugin-promise` ([866f6bb](https://github.com/cherryblossom000/eslint-config/commit/866f6bb9d8ff7658d125b4de0ef28b9686e0927a))
+* add `eslint-plugin-unicorn` ([7cd1d21](https://github.com/cherryblossom000/eslint-config/commit/7cd1d21e94bf99bdbff4560049ec82c2ecce37ae))
+* **browser:** add `eslint-plugin-compat` ([0c47487](https://github.com/cherryblossom000/eslint-config/commit/0c47487f2a041021464a3f6bcca73054906e752d))
+* add `jsdoc/require-throws` ([4577172](https://github.com/cherryblossom000/eslint-config/commit/45771729e6a7697aa4af26c4a3ad303e18e81615))
+* add jest configs ([be3c71f](https://github.com/cherryblossom000/eslint-config/commit/be3c71f51a503988b380d56780e0683794fe442a))
+* add markdown and html support ([db578d9](https://github.com/cherryblossom000/eslint-config/commit/db578d94d8d9089cdf7199e5698c4f89c542c4be))
+* add react configs ([ba845c9](https://github.com/cherryblossom000/eslint-config/commit/ba845c9a9215652f85129c1a792d1d332d278387))
+* **ts:** add `@typescript-eslint/no-loss-of-precision` ([4a1a36b](https://github.com/cherryblossom000/eslint-config/commit/4a1a36b2255172cfc966fc4214b6f35ea9d52a02))
+
+
+### BREAKING CHANGES
+
+* Requires `eslint-plugin-promise@^4`.
+* Requires `eslint-plugin-unicorn@^20`.
+* Requires `eslint-plugin-compat@^3`.
+* **browser:** The `browser`, `js/browser`, `ts/browser`, `react`, `js/react`, and `ts/react`
+plugins require `eslint-plugin-compat`.
+* Peer dependencies need to satisfy the major versions to avoid breaking changes.
+* Requires `eslint-plugin-jsdoc` to be `>=27.1` (compared to `>=25`).
+* **ts:** Requires `@typescript-eslint/eslint-plugin` to be `>=3.4` (comapred to `>=3.1`).
+* Blocks now need to have spaces in between the braces.
+
 ## [4.0.4](https://github.com/cherryblossom000/eslint-config/compare/v4.0.3...v4.0.4) (2020-07-14)
 
 

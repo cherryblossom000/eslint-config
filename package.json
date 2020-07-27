@@ -73,6 +73,9 @@
     "eslint-plugin-node": {
       "optional": true
     },
+    "eslint-plugin-react-hooks": {
+      "optional": true
+    },
     "typescript": {
       "optional": true
     }

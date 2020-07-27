@@ -1,5 +1,51 @@
 # Changelog
 
+# [5.0.0](https://github.com/cherryblossom000/eslint-config/compare/v4.0.3...v5.0.0) (2020-07-27)
+
+
+### Bug Fixes
+
+* add support for eslint-plugin-jsdoc 30 ([b5b4807](https://github.com/cherryblossom000/eslint-config/commit/b5b48071f2ec0f54f67a20da8904e8e1e37223f0))
+* add support for eslint-plugin-jsdoc@29 ([5b19848](https://github.com/cherryblossom000/eslint-config/commit/5b1984850deb1edf61edd553e5873c6b0dc62ade))
+* allow `finally` for `promise/catch-or-return` ([085fba7](https://github.com/cherryblossom000/eslint-config/commit/085fba76e13943e469037bb2fb28f91da703b6a1))
+* allow reflect-metadata for `import/no-unassigned-import` ([402e007](https://github.com/cherryblossom000/eslint-config/commit/402e0071ae9b258de7020b69b3b966ef2cb2a3f4))
+* change `block-spacing` to `always` ([c3a60c6](https://github.com/cherryblossom000/eslint-config/commit/c3a60c6571453b49d6bcc2b58ae46dc1aa3e9a69))
+* fix @typescript-eslint/parser and typescript dependencies ([d3df280](https://github.com/cherryblossom000/eslint-config/commit/d3df280c13fefa4accc8f7096b64b0c390f25fb7))
+* **js/node:** specify import plugin ([9e14bfe](https://github.com/cherryblossom000/eslint-config/commit/9e14bfe1d2a0097b69ff157d47f36027f1a7dbb9))
+* make peer deps satisfy major versions ([61b20d0](https://github.com/cherryblossom000/eslint-config/commit/61b20d00b5650906f55e23e4927f734e8ea79491))
+
+
+### chore
+
+* fix peer deps ([4952ed4](https://github.com/cherryblossom000/eslint-config/commit/4952ed430b4ec3ca484036115bfc5e3e96c93fea))
+
+
+### Features
+
+* **use prettier:** use `eslint-plugin-prettier` ([4031933](https://github.com/cherryblossom000/eslint-config/commit/4031933b85c8ea33b757fdee74ec24d56cbeed25))
+* add `eslint-plugin-promise` ([430b7bb](https://github.com/cherryblossom000/eslint-config/commit/430b7bbcfb2e4a5cadcabf56a24e59acb94309d1))
+* add `eslint-plugin-unicorn` ([b1eee30](https://github.com/cherryblossom000/eslint-config/commit/b1eee30b79f66e631f1b46533ae40bc1702fdec5))
+* **browser:** add `eslint-plugin-compat` ([cfc6af9](https://github.com/cherryblossom000/eslint-config/commit/cfc6af9d45568a20e7edc04f747fc1f9f96a8b43))
+* add `jsdoc/require-throws` ([5409d03](https://github.com/cherryblossom000/eslint-config/commit/5409d0330dd4a1237a0298084d6b34a76b17866d))
+* add jest configs ([433de0a](https://github.com/cherryblossom000/eslint-config/commit/433de0a84467b20a54c10b29de59b9dc00aec19d))
+* add markdown and html support ([882c2cd](https://github.com/cherryblossom000/eslint-config/commit/882c2cd4300365be452cf575b6605c40e1c98e5f))
+* add react configs ([55a7797](https://github.com/cherryblossom000/eslint-config/commit/55a779766da13f572fec876d31ae0c2459728c05))
+* **ts:** add `@typescript-eslint/no-loss-of-precision` ([20958aa](https://github.com/cherryblossom000/eslint-config/commit/20958aaf4595b5c6d3355d4f9eaaa1055ca28772))
+
+
+### BREAKING CHANGES
+
+* **use prettier:** Requires `eslint-plugin-prettier` and `prettier`.
+* Requires `eslint-plugin-promise@^4`.
+* Requires `eslint-plugin-unicorn@^20`.
+* Requires `eslint-plugin-compat@^3`.
+* **browser:** The `browser`, `js/browser`, `ts/browser`, `react`, `js/react`, and `ts/react`
+plugins require `eslint-plugin-compat`.
+* Peer dependencies need to satisfy the major versions to avoid breaking changes.
+* Requires `eslint-plugin-jsdoc` to be `>=27.1` (compared to `>=25`).
+* **ts:** Requires `@typescript-eslint/eslint-plugin` to be `>=3.4` (comapred to `>=3.1`).
+* Blocks now need to have spaces in between the braces.
+
 # [5.0.0-next.1](https://github.com/cherryblossom000/eslint-config/compare/v4.0.3...v5.0.0-next.1) (2020-07-14)
 
 

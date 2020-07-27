@@ -1,5 +1,12 @@
 # Changelog
 
+## [6.0.1](https://github.com/cherryblossom000/eslint-config/compare/v6.0.0...v6.0.1) (2020-07-27)
+
+
+### Bug Fixes
+
+* make `eslint-plugin-react-hooks` optional ([0abcc2b](https://github.com/cherryblossom000/eslint-config/commit/0abcc2b54a75ed4c89f2ee0ba87811a2e49017b6))
+
 # [6.0.0](https://github.com/cherryblossom000/eslint-config/compare/v5.0.0...v6.0.0) (2020-07-27)
 
 

@@ -116,7 +116,7 @@ module.exports = {
     'max-lines': [1, {max: 500, skipBlankLines: true, skipComments: true}],
     'max-lines-per-function': [
       1,
-      {max: 100, skipBlankLines: true, skipComments: true}
+      {max: 200, skipBlankLines: true, skipComments: true}
     ],
     'max-nested-callbacks': 1,
     'max-params': [1, {max: 5}],

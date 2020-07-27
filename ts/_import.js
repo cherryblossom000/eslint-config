@@ -1,10 +1,7 @@
 'use strict'
 
 module.exports = {
-  extends: [
-    '../js/_import',
-    'plugin:import/typescript'
-  ],
+  extends: ['../js/_import', 'plugin:import/typescript'],
   rules: {
     // TS requires the json extension
     'import/extensions': [1, 'never', {json: 'always'}],

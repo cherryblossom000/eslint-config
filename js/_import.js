@@ -25,7 +25,10 @@ module.exports = {
     'import/max-dependencies': 1,
     'import/no-named-default': 1,
     'import/no-unassigned-import': [1, {allow: ['reflect-metadata']}],
-    'import/order': [1, {'newlines-between': 'never', alphabetize: {order: 'asc'}}],
+    'import/order': [
+      1,
+      {'newlines-between': 'never', alphabetize: {order: 'asc'}}
+    ],
     'import/prefer-default-export': 1
   }
 }

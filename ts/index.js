@@ -16,25 +16,28 @@ module.exports = {
   rules: {
     '@typescript-eslint/adjacent-overload-signatures': 1,
     '@typescript-eslint/array-type': 1,
-    '@typescript-eslint/ban-ts-comment': [2, {
-      'ts-expect-error': 'allow-with-description',
-      'ts-ignore': 'allow-with-description',
-      'ts-nocheck': 'allow-with-description'
-    }],
+    '@typescript-eslint/ban-ts-comment': [
+      2,
+      {
+        'ts-expect-error': 'allow-with-description',
+        'ts-ignore': 'allow-with-description',
+        'ts-nocheck': 'allow-with-description'
+      }
+    ],
     '@typescript-eslint/ban-types': 2,
     '@typescript-eslint/class-literal-property-style': 2,
     '@typescript-eslint/consistent-type-assertions': 2,
     '@typescript-eslint/consistent-type-definitions': [1, 'interface'],
     '@typescript-eslint/explicit-function-return-type': 2,
     '@typescript-eslint/explicit-module-boundary-types': 0,
-    '@typescript-eslint/explicit-member-accessibility': [1, {accessibility: 'no-public'}],
-    '@typescript-eslint/member-delimiter-style': [1, {
-      singleline: {delimiter: 'comma'},
-      multiline: {delimiter: 'none'}
-    }],
+    '@typescript-eslint/explicit-member-accessibility': [
+      1,
+      {accessibility: 'no-public'}
+    ],
     '@typescript-eslint/member-ordering': 1,
     camelcase: 0,
-    '@typescript-eslint/naming-convention': [1,
+    '@typescript-eslint/naming-convention': [
+      1,
       {
         selector: 'default',
         format: ['camelCase'],
@@ -84,7 +87,10 @@ module.exports = {
     'no-throw-literal': 0,
     '@typescript-eslint/no-throw-literal': 2,
     '@typescript-eslint/no-unnecessary-boolean-literal-compare': 2,
-    '@typescript-eslint/no-unnecessary-condition': [2, {allowConstantLoopConditions: true}],
+    '@typescript-eslint/no-unnecessary-condition': [
+      2,
+      {allowConstantLoopConditions: true}
+    ],
     '@typescript-eslint/no-unnecessary-qualifier': 2,
     '@typescript-eslint/no-unnecessary-type-arguments': 1,
     '@typescript-eslint/prefer-as-const': 2,
@@ -98,29 +104,22 @@ module.exports = {
     '@typescript-eslint/prefer-string-starts-ends-with': 1,
     '@typescript-eslint/promise-function-async': 2,
     '@typescript-eslint/strict-boolean-expressions': 2,
-    '@typescript-eslint/type-annotation-spacing': 1,
     '@typescript-eslint/unbound-method': [2, {ignoreStatic: true}],
     '@typescript-eslint/unified-signatures': 2,
 
     // Extension Rules
-    'brace-style': 0,
-    '@typescript-eslint/brace-style': rules['brace-style'],
-    'comma-spacing': 0,
-    '@typescript-eslint/comma-spacing': rules['comma-spacing'],
-    'func-call-spacing': 0,
-    '@typescript-eslint/func-call-spacing': rules['func-call-spacing'],
-    indent: 0,
-    '@typescript-eslint/indent': rules.indent,
     'lines-between-class-members': 0,
-    '@typescript-eslint/lines-between-class-members': rules['lines-between-class-members'],
+    '@typescript-eslint/lines-between-class-members':
+      rules['lines-between-class-members'],
     'no-array-constructor': 0,
     '@typescript-eslint/no-array-constructor': rules['no-array-constructor'],
     'no-empty-function': 0,
-    '@typescript-eslint/no-empty-function': [rules['no-empty-function'], {
-      allow: ['protected-constructors', 'private-constructors']
-    }],
-    'no-extra-parens': 0,
-    '@typescript-eslint/no-extra-parens': rules['no-extra-parens'],
+    '@typescript-eslint/no-empty-function': [
+      rules['no-empty-function'],
+      {
+        allow: ['protected-constructors', 'private-constructors']
+      }
+    ],
     'no-extra-semi': 0,
     '@typescript-eslint/no-extra-semi': rules['no-extra-semi'],
     'no-loss-of-precision': 0,
@@ -128,17 +127,14 @@ module.exports = {
     'no-unused-expressions': 0,
     '@typescript-eslint/no-unused-expressions': rules['no-unused-expressions'],
     'no-useless-constructor': 0,
-    '@typescript-eslint/no-useless-constructor': rules['no-useless-constructor'],
+    '@typescript-eslint/no-useless-constructor':
+      rules['no-useless-constructor'],
     quotes: 0,
     '@typescript-eslint/quotes': rules.quotes,
     'require-await': 0,
     '@typescript-eslint/require-await': rules['require-await'],
     'no-return-await': 0,
     '@typescript-eslint/return-await': rules['no-return-await'],
-    semi: 0,
-    '@typescript-eslint/semi': rules.semi,
-    'space-before-function-paren': 0,
-    '@typescript-eslint/space-before-function-paren': rules['space-before-function-paren'],
 
     // JSDoc
     'jsdoc/no-types': 1,

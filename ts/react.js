@@ -1,9 +1,5 @@
 'use strict'
 
 module.exports = {
-  extends: [
-    '../js/react',
-    '.',
-    './browser'
-  ]
+  extends: ['../js/react', '.', './browser']
 }

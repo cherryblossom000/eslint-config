@@ -1,10 +1,7 @@
 'use strict'
 
 module.exports = {
-  extends: [
-    '.',
-    'plugin:node/recommended'
-  ],
+  extends: ['.', 'plugin:node/recommended'],
   env: {
     es2017: true,
     node: true
@@ -21,7 +18,10 @@ module.exports = {
 
         // Import
         'import/no-unresolved': [2, {commonjs: true}],
-        'import/no-useless-path-segments': [1, {noUselessIndex: true, commonjs: true}],
+        'import/no-useless-path-segments': [
+          1,
+          {noUselessIndex: true, commonjs: true}
+        ],
         'import/no-deprecated': 1,
         'node/no-extraneous-require': 0,
         'import/no-extraneous-dependencies': 2
@@ -35,7 +35,10 @@ module.exports = {
         'import/extensions': [2, 'ignorePackages'],
         'import/no-commonjs': [2, {allowConditionalRequire: false}],
         'import/no-extraneous-dependencies': 2,
-        'import/no-unused-modules': [1, {missingExports: true, unusedExports: true}],
+        'import/no-unused-modules': [
+          1,
+          {missingExports: true, unusedExports: true}
+        ],
         'import/no-useless-path-segments': 0
       }
     }

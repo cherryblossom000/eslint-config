@@ -7,16 +7,17 @@ module.exports = {
     'plugin:jsdoc/recommended',
     'plugin:promise/recommended'
     // Don't extend unicorn's recommended config because it sets the env and parserOptions
+    // Don't extend prettier's recommended config because it sets it to error
   ],
-  plugins: ['unicorn'],
+  plugins: ['prettier', 'unicorn'],
   rules: {
     // Possible Errors
     'no-await-in-loop': 2,
-    'no-extra-parens': 1,
     'no-cond-assign': 0,
     'no-constant-condition': [2, {checkLoops: false}],
     'no-empty': [1, {allowEmptyCatch: true}],
-    'no-extra-semi': 1,
+    // Prettier
+    'no-extra-semi': 0,
     'no-inner-declarations': [2, 'both'],
     'no-irregular-whitespace': [2, {skipComments: false}],
     'no-loss-of-precision': 2,
@@ -37,7 +38,6 @@ module.exports = {
     curly: [1, 'multi-or-nest'],
     'default-case-last': 2,
     'default-param-last': 2,
-    'dot-location': [1, 'property'],
     'dot-notation': 1,
     eqeqeq: [2, 'smart'],
     'grouped-accessor-pairs': [1, 'getBeforeSet'],
@@ -58,7 +58,6 @@ module.exports = {
     'no-labels': [2, {allowLoop: true, allowSwitch: true}],
     'no-lone-blocks': 2,
     'no-loop-func': 2,
-    'no-multi-spaces': [1, {}],
     'no-multi-str': 2,
     'no-new': 2,
     'no-new-wrappers': 2,
@@ -68,10 +67,12 @@ module.exports = {
     'no-return-await': 2,
     'no-script-url': 2,
     'no-self-compare': 2,
-    'no-sequences': 2,
     'no-throw-literal': 2,
     'no-unmodified-loop-condition': 2,
-    'no-unused-expressions': [1, {allowTernary: true, allowTaggedTemplates: true}],
+    'no-unused-expressions': [
+      1,
+      {allowTernary: true, allowTaggedTemplates: true}
+    ],
     'no-unused-labels': 1,
     'no-useless-call': 2,
     'no-useless-concat': 2,
@@ -83,7 +84,6 @@ module.exports = {
     'require-await': 2,
     'require-unicode-regexp': 2,
     'vars-on-top': 2,
-    'wrap-iife': [1, 'inside'],
     yoda: 1,
 
     // Strict Mode
@@ -93,109 +93,108 @@ module.exports = {
     'no-label-var': 1,
     'no-shadow': [2, {builtinGlobals: true}],
     'no-undef-init': 2,
-    'no-unused-vars': [1, {
-      ignoreRestSiblings: true,
-      args: 'all',
-      argsIgnorePattern: '^_',
-      caughtErrors: 'all',
-      caughtErrorsIgnorePattern: '^_'
-    }],
+    'no-unused-vars': [
+      1,
+      {
+        ignoreRestSiblings: true,
+        args: 'all',
+        argsIgnorePattern: '^_',
+        caughtErrors: 'all',
+        caughtErrorsIgnorePattern: '^_'
+      }
+    ],
     'no-use-before-define': [2, 'nofunc'],
 
     // Stylistic Issues
-    'array-bracket-newline': [1, 'consistent'],
-    'array-bracket-spacing': 1,
-    'array-element-newline': [1, 'consistent'],
-    'block-spacing': 1,
-    'brace-style': 1,
     camelcase: 1,
-    'comma-dangle': 1,
-    'comma-spacing': 1,
-    'comma-style': 1,
-    'computed-property-spacing': [1, 'never', {enforceForClassMembers: true}],
-    'eol-last': 1,
-    'func-call-spacing': 1,
     'func-name-matching': [1, {considerPropertyDescriptor: true}],
     'func-names': [1, 'as-needed'],
     'func-style': 1,
-    'function-call-argument-newline': [1, 'consistent'],
     'id-length': [1, {min: 1, max: 30}],
-    indent: [1, 2, {SwitchCase: 1, flatTernaryExpressions: true}],
-    'key-spacing': 1,
-    'keyword-spacing': 1,
     'lines-between-class-members': [1, 'always', {exceptAfterSingleLine: true}],
-    'line-comment-position': [1, {position: 'above', applyDefaultIgnorePatterns: false}],
-    'linebreak-style': 1,
+    'line-comment-position': [
+      1,
+      {position: 'above', applyDefaultIgnorePatterns: false}
+    ],
     'max-depth': 1,
-    'max-len': [1, {code: 125, ignoreStrings: true, ignoreTemplateLiterals: true, ignoreRegExpLiterals: true}],
     'max-lines': [1, {max: 500, skipBlankLines: true, skipComments: true}],
-    'max-lines-per-function': [1, {max: 100, skipBlankLines: true, skipComments: true}],
+    'max-lines-per-function': [
+      1,
+      {max: 100, skipBlankLines: true, skipComments: true}
+    ],
     'max-nested-callbacks': 1,
     'max-params': [1, {max: 5}],
     'max-statements': [1, 20, {ignoreTopLevelFunctions: true}],
     'max-statements-per-line': 1,
-    'new-cap': [1, {capIsNewExceptions: ['AsyncFunction', 'GeneratorFunction', 'AsyncGeneratorFunction']}],
-    'new-parens': 1,
-    'newline-per-chained-call': [1, {ignoreChainWithDepth: 4}],
+    'new-cap': [
+      1,
+      {
+        capIsNewExceptions: [
+          'AsyncFunction',
+          'GeneratorFunction',
+          'AsyncGeneratorFunction'
+        ]
+      }
+    ],
     'no-array-constructor': 1,
     'no-lonely-if': 1,
+    // Prettier
+    'no-mixed-spaces-and-tabs': 0,
     'no-multi-assign': 2,
-    'no-multiple-empty-lines': [1, {max: 1, maxBOF: 0, maxEOF: 0}],
     'no-negated-condition': 1,
     'no-new-object': 1,
-    'no-restricted-syntax': [2,
+    'no-restricted-syntax': [
+      2,
+      // https://github.com/prettier/eslint-config-prettier#no-sequences
       {
-        selector: 'ForInStatement:not(:has(ReturnStatement)):not(:has(BreakStatement))',
+        selector: 'SequenceExpression',
+        message: 'Unexpected use of comma operator.'
+      },
+      {
+        selector:
+          'ForInStatement:not(:has(ReturnStatement)):not(:has(BreakStatement))',
         message: 'Use Object.keys(object).forEach instead.'
       },
       {
-        selector: 'ForOfStatement[await=false]:not(:has(ReturnStatement)):not(:has(BreakStatement))',
+        selector:
+          'ForOfStatement[await=false]:not(:has(ReturnStatement)):not(:has(BreakStatement))',
         message: 'Use forEach instead.'
       }
     ],
-    'no-tabs': 1,
-    'no-trailing-spaces': 1,
     'no-unneeded-ternary': [2, {defaultAssignment: false}],
-    'no-whitespace-before-property': 1,
-    'object-curly-newline': 1,
-    'object-curly-spacing': 1,
-    'object-property-newline': [1, {allowAllPropertiesOnSameLine: true}],
     'one-var': [1, {initialized: 'never'}],
-    'one-var-declaration-per-line': 1,
     'operator-assignment': 1,
-    'operator-linebreak': [1, 'after', {overrides: {'?': 'before', ':': 'before', '|>': 'before'}}],
-    'padded-blocks': [1, 'never'],
-    'padding-line-between-statements': [1,
+    'padding-line-between-statements': [
+      1,
       {blankLine: 'always', prev: 'directive', next: '*'},
       {blankLine: 'never', prev: 'directive', next: 'directive'},
       {blankLine: 'always', prev: ['cjs-import', 'import'], next: '*'},
-      {blankLine: 'never', prev: ['cjs-import', 'import'], next: ['cjs-import', 'import']},
+      {
+        blankLine: 'never',
+        prev: ['cjs-import', 'import'],
+        next: ['cjs-import', 'import']
+      },
       {blankLine: 'always', prev: ['cjs-export', 'export'], next: '*'},
-      {blankLine: 'any', prev: ['cjs-export', 'export'], next: ['cjs-export', 'export']},
+      {
+        blankLine: 'any',
+        prev: ['cjs-export', 'export'],
+        next: ['cjs-export', 'export']
+      },
       {blankLine: 'always', prev: 'function', next: '*'}
     ],
     'prefer-exponentiation-operator': 1,
     'prefer-object-spread': 1,
-    'quote-props': [1, 'as-needed'],
     quotes: [1, 'single', {avoidEscape: true}],
-    semi: [1, 'never'],
-    'semi-spacing': 1,
-    'semi-style': [1, 'first'],
-    'space-before-blocks': 1,
-    'space-before-function-paren': [1, {named: 'never'}],
-    'space-in-parens': 1,
-    'space-infix-ops': [1, {int32Hint: true}],
-    'space-unary-ops': [1, {words: true, nonwords: false}],
-    'spaced-comment': [1, 'always', {line: {markers: ['/']}, block: {markers: ['*'], balanced: true}}],
-    'switch-colon-spacing': 1,
-    'template-tag-spacing': 1,
-    'unicode-bom': 1,
+    'spaced-comment': [
+      1,
+      'always',
+      {line: {markers: ['/']}, block: {markers: ['*'], balanced: true}}
+    ],
 
     // ECMAScript 6
+    // https://github.com/prettier/eslint-config-prettier#arrow-body-style-and-prefer-arrow-callback
+    // Don't use --fix too much anyway
     'arrow-body-style': 1,
-    'arrow-parens': [1, 'as-needed'],
-    'arrow-spacing': 1,
-    'generator-star-spacing': [1, {before: false, after: true, method: 'before'}],
     'no-useless-computed-key': [1, {enforceForClassMembers: true}],
     'no-useless-constructor': 1,
     'no-useless-rename': 1,
@@ -208,10 +207,7 @@ module.exports = {
     'prefer-rest-params': 2,
     'prefer-spread': 2,
     'prefer-template': 2,
-    'rest-spread-spacing': 1,
     'symbol-description': 2,
-    'template-curly-spacing': 1,
-    'yield-star-spacing': 1,
 
     // ESLint Comments
     'eslint-comments/require-description': 1,
@@ -226,6 +222,9 @@ module.exports = {
     'jsdoc/require-hyphen-before-param-description': [1, 'never'],
     'jsdoc/require-param': [1, {checkRestProperty: true}],
     'jsdoc/require-throws': 1,
+
+    // Prettier
+    'prettier/prettier': 1,
 
     // Promise
     // then can be used for side effects
@@ -252,7 +251,6 @@ module.exports = {
     'unicorn/no-unused-properties': 1,
     'unicorn/no-useless-undefined': 1,
     'unicorn/no-zero-fractions': 1,
-    'unicorn/number-literal-case': 1,
     // 'unicorn/prefer-array-find': 2,
     'unicorn/prefer-flat-map': 2,
     'unicorn/prefer-includes': 1,

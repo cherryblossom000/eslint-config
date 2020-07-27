@@ -3,11 +3,7 @@
 const {hasPackage} = require('../src/util')
 
 module.exports = {
-  extends: [
-    '.',
-    './_import',
-    'plugin:compat/recommended'
-  ],
+  extends: ['.', './_import', 'plugin:compat/recommended'],
   env: {
     es2020: true,
     browser: true
@@ -22,12 +18,12 @@ module.exports = {
     'unicorn/prefer-node-remove': 2,
     'unicorn/prefer-text-content': 2
   },
-  ...hasPackage('eslint-plugin-html')
+  ...(hasPackage('eslint-plugin-html')
     ? {
-      plugins: ['html'],
-      settings: {
-        'html/report-bad-indent': 1
+        plugins: ['html'],
+        settings: {
+          'html/report-bad-indent': 1
+        }
       }
-    }
-    : {}
+    : {})
 }

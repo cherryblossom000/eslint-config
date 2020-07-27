@@ -12,6 +12,8 @@
   - eslint-comments
   - jsdoc
   - unicorn
+  - prettier
+    - the `prettier` package
   - promise
 - For `browser`, `js/browser`, and `ts/browser`, you can optionally install eslint-plugin-html to lint JS in HTML.
 

@@ -1,5 +1,12 @@
 # Changelog
 
+## [6.0.3](https://github.com/cherryblossom000/eslint-config/compare/v6.0.2...v6.0.3) (2020-07-27)
+
+
+### Bug Fixes
+
+* change `max-lines-per-function` limit to 200 ([63b701e](https://github.com/cherryblossom000/eslint-config/commit/63b701e8a96c091f49c5d14e8a87b09fc37eb73d))
+
 ## [6.0.2](https://github.com/cherryblossom000/eslint-config/compare/v6.0.1...v6.0.2) (2020-07-27)
 
 

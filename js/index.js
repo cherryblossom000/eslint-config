@@ -112,10 +112,6 @@ module.exports = {
     'func-style': 1,
     'id-length': [1, {min: 1, max: 30}],
     'lines-between-class-members': [1, 'always', {exceptAfterSingleLine: true}],
-    'line-comment-position': [
-      1,
-      {position: 'above', applyDefaultIgnorePatterns: false}
-    ],
     'max-depth': 1,
     'max-lines': [1, {max: 500, skipBlankLines: true, skipComments: true}],
     'max-lines-per-function': [

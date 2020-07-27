@@ -1,5 +1,13 @@
 # Changelog
 
+## [6.0.2](https://github.com/cherryblossom000/eslint-config/compare/v6.0.1...v6.0.2) (2020-07-27)
+
+
+### Bug Fixes
+
+* remove `inline-comment-position` ([314375a](https://github.com/cherryblossom000/eslint-config/commit/314375a0ddbf04dccf240e12141ed2e42b83aefd))
+* support `eslint-plugin-unicorn@21` ([156d218](https://github.com/cherryblossom000/eslint-config/commit/156d218ddab773d87cc72770eceef99229971a2e))
+
 ## [6.0.1](https://github.com/cherryblossom000/eslint-config/compare/v6.0.0...v6.0.1) (2020-07-27)
 
 

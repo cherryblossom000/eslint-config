@@ -1,5 +1,24 @@
 # Changelog
 
+# [6.0.0](https://github.com/cherryblossom000/eslint-config/compare/v5.0.0...v6.0.0) (2020-07-27)
+
+
+### Bug Fixes
+
+* add support for eslint-plugin-jsdoc 30 ([b5b4807](https://github.com/cherryblossom000/eslint-config/commit/b5b48071f2ec0f54f67a20da8904e8e1e37223f0))
+* add support for eslint-plugin-jsdoc@29 ([5b19848](https://github.com/cherryblossom000/eslint-config/commit/5b1984850deb1edf61edd553e5873c6b0dc62ade))
+* allow `finally` for `promise/catch-or-return` ([085fba7](https://github.com/cherryblossom000/eslint-config/commit/085fba76e13943e469037bb2fb28f91da703b6a1))
+
+
+### Features
+
+* **use prettier:** use `eslint-plugin-prettier` ([4031933](https://github.com/cherryblossom000/eslint-config/commit/4031933b85c8ea33b757fdee74ec24d56cbeed25))
+
+
+### BREAKING CHANGES
+
+* **use prettier:** Requires `eslint-plugin-prettier` and `prettier`.
+
 # [5.0.0](https://github.com/cherryblossom000/eslint-config/compare/v4.0.3...v5.0.0) (2020-07-27)
 
 

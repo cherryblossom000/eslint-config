@@ -1,5 +1,17 @@
 # Changelog
 
+# [7.0.0](https://github.com/cherryblossom000/eslint-config/compare/v6.0.3...v7.0.0) (2020-08-03)
+
+
+### Features
+
+* add `unicorn/expiring-todo-comments` and `unicorn/prefer-array-find` ([6cfc62f](https://github.com/cherryblossom000/eslint-config/commit/6cfc62fc9d0ea99cc2aea8041776697a41f40cd4))
+
+
+### BREAKING CHANGES
+
+* Requires `eslint-plugin-unicorn@^21`.
+
 ## [6.0.3](https://github.com/cherryblossom000/eslint-config/compare/v6.0.2...v6.0.3) (2020-07-27)
 
 

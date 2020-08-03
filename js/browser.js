@@ -16,6 +16,8 @@ module.exports = {
     'unicorn/prefer-modern-dom-apis': 2,
     'unicorn/prefer-node-append': 2,
     'unicorn/prefer-node-remove': 2,
+    // TODO: remove when replaceAll gets into Node (when it will be in the base config)
+    'unicorn/prefer-replace-all': 2,
     'unicorn/prefer-text-content': 2
   },
   ...(hasPackage('eslint-plugin-html')

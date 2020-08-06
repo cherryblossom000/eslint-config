@@ -1,5 +1,12 @@
 # Changelog
 
+## [7.0.1](https://github.com/cherryblossom000/eslint-config/compare/v7.0.0...v7.0.1) (2020-08-06)
+
+
+### Bug Fixes
+
+* **ts:** disable `import/no-unused-modules` and `import/prefer-default-export` in declaration files ([f037ed2](https://github.com/cherryblossom000/eslint-config/commit/f037ed2e80277985c0b5703853bfee0732d2a1dd))
+
 # [7.0.0](https://github.com/cherryblossom000/eslint-config/compare/v6.0.3...v7.0.0) (2020-08-03)
 
 

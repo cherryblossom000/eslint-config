@@ -1,5 +1,19 @@
 # Changelog
 
+# [8.0.0](https://github.com/cherryblossom000/eslint-config/compare/v7.0.1...v8.0.0) (2020-08-24)
+
+
+### Features
+
+* ignore globals for `camelcase` ([5494ed9](https://github.com/cherryblossom000/eslint-config/commit/5494ed98ec06dfd558b0f6a6500745fd78e04404))
+* **ts:** upgrade [@typesript-eslint](https://github.com/typesript-eslint) ([3871481](https://github.com/cherryblossom000/eslint-config/commit/387148159c0b7a119d3f8f9fe09e7934d1494c58))
+
+
+### BREAKING CHANGES
+
+* Requires `eslint@^7.4`.
+* **ts:** Disallows UPPER_CASE non-`const` variables; requires `@typescript-eslint/eslint-plugin@^10` and `typescript@^4`.
+
 ## [7.0.1](https://github.com/cherryblossom000/eslint-config/compare/v7.0.0...v7.0.1) (2020-08-06)
 
 

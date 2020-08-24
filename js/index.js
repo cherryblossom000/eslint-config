@@ -106,7 +106,7 @@ module.exports = {
     'no-use-before-define': [2, 'nofunc'],
 
     // Stylistic Issues
-    camelcase: 1,
+    camelcase: [1, {ignoreGlobals: true}],
     'func-name-matching': [1, {considerPropertyDescriptor: true}],
     'func-names': [1, 'as-needed'],
     'func-style': 1,

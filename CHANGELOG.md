@@ -1,5 +1,12 @@
 # Changelog
 
+## [8.0.1](https://github.com/cherryblossom000/eslint-config/compare/v8.0.0...v8.0.1) (2020-08-25)
+
+
+### Bug Fixes
+
+* **ts:** upgrade to `@typescript-eslint/parser@3.10.1` ([5976bb1](https://github.com/cherryblossom000/eslint-config/commit/5976bb13a51e515b9dd81cbb4ffee0ed818286a9))
+
 # [8.0.0](https://github.com/cherryblossom000/eslint-config/compare/v7.0.1...v8.0.0) (2020-08-24)
 
 

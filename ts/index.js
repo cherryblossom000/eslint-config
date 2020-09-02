@@ -28,7 +28,6 @@ module.exports = {
     '@typescript-eslint/ban-ts-comment': [
       2,
       {
-        'ts-expect-error': 'allow-with-description',
         'ts-ignore': 'allow-with-description',
         'ts-nocheck': 'allow-with-description'
       }
@@ -36,6 +35,7 @@ module.exports = {
     '@typescript-eslint/ban-types': 2,
     '@typescript-eslint/class-literal-property-style': 2,
     '@typescript-eslint/consistent-type-assertions': 2,
+    '@typescript-eslint/consistent-type-imports': 1,
     '@typescript-eslint/consistent-type-definitions': [1, 'interface'],
     '@typescript-eslint/explicit-function-return-type': 2,
     '@typescript-eslint/explicit-module-boundary-types': 0,

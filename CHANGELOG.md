@@ -1,5 +1,17 @@
 # Changelog
 
+# [10.0.0](https://github.com/cherryblossom000/eslint-config/compare/v9.0.0...v10.0.0) (2020-09-21)
+
+
+### Features
+
+* **ts:** add `no-loop-func` extension rule and don't ignore function type parameter name shadow ([ac1aa6d](https://github.com/cherryblossom000/eslint-config/commit/ac1aa6d086ae5b0f61174b509e4c267f3bed581b))
+
+
+### BREAKING CHANGES
+
+* **ts:** Requires `@typescript-eslint/eslint-plugin@^4.1`.
+
 # [9.0.0](https://github.com/cherryblossom000/eslint-config/compare/v8.0.1...v9.0.0) (2020-09-21)
 
 

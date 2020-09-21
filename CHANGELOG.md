@@ -1,5 +1,24 @@
 # Changelog
 
+# [9.0.0](https://github.com/cherryblossom000/eslint-config/compare/v8.0.1...v9.0.0) (2020-09-21)
+
+
+### Bug Fixes
+
+* check for builtin globals in `no-redeclare` ([6c8231c](https://github.com/cherryblossom000/eslint-config/commit/6c8231cd1a468dad9fc87f6b211999371c270b22))
+* support `eslint-plugin-unicorn@22` ([eba0912](https://github.com/cherryblossom000/eslint-config/commit/eba0912101e4ecf19bd97d954ffe52c6e664c54e))
+
+
+### Features
+
+* **ts:** add `consistent-type-imports` ([b74e272](https://github.com/cherryblossom000/eslint-config/commit/b74e272af0f09f536867215adcd8dc557d707bb7))
+* **ts:** add `dot-notation`, `no-redeclare`, `no-shadow` and `no-use-before-define` extension rules ([cc7d738](https://github.com/cherryblossom000/eslint-config/commit/cc7d7385f71f9789710ecaa2c39c303a4d37eef6))
+
+
+### BREAKING CHANGES
+
+* **ts:** Adding a new rule. Requires `@typescript-eslint/eslint-plugin@^4`.
+
 ## [8.0.1](https://github.com/cherryblossom000/eslint-config/compare/v8.0.0...v8.0.1) (2020-08-25)
 
 

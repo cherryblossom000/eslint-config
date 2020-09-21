@@ -142,12 +142,20 @@ module.exports = {
     ],
     'no-extra-semi': 0,
     '@typescript-eslint/no-extra-semi': rules['no-extra-semi'],
+    'no-loop-func': 0,
+    '@typescript-eslint/no-loop-func': rules['no-loop-func'],
     'no-loss-of-precision': 0,
     '@typescript-eslint/no-loss-of-precision': rules['no-loss-of-precision'],
     'no-redeclare': 0,
     '@typescript-eslint/no-redeclare': rules['no-redeclare'],
     'no-shadow': 0,
-    '@typescript-eslint/no-shadow': rules['no-shadow'],
+    '@typescript-eslint/no-shadow': [
+      rules['no-shadow'][0],
+      {
+        ...rules['no-shadow'][1],
+        ignoreFunctionTypeParameterNameValueShadow: false
+      }
+    ],
     'no-unused-expressions': 0,
     '@typescript-eslint/no-unused-expressions': rules['no-unused-expressions'],
     'no-use-before-define': 0,

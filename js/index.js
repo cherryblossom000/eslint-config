@@ -64,6 +64,7 @@ module.exports = {
     'no-octal': 2,
     'no-octal-escape': 2,
     'no-proto': 2,
+    'no-redeclare': [2, {builtinGlobals: true}],
     'no-return-await': 2,
     'no-script-url': 2,
     'no-self-compare': 2,

@@ -119,6 +119,11 @@ module.exports = {
     '@typescript-eslint/unified-signatures': 2,
 
     // Extension Rules
+    'dot-notation': 0,
+    '@typescript-eslint/dot-notation': [
+      rules['dot-notation'],
+      {allowPrivateClassPropertyAccess: true}
+    ],
     'lines-between-class-members': 0,
     '@typescript-eslint/lines-between-class-members':
       rules['lines-between-class-members'],
@@ -139,8 +144,17 @@ module.exports = {
     '@typescript-eslint/no-extra-semi': rules['no-extra-semi'],
     'no-loss-of-precision': 0,
     '@typescript-eslint/no-loss-of-precision': rules['no-loss-of-precision'],
+    'no-redeclare': 0,
+    '@typescript-eslint/no-redeclare': rules['no-redeclare'],
+    'no-shadow': 0,
+    '@typescript-eslint/no-shadow': rules['no-shadow'],
     'no-unused-expressions': 0,
     '@typescript-eslint/no-unused-expressions': rules['no-unused-expressions'],
+    'no-use-before-define': 0,
+    '@typescript-eslint/no-use-before-define': [
+      rules['no-use-before-define'][0],
+      {functions: false, ignoreTypeReferences: false}
+    ],
     'no-useless-constructor': 0,
     '@typescript-eslint/no-useless-constructor':
       rules['no-useless-constructor'],

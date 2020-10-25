@@ -1,5 +1,29 @@
 # Changelog
 
+# [11.0.0](https://github.com/cherryblossom000/eslint-config/compare/v10.0.0...v11.0.0) (2020-10-25)
+
+
+### Bug Fixes
+
+* **ts:** ignore function type parameter names in `@typescript-eslint/no-shadow` ([27aa091](https://github.com/cherryblossom000/eslint-config/commit/27aa091e608af9fcd224646fcce54f1016759cb5))
+
+
+### Features
+
+* **jest:** drop support for `eslint-plugin-jest@23` ([11a6356](https://github.com/cherryblossom000/eslint-config/commit/11a63560009025ae1923fa0cbd2adbed3f77f592))
+* **ts:** add `@typescript-eslint/consistent-indexed-object-style` ([e54ad57](https://github.com/cherryblossom000/eslint-config/commit/e54ad573d09c43dec1efc2600007ec31371237e3))
+* **ts:** add `@typescript-eslint/prefer-readonly-parameter-types` ([f7af986](https://github.com/cherryblossom000/eslint-config/commit/f7af986b3497c3b8196439780fed126ca18d76cd))
+* **ts:** allow protected property access for `dot-notation` ([e0839d1](https://github.com/cherryblossom000/eslint-config/commit/e0839d181560945cd472e97a39de9bead035a9cb))
+* add `unicorn/prefer-math-trunc` and `unicorn/numeric-separators-style` ([42cef6d](https://github.com/cherryblossom000/eslint-config/commit/42cef6d274b1dab3ac42be4fa527ca5b93e6c077))
+
+
+### BREAKING CHANGES
+
+* **jest:** Requires `eslint-plugin-jest@^24`.
+* **ts:** Requires `@typescript-eslint/eslint-plugin@^4.5.
+* **ts:** Requires `@typescript-eslint/eslint-plugin@^4.4`.
+* Requires `eslint-plugin-unicorn@^23`.
+
 # [10.0.0](https://github.com/cherryblossom000/eslint-config/compare/v9.0.0...v10.0.0) (2020-09-21)
 
 

@@ -252,6 +252,7 @@ module.exports = {
     'unicorn/prefer-array-find': 2,
     'unicorn/prefer-flat-map': 2,
     'unicorn/prefer-includes': 1,
+    'unicorn/prefer-math-trunc': 2,
     'unicorn/prefer-negative-index': 2,
     'unicorn/prefer-optional-catch-binding': 1,
     'unicorn/prefer-reflect-apply': 2,

@@ -48,7 +48,7 @@
     "eslint-plugin-prettier": "^3",
     "eslint-plugin-promise": "^4",
     "eslint-plugin-react-hooks": "^4",
-    "eslint-plugin-unicorn": ">=21 <23",
+    "eslint-plugin-unicorn": "^23",
     "typescript": "^4"
   },
   "peerDependenciesMeta": {
@@ -93,7 +93,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-unicorn": "^22.0.0",
+    "eslint-plugin-unicorn": "^23.0.0",
     "prettier": "^2.1.2",
     "semantic-release": "^17.2.1"
   }

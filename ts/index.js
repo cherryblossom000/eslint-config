@@ -34,6 +34,7 @@ module.exports = {
     ],
     '@typescript-eslint/ban-types': 2,
     '@typescript-eslint/class-literal-property-style': 2,
+    '@typescript-eslint/consistent-indexed-object-style': 1,
     '@typescript-eslint/consistent-type-assertions': 2,
     '@typescript-eslint/consistent-type-imports': 1,
     '@typescript-eslint/consistent-type-definitions': [1, 'interface'],

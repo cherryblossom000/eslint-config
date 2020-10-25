@@ -123,7 +123,10 @@ module.exports = {
     'dot-notation': 0,
     '@typescript-eslint/dot-notation': [
       rules['dot-notation'],
-      {allowPrivateClassPropertyAccess: true}
+      {
+        allowPrivateClassPropertyAccess: true,
+        allowProtectedClassPropertyAccess: true
+      }
     ],
     'lines-between-class-members': 0,
     '@typescript-eslint/lines-between-class-members':

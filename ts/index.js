@@ -149,13 +149,7 @@ module.exports = {
     'no-redeclare': 0,
     '@typescript-eslint/no-redeclare': rules['no-redeclare'],
     'no-shadow': 0,
-    '@typescript-eslint/no-shadow': [
-      rules['no-shadow'][0],
-      {
-        ...rules['no-shadow'][1],
-        ignoreFunctionTypeParameterNameValueShadow: false
-      }
-    ],
+    '@typescript-eslint/no-shadow': rules['no-shadow'],
     'no-unused-expressions': 0,
     '@typescript-eslint/no-unused-expressions': rules['no-unused-expressions'],
     'no-use-before-define': 0,

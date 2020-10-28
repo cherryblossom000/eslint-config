@@ -1,5 +1,12 @@
 # Changelog
 
+## [11.0.1](https://github.com/cherryblossom000/eslint-config/compare/v11.0.0...v11.0.1) (2020-10-28)
+
+
+### Bug Fixes
+
+* **ts/jest:** fix config ([5cecca3](https://github.com/cherryblossom000/eslint-config/commit/5cecca3ea02c4c2d0b604f8b65a9b958a1dd9afd))
+
 # [11.0.0](https://github.com/cherryblossom000/eslint-config/compare/v10.0.0...v11.0.0) (2020-10-25)
 
 

@@ -1,6 +1,6 @@
 'use strict'
 
-const {rules} = require('../jest')
+const {rules} = require('../js/jest')
 
 module.exports = {
   extends: ['../js/jest'],

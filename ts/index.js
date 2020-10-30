@@ -82,6 +82,10 @@ module.exports = {
     ],
     '@typescript-eslint/no-base-to-string': 2,
     '@typescript-eslint/restrict-template-expressions': 0,
+    '@typescript-eslint/require-array-sort-compare': [
+      1,
+      {ignoreStringArrays: true}
+    ],
     '@typescript-eslint/no-dynamic-delete': 2,
     '@typescript-eslint/no-explicit-any': 2,
     '@typescript-eslint/no-extraneous-class': 2,

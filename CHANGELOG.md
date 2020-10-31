@@ -1,5 +1,18 @@
 # Changelog
 
+# [11.1.0](https://github.com/cherryblossom000/eslint-config/compare/v11.0.1...v11.1.0) (2020-10-31)
+
+
+### Bug Fixes
+
+* **ts:** remove `prefer-readonly-parameter-types` ([a29d77a](https://github.com/cherryblossom000/eslint-config/commit/a29d77a4f61343f30f470332ae6601f0e6437dee))
+
+
+### Features
+
+* **ts:** add `require-array-sort-compare` ([6b7bbcf](https://github.com/cherryblossom000/eslint-config/commit/6b7bbcf7f49447e4aa97e6fe220c4fb798c59fe8))
+* **ts:** enable `no-explicit-any` ([2f449e3](https://github.com/cherryblossom000/eslint-config/commit/2f449e380542a41c9c8c9a2994f57989c560b07e))
+
 ## [11.0.1](https://github.com/cherryblossom000/eslint-config/compare/v11.0.0...v11.0.1) (2020-10-28)
 
 

@@ -109,6 +109,7 @@ module.exports = {
     ],
     '@typescript-eslint/no-unnecessary-qualifier': 2,
     '@typescript-eslint/no-unnecessary-type-arguments': 1,
+    '@typescript-eslint/no-unnecessary-type-constraint': 1,
     '@typescript-eslint/prefer-as-const': 2,
     '@typescript-eslint/prefer-for-of': 2,
     '@typescript-eslint/prefer-function-type': 2,

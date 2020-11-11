@@ -81,10 +81,9 @@ module.exports = {
       }
     ],
     '@typescript-eslint/no-base-to-string': 2,
-    '@typescript-eslint/restrict-template-expressions': 0,
-    '@typescript-eslint/require-array-sort-compare': [
-      1,
-      {ignoreStringArrays: true}
+    '@typescript-eslint/no-confusing-void-expression': [
+      2,
+      {ignoreArrowShorthand: true}
     ],
     '@typescript-eslint/no-dynamic-delete': 2,
     '@typescript-eslint/no-explicit-any': 2,
@@ -120,6 +119,11 @@ module.exports = {
     'unicorn/prefer-starts-ends-with': 0,
     '@typescript-eslint/prefer-string-starts-ends-with': 1,
     '@typescript-eslint/promise-function-async': 2,
+    '@typescript-eslint/restrict-template-expressions': 0,
+    '@typescript-eslint/require-array-sort-compare': [
+      1,
+      {ignoreStringArrays: true}
+    ],
     '@typescript-eslint/strict-boolean-expressions': 2,
     '@typescript-eslint/unbound-method': [2, {ignoreStatic: true}],
     '@typescript-eslint/unified-signatures': 2,

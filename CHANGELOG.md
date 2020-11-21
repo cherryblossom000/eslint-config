@@ -1,5 +1,12 @@
 # Changelog
 
+## [12.0.1](https://github.com/cherryblossom000/eslint-config/compare/v12.0.0...v12.0.1) (2020-11-21)
+
+
+### Bug Fixes
+
+* fix peer dependency range for eslint ([a292701](https://github.com/cherryblossom000/eslint-config/commit/a2927011831260470947f2e7acc53b2b5cc2293b))
+
 # [12.0.0](https://github.com/cherryblossom000/eslint-config/compare/v11.1.0...v12.0.0) (2020-11-21)
 
 

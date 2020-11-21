@@ -1,6 +1,6 @@
 {
   "name": "@cherryblossom/eslint-config",
-  "version": "12.0.0",
+  "version": "12.0.1",
   "description": "@cherryblossom000's ESLint configuration.",
   "keywords": [
     "eslint",

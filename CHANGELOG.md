@@ -1,5 +1,22 @@
 # Changelog
 
+# [12.0.0](https://github.com/cherryblossom000/eslint-config/compare/v11.1.0...v12.0.0) (2020-11-21)
+
+
+### Features
+
+* **ts:** make typescript a peer dependency ([81771da](https://github.com/cherryblossom000/eslint-config/commit/81771dacc55cdadba6a95a7d782b711f60e88dd4))
+* add `no-nonoctal-decimal-escape` ([97925ff](https://github.com/cherryblossom000/eslint-config/commit/97925ff73cf0978b5cd9a26ecbebd2ccc4a44b4b))
+* **ts:** add `@typescript-eslint/no-confusing-void-expression` ([ed523dd](https://github.com/cherryblossom000/eslint-config/commit/ed523dde7adf13693ab6a63198661a1424f4a40a))
+* **ts:** add `@typescript-eslint/no-unnecessary-type-constraint` ([7fb1e5a](https://github.com/cherryblossom000/eslint-config/commit/7fb1e5af5af808f98fe762b8955c2600e8c27fb6))
+
+
+### BREAKING CHANGES
+
+* Requires `eslint@^7.14`.
+* **ts:** Requires `@typescript-eslint/eslint-plugin@^4.7`.
+* **ts:** Requires `@typescript-eslint/eslint-plugin@^4.6`.
+
 # [11.1.0](https://github.com/cherryblossom000/eslint-config/compare/v11.0.1...v11.1.0) (2020-10-31)
 
 

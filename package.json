@@ -88,13 +88,13 @@
     "eslint": "^7.14.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jsdoc": "^30.7.7",
+    "eslint-plugin-jsdoc": "^30.7.8",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-unicorn": "^23.0.0",
-    "prettier": "^2.1.2",
-    "semantic-release": "^17.2.2",
+    "prettier": "^2.2.0",
+    "semantic-release": "^17.2.4",
     "typescript": "^4.1.2"
   }
 }

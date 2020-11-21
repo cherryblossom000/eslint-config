@@ -61,6 +61,7 @@ module.exports = {
     'no-multi-str': 2,
     'no-new': 2,
     'no-new-wrappers': 2,
+    'no-nonoctal-decimal-escape': 2,
     'no-octal': 2,
     'no-octal-escape': 2,
     'no-proto': 2,

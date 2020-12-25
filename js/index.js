@@ -32,7 +32,7 @@ module.exports = {
 
     // Best Practices
     'accessor-pairs': [1, {enforceForClassMembers: true}],
-    'array-callback-return': 2,
+    'array-callback-return': [2, {allowImplicit: true}],
     'class-methods-use-this': 2,
     complexity: 1,
     'consistent-return': 2,
@@ -249,7 +249,7 @@ module.exports = {
     'unicorn/no-hex-escape': 1,
     'unicorn/no-unsafe-regex': 2,
     'unicorn/no-unused-properties': 1,
-    'unicorn/no-useless-undefined': 1,
+    'unicorn/no-useless-undefined': [1, {checkArguments: false}],
     'unicorn/no-zero-fractions': 1,
     'unicorn/prefer-array-find': 2,
     'unicorn/prefer-flat-map': 2,

@@ -192,6 +192,7 @@ module.exports = {
     'array-callback-return': 0,
     'consistent-return': 0,
     'default-param-last': 0,
+    'no-unsafe-optional-chaining': 0,
     '@typescript-eslint/no-unused-vars': 0,
     'promise/no-new-static': 0,
     'promise/valid-params': 0,

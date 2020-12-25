@@ -24,6 +24,7 @@ module.exports = {
     'no-promise-executor-return': 2,
     'no-template-curly-in-string': 1,
     'no-unsafe-negation': [2, {enforceForOrderingRelations: true}],
+    'no-unsafe-optional-chaining': [2, {disallowArithmeticOperators: true}],
     'no-unreachable-loop': 2,
     'no-useless-backreference': 2,
     'require-atomic-updates': 2,

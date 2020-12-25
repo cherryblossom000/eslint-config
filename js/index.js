@@ -253,6 +253,7 @@ module.exports = {
     'unicorn/no-useless-undefined': [1, {checkArguments: false}],
     'unicorn/no-zero-fractions': 1,
     'unicorn/prefer-array-find': 2,
+    'unicorn/prefer-date-now': 1,
     'unicorn/prefer-flat-map': 2,
     'unicorn/prefer-includes': 1,
     'unicorn/prefer-math-trunc': 2,

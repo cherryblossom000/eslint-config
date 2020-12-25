@@ -247,6 +247,7 @@ module.exports = {
     'unicorn/no-console-spaces': 1,
     'unicorn/no-for-loop': 2,
     'unicorn/no-hex-escape': 1,
+    'unicorn/no-lonely-if': 1,
     'unicorn/no-unsafe-regex': 2,
     'unicorn/no-unused-properties': 1,
     'unicorn/no-useless-undefined': [1, {checkArguments: false}],

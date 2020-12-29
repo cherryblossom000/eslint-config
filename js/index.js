@@ -256,6 +256,7 @@ module.exports = {
     'unicorn/prefer-array-flat-map': 2,
     'unicorn/prefer-array-some': 1,
     'unicorn/prefer-date-now': 1,
+    'unicorn/prefer-default-parameters': 2,
     'unicorn/prefer-includes': 1,
     'unicorn/prefer-math-trunc': 2,
     'unicorn/prefer-negative-index': 2,

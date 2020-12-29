@@ -117,7 +117,7 @@ module.exports = {
     '@typescript-eslint/prefer-nullish-coalescing': 2,
     '@typescript-eslint/prefer-optional-chain': 2,
     '@typescript-eslint/prefer-readonly': 2,
-    'unicorn/prefer-starts-ends-with': 0,
+    'unicorn/prefer-string-starts-ends-with': 0,
     '@typescript-eslint/prefer-string-starts-ends-with': 1,
     '@typescript-eslint/promise-function-async': 2,
     '@typescript-eslint/restrict-template-expressions': 0,

@@ -224,7 +224,17 @@ module.exports = {
     'jsdoc/require-throws': 1,
 
     // Prettier
-    'prettier/prettier': 1,
+    'prettier/prettier': [
+      1,
+      {
+        arrowParens: 'avoid',
+        bracketSpacing: false,
+        semi: false,
+        singleQuote: true,
+        trailingComma: 'none'
+      },
+      {usePrettierrc: false}
+    ],
 
     // Promise
     // then can be used for side effects

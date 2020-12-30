@@ -9,6 +9,7 @@ module.exports = {
     // Don't extend unicorn's recommended config because it sets the env and parserOptions
     // Don't extend prettier's recommended config because it sets it to error
   ],
+  reportUnusedDisableDirectives: true,
   plugins: ['prettier', 'unicorn'],
   rules: {
     // Possible Errors

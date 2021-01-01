@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: actions/setup-node@v2-beta
+    - uses: actions/setup-node@v2.1.4
       with:
         node-version: '12'
     - name: Install
@@ -21,7 +21,7 @@ jobs:
     needs: build
     steps:
     - uses: actions/checkout@v2
-    - uses: actions/setup-node@v2-beta
+    - uses: actions/setup-node@v2.1.4
       with:
         node-version: '12'
     - uses: crazy-max/ghaction-import-gpg@v3

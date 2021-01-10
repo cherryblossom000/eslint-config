@@ -125,6 +125,7 @@ module.exports = {
       1,
       {ignoreStringArrays: true}
     ],
+    '@typescript-eslint/sort-type-union-intersection-members': 1,
     '@typescript-eslint/strict-boolean-expressions': 2,
     '@typescript-eslint/unbound-method': [2, {ignoreStatic: true}],
     '@typescript-eslint/unified-signatures': 2,

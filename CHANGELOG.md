@@ -1,5 +1,37 @@
 # Changelog
 
+# [13.0.0](https://github.com/cherryblossom000/eslint-config/compare/v12.0.1...v13.0.0) (2021-01-10)
+
+
+### Bug Fixes
+
+* **prettier:** specify Prettier config in ESLint config ([a4cf9c0](https://github.com/cherryblossom000/eslint-config/commit/a4cf9c0b4edfd8bf2ca94985e59afacf46556bd5))
+* fix config for `unicorn/no-useless-undefined` ([dd15aa4](https://github.com/cherryblossom000/eslint-config/commit/dd15aa45ea588e824731c3a374631f6b5d8f368a))
+
+
+### Features
+
+* **ts:** add `sort-type-union-intersection-members` ([2629970](https://github.com/cherryblossom000/eslint-config/commit/262997053b21e61e7764fc314a90e22449179f8d))
+* add `@typescript-eslint/non-nullable-type-assertion-style` ([5a98c45](https://github.com/cherryblossom000/eslint-config/commit/5a98c45075e182867e2f50cceeb9ee5393c3486d))
+* add `no-unsafe-optional-chaining` ([dc1911e](https://github.com/cherryblossom000/eslint-config/commit/dc1911e085c688d525c0fb8719edaa3612aaab77))
+* add `unicorn/no-lonely-if` ([1eb7d82](https://github.com/cherryblossom000/eslint-config/commit/1eb7d82ed9db5826f8d42bb2fd8c7a1ee3d17a1c))
+* add `unicorn/prefer-array-some` ([de9b9f9](https://github.com/cherryblossom000/eslint-config/commit/de9b9f908af727b0ac820a3de10098da00d77677))
+* add `unicorn/prefer-date-now` ([5fcd138](https://github.com/cherryblossom000/eslint-config/commit/5fcd138d59b72b628cfa9fe23f0785a827dc61d3))
+* add `unicorn/prefer-default-parameters` ([d425920](https://github.com/cherryblossom000/eslint-config/commit/d4259200a80beee69815d7b7fce47dea546455be))
+* enable `reportUnusedDisableDirectives` ([eb820c6](https://github.com/cherryblossom000/eslint-config/commit/eb820c6a882746e780ca14fea392c09502892c48))
+* prefer for-of loops over `forEach` ([5aa4141](https://github.com/cherryblossom000/eslint-config/commit/5aa41412ed6dddf9742347233b56ae925fb1be8a))
+* support `eslint-plugin-unicorn@25` ([f5c8bbb](https://github.com/cherryblossom000/eslint-config/commit/f5c8bbb4e79ef2760904f8fe61a5255f18f76781))
+
+
+### BREAKING CHANGES
+
+* **ts:** Requires `@typescript-eslint/eslint-plugin@^4.12`.
+* **prettier:** Specifying Prettier configuration with `.prettierrc` is no longer supported.
+* Requires `eslint-plugin-unicorn@^25`.
+* Requires `eslint-plugin-unicorn@^24`.
+* Requires `@typescript-eslint/eslint-plugin@^4.10`.
+* Requires `eslint@^7.15`.
+
 ## [12.0.1](https://github.com/cherryblossom000/eslint-config/compare/v12.0.0...v12.0.1) (2020-11-21)
 
 

@@ -151,14 +151,8 @@ module.exports = {
         message: 'Unexpected use of comma operator.'
       },
       {
-        selector:
-          'ForInStatement:not(:has(ReturnStatement)):not(:has(BreakStatement))',
-        message: 'Use Object.keys(object).forEach instead.'
-      },
-      {
-        selector:
-          'ForOfStatement[await=false]:not(:has(ReturnStatement)):not(:has(BreakStatement))',
-        message: 'Use forEach instead.'
+        selector: 'ForInStatement',
+        message: 'Use for (const key of Object.keys(object)) { ... } instead.'
       }
     ],
     'no-unneeded-ternary': [2, {defaultAssignment: false}],

@@ -1,7 +1,8 @@
 branches:
-- master
+- main
 - name: next
   prerelease: true
+
 plugins:
 - - '@semantic-release/changelog'
   - changelogTitle: '# Changelog'

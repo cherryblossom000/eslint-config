@@ -216,6 +216,7 @@ module.exports = {
     'jsdoc/require-hyphen-before-param-description': [1, 'never'],
     'jsdoc/require-param': [1, {checkRestProperty: true}],
     'jsdoc/require-throws': 1,
+    'jsdoc/require-yields': 1,
 
     // Prettier
     'prettier/prettier': [

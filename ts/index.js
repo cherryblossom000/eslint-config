@@ -113,6 +113,7 @@ module.exports = {
     '@typescript-eslint/prefer-as-const': 2,
     '@typescript-eslint/prefer-for-of': 2,
     '@typescript-eslint/prefer-function-type': 2,
+    'unicorn/prefer-includes': 0,
     '@typescript-eslint/prefer-includes': 1,
     '@typescript-eslint/prefer-nullish-coalescing': 2,
     '@typescript-eslint/prefer-optional-chain': 2,

@@ -259,6 +259,7 @@ module.exports = {
     'unicorn/no-zero-fractions': 1,
     'unicorn/prefer-array-find': 2,
     'unicorn/prefer-array-flat-map': 2,
+    'unicorn/prefer-array-index-of': 2,
     'unicorn/prefer-array-some': 1,
     'unicorn/prefer-date-now': 1,
     'unicorn/prefer-default-parameters': 2,

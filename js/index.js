@@ -204,7 +204,7 @@ module.exports = {
     'symbol-description': 2,
 
     // ESLint Comments
-    'eslint-comments/require-description': 1,
+    'eslint-comments/require-description': [1, {ignore: ['eslint-enable']}],
 
     // JSDoc
     // 'jsdoc/check-examples': 1,

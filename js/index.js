@@ -249,6 +249,7 @@ module.exports = {
     'unicorn/escape-case': 1,
     'unicorn/expiring-todo-comments': 1,
     'unicorn/new-for-builtins': 1,
+    'unicorn/no-array-for-each': 2,
     'unicorn/no-console-spaces': 1,
     'unicorn/no-for-loop': 2,
     'unicorn/no-hex-escape': 1,

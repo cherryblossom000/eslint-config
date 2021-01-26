@@ -268,6 +268,7 @@ module.exports = {
     'unicorn/prefer-negative-index': 2,
     'unicorn/prefer-optional-catch-binding': 1,
     'unicorn/prefer-reflect-apply': 2,
+    'unicorn/prefer-regexp-test': 2,
     'unicorn/prefer-set-has': 2,
     'unicorn/prefer-spread': 1,
     // TODO: uncomment when replaceAll gets into Node

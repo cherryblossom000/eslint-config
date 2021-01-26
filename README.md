@@ -40,4 +40,4 @@
 
 ## License
 
-[MIT](LICENSE) (c) 2020 cherryblossom000
+[MIT](LICENSE) (c) 2020–2021 cherryblossom000

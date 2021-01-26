@@ -31,7 +31,7 @@
     }
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^4.12.0"
+    "@typescript-eslint/parser": "^4.14.1"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.12",
@@ -83,18 +83,18 @@
     "@cherryblossom/eslint-config": "file:.",
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
-    "commitizen": "^4.2.2",
+    "commitizen": "^4.2.3",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^7.17.0",
+    "eslint": "^7.18.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jsdoc": "^30.7.13",
+    "eslint-plugin-jsdoc": "^31.3.3",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-unicorn": "^25.0.1",
     "prettier": "^2.2.1",
-    "semantic-release": "^17.3.1",
+    "semantic-release": "^17.3.7",
     "typescript": "^4.1.3"
   }
 }

@@ -98,6 +98,7 @@ module.exports = {
     '@typescript-eslint/no-non-null-assertion': 0,
     '@typescript-eslint/no-var-requires': 0,
     '@typescript-eslint/no-require-imports': 2,
+    'unicorn/no-this-assignment': 0,
     '@typescript-eslint/no-this-alias': 2,
     'no-throw-literal': 0,
     '@typescript-eslint/no-throw-literal': 2,

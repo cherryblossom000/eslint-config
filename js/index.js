@@ -256,6 +256,7 @@ module.exports = {
     'unicorn/no-hex-escape': 1,
     'unicorn/no-instanceof-array': 2,
     'unicorn/no-lonely-if': 1,
+    'unicorn/no-this-assignment': 2,
     'unicorn/no-unsafe-regex': 2,
     'unicorn/no-unused-properties': 1,
     'unicorn/no-useless-undefined': [1, {checkArguments: false}],

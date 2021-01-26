@@ -217,6 +217,7 @@ module.exports = {
     'jsdoc/require-param': [1, {checkRestProperty: true}],
     'jsdoc/require-throws': 1,
     'jsdoc/require-yields': 1,
+    'jsdoc/require-yields-check': [1, {checkGeneratorsOnly: true}],
 
     // Prettier
     'prettier/prettier': [

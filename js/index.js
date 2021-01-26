@@ -260,10 +260,10 @@ module.exports = {
     'unicorn/prefer-array-find': 2,
     'unicorn/prefer-array-flat-map': 2,
     'unicorn/prefer-array-index-of': 2,
-    'unicorn/prefer-array-some': 1,
-    'unicorn/prefer-date-now': 1,
+    'unicorn/prefer-array-some': 2,
+    'unicorn/prefer-date-now': 2,
     'unicorn/prefer-default-parameters': 2,
-    'unicorn/prefer-includes': 1,
+    'unicorn/prefer-includes': 2,
     'unicorn/prefer-math-trunc': 2,
     'unicorn/prefer-negative-index': 2,
     'unicorn/prefer-optional-catch-binding': 1,
@@ -273,7 +273,7 @@ module.exports = {
     // TODO: uncomment when replaceAll gets into Node
     // 'unicorn/prefer-string-replace-all': 2,
     'unicorn/prefer-string-slice': 2,
-    'unicorn/prefer-string-starts-ends-with': 1,
+    'unicorn/prefer-string-starts-ends-with': 2,
     'unicorn/prefer-string-trim-start-end': 1,
     'unicorn/prefer-type-error': 2
   }

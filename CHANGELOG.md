@@ -1,5 +1,35 @@
 # Changelog
 
+# [14.0.0-beta.1](https://github.com/cherryblossom000/eslint-config/compare/v13.0.0...v14.0.0-beta.1) (2021-01-26)
+
+
+### Bug Fixes
+
+* ignore `esilnt-enable` comments for `eslint-comments/require-description` ([118e964](https://github.com/cherryblossom000/eslint-config/commit/118e96431628c140f92a2d49408e2ad4c140a131))
+* **ts:** disable `unicorn/prefer-includes` ([2cc29a1](https://github.com/cherryblossom000/eslint-config/commit/2cc29a11f5193dcd7ecd4b80b69a6a67fb4436e9))
+
+
+### Features
+
+* add `jsdoc/require-yields-check` ([7276dc0](https://github.com/cherryblossom000/eslint-config/commit/7276dc07b782a83bb791c6bf83150e0fd5814682))
+* add `jsdoc/require-yields` ([ebcc34b](https://github.com/cherryblossom000/eslint-config/commit/ebcc34b6318f98b70cd438a4f584e3550da9e32a))
+* add `unicorn/consistent-destructuring` ([45bcb2d](https://github.com/cherryblossom000/eslint-config/commit/45bcb2d9853b17b55febb10b51e198c606736cdc))
+* add `unicorn/no-array-for-each` ([5eb3b62](https://github.com/cherryblossom000/eslint-config/commit/5eb3b620dca2942c12879f2a1d6ba2f13b742fcc))
+* add `unicorn/no-array-push-push` ([2cf2521](https://github.com/cherryblossom000/eslint-config/commit/2cf252166b794024e01a64fd87f402a82dcc1c12))
+* add `unicorn/no-this-assignment` ([54fe12f](https://github.com/cherryblossom000/eslint-config/commit/54fe12f1a1072700ff3ea5f9eb76f1c21b0a88b7))
+* add `unicorn/prefer-array-index-of` rule ([2053a8b](https://github.com/cherryblossom000/eslint-config/commit/2053a8b1f4379c839604a57b93b86e8e99cb39d3))
+* add `unicorn/prefer-regexp-test` ([cf77c33](https://github.com/cherryblossom000/eslint-config/commit/cf77c3344878f803e7b2744021f4928d901fd731))
+* make some rules errors instead of warnings ([0555400](https://github.com/cherryblossom000/eslint-config/commit/0555400e70822c45dd26a5971b3665be96d6e856))
+* support `eslint-plugin-jsdoc@31` ([2ae345d](https://github.com/cherryblossom000/eslint-config/commit/2ae345df6a90fa82ee00a03edbf9fb0905f27874))
+
+
+### BREAKING CHANGES
+
+* Requires `eslint-plugin-jsdoc@>=31.2`.
+* Requires `eslint-plugin-jsdoc@>=31.1`.
+* Requires `eslint-plugin-unicorn@^27`.
+* Requires `eslint-plugin-unicorn@^26`.
+
 # [13.0.0](https://github.com/cherryblossom000/eslint-config/compare/v12.0.1...v13.0.0) (2021-01-10)
 
 

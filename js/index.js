@@ -242,6 +242,7 @@ module.exports = {
     // Unicorn
     'unicorn/better-regex': 1,
     'unicorn/catch-error-name': 1,
+    'unicorn/consistent-destructuring': 1,
     'unicorn/consistent-function-scoping': 1,
     'unicorn/custom-error-definition': 2,
     'unicorn/error-message': 1,

@@ -2,12 +2,7 @@
 
 module.exports = {
   extends: ['plugin:jest/recommended', 'plugin:jest/style'],
-  overrides: [
-    {
-      files: ['tests/**/*.test.js'],
-      env: {jest: true}
-    }
-  ],
+  env: {jest: true},
   rules: {
     'jest/consistent-test-it': [1, {fn: 'test'}],
     'jest/expect-expect': 2,

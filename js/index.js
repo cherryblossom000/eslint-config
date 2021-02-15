@@ -75,7 +75,7 @@ module.exports = {
     'no-unmodified-loop-condition': 2,
     'no-unused-expressions': [
       1,
-      {allowTernary: true, allowTaggedTemplates: true}
+      {allowTernary: true, allowTaggedTemplates: true, enforceForJSX: true}
     ],
     'no-unused-labels': 1,
     'no-useless-call': 2,

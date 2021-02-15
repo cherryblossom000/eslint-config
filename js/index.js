@@ -207,7 +207,15 @@ module.exports = {
     'eslint-comments/require-description': [1, {ignore: ['eslint-enable']}],
 
     // JSDoc
-    // 'jsdoc/check-examples': 1,
+    // Can't disable new line at end of 'file' for Prettier
+    // https://github.com/prettier/prettier/issues/6360
+    /* 'jsdoc/check-examples': [
+      1,
+      {
+        exampleCodeRegex: '/^\\s*```(?:js|ts)\\n([\\s\\S]*)\\n```s*$/ug',
+        matchingFileName: 'dummy.md/*.js'
+      }
+    ], */
     'jsdoc/check-indentation': 1,
     'jsdoc/check-param-names': [1, {checkDestructured: false}],
     'jsdoc/check-syntax': 1,

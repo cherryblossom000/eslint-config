@@ -1,6 +1,6 @@
 'use strict'
 
-const {hasPackage} = require('../src/util')
+const {hasPackage} = require('../src/utils')
 
 module.exports = {
   extends: ['.', './_import', 'plugin:compat/recommended'],

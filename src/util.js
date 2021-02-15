@@ -1,5 +1,12 @@
 'use strict'
 
+/**
+ * Checks if a package is installed.
+ *
+ * @param {string} name The name of the package.
+ * @returns {boolean} Whether the package is installed.
+ * @throws Any error that isn't `MODULE_NOT_FOUND` thrown by `require`.
+ */
 module.exports.hasPackage = name => {
   let hasPackage = false
   try {

@@ -1,5 +1,30 @@
 # Changelog
 
+# [14.0.0-beta.2](https://github.com/cherryblossom000/eslint-config/compare/v14.0.0-beta.1...v14.0.0-beta.2) (2021-02-17)
+
+
+### Bug Fixes
+
+* allow inline tags to begin a JSDoc description ([7274767](https://github.com/cherryblossom000/eslint-config/commit/72747677dcd5aafb319f3c2055d5ed789ca3cd12))
+* allow undocumented destructured properties in parameters ([4fa1fc1](https://github.com/cherryblossom000/eslint-config/commit/4fa1fc1e98fa643b7a55912207a64ae9fcda793b))
+* prohibit unused jsx expressions ([b14d8b3](https://github.com/cherryblossom000/eslint-config/commit/b14d8b3a156b3af80a0fd6d62bb5c2bac15dcddc))
+* **ts:** remove `project` from `parserOptions` ([dd42bb0](https://github.com/cherryblossom000/eslint-config/commit/dd42bb0c678a9146a3f1254fb882e4968e94d83f))
+
+
+### Features
+
+* support `eslint-plugin-jsdoc@32` ([3a94c6b](https://github.com/cherryblossom000/eslint-config/commit/3a94c6beca447e6ca4e57447544a67913f7460c2))
+* support `eslint-plugin-unicorn@28` ([b82ad2e](https://github.com/cherryblossom000/eslint-config/commit/b82ad2e308ee0767a4231ece8f6c2bded7fd6405))
+* **jest:** remove default project for ts and overrides for test files ([0dbb747](https://github.com/cherryblossom000/eslint-config/commit/0dbb747c813383d17a6444bef5ea7ac1b7d3fede))
+* **markdown:** use `eslint-plugin-markdown@2` ([33008e0](https://github.com/cherryblossom000/eslint-config/commit/33008e0d142ae54c6c6136bb5bfeb14c2e634589))
+
+
+### BREAKING CHANGES
+
+* **markdown:** Requires `eslint-plugin-markdown@^2`.
+* **jest:** `tsconfig.json` is no longer the default project for `ts/jest`.
+* **ts:** `tsconfig.json` isn't the default `project` for TypeScript configurations anymore.
+
 # [14.0.0-beta.1](https://github.com/cherryblossom000/eslint-config/compare/v13.0.0...v14.0.0-beta.1) (2021-01-26)
 
 

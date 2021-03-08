@@ -1,5 +1,12 @@
 # Changelog
 
+# [14.0.0-beta.3](https://github.com/cherryblossom000/eslint-config/compare/v14.0.0-beta.2...v14.0.0-beta.3) (2021-03-08)
+
+
+### Bug Fixes
+
+* **jest:** make `jest/valid-title` a warning instead of an error ([3f9a678](https://github.com/cherryblossom000/eslint-config/commit/3f9a678e8957c7970d4520abd912908035090fa2))
+
 # [14.0.0-beta.2](https://github.com/cherryblossom000/eslint-config/compare/v14.0.0-beta.1...v14.0.0-beta.2) (2021-02-17)
 
 

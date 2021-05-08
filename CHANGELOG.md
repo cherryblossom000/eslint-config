@@ -1,5 +1,30 @@
 # Changelog
 
+# [14.0.0-beta.4](https://github.com/cherryblossom000/eslint-config/compare/v14.0.0-beta.3...v14.0.0-beta.4) (2021-05-08)
+
+
+### Features
+
+* add `unicorn/prefer-array-flat` ([1af9680](https://github.com/cherryblossom000/eslint-config/commit/1af9680453242406acb7ef848c1b79c923fe47f5))
+* add `unicorn/prefer-node-protocol` ([d7bb5b3](https://github.com/cherryblossom000/eslint-config/commit/d7bb5b3aa07dd5cb797524c574a4044f1c4f32fc))
+* add `unicorn/prefer-switch` ([a76656a](https://github.com/cherryblossom000/eslint-config/commit/a76656a14e605e5166707d2971fb99a624ead5ce))
+* support `eslint-plugin-jsdoc@33` ([a073740](https://github.com/cherryblossom000/eslint-config/commit/a073740926929cc1dd3bb6a732d0808e44255835))
+* support `eslint-plugin-promise@5` ([4b92b3d](https://github.com/cherryblossom000/eslint-config/commit/4b92b3dd391b039d6273162094edc5e0e91db4ce))
+* support `eslint-plugin-unicorn@31` ([d51863b](https://github.com/cherryblossom000/eslint-config/commit/d51863b2ece7a7980c388f27671ce7f705cc7401))
+* **js:** add `unicorn/no-static-only-class` rule ([754966c](https://github.com/cherryblossom000/eslint-config/commit/754966c2b8477b566dee060d0faaaa0d968e7b0b))
+* **ts:** add `@typescript-eslint/no-unsafe-argument` ([c13287e](https://github.com/cherryblossom000/eslint-config/commit/c13287e478b8dc45dca29e0eb473453f5a4d0e45))
+* support `eslint-plugin-unicorn@29` ([0bd1ddf](https://github.com/cherryblossom000/eslint-config/commit/0bd1ddf4b8f3c66248de49a564c1c03d8e743735))
+* **ts/jest:** add `jest/unbound-method` ([4a914af](https://github.com/cherryblossom000/eslint-config/commit/4a914afef7ea20ff427e099427d7c742ec990185))
+
+
+### BREAKING CHANGES
+
+* Requires `eslint-plugin-unicorn@31`.
+* Requires `eslint-plugin-unicorn@^30`.
+* **ts:** Requires `@typescript-eslint/eslint-plugin@^4.21`.
+* **js:** Requires `eslint-plugin-unicorn@^29`.
+* **ts/jest:** Requires `eslint-plugin-jest@^24.3`.
+
 # [14.0.0-beta.3](https://github.com/cherryblossom000/eslint-config/compare/v14.0.0-beta.2...v14.0.0-beta.3) (2021-03-08)
 
 

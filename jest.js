@@ -4,7 +4,7 @@ module.exports = {
   extends: ['./js/jest'],
   overrides: [
     {
-      files: ['tests/**/*.test.ts'],
+      files: ['**/*.ts'],
       extends: ['./ts/jest']
     }
   ]

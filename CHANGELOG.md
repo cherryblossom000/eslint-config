@@ -1,5 +1,68 @@
 # Changelog
 
+# [14.0.0](https://github.com/cherryblossom000/eslint-config/compare/v13.0.0...v14.0.0) (2021-05-08)
+
+
+### Bug Fixes
+
+* **jest:** make `jest/valid-title` a warning instead of an error ([3f9a678](https://github.com/cherryblossom000/eslint-config/commit/3f9a678e8957c7970d4520abd912908035090fa2))
+* **jest:** use TS rules for all TS files, not just `tests/**/*.test.ts` ([ec48925](https://github.com/cherryblossom000/eslint-config/commit/ec489252a213dba986c2d1ed356275037f1a47de))
+* **ts:** disable `unicorn/prefer-includes` ([fb673cb](https://github.com/cherryblossom000/eslint-config/commit/fb673cba25920cd8cf55936851eecc4651fae1f1))
+* allow inline tags to begin a JSDoc description ([7274767](https://github.com/cherryblossom000/eslint-config/commit/72747677dcd5aafb319f3c2055d5ed789ca3cd12))
+* allow undocumented destructured properties in parameters ([4fa1fc1](https://github.com/cherryblossom000/eslint-config/commit/4fa1fc1e98fa643b7a55912207a64ae9fcda793b))
+* ignore `esilnt-enable` comments for `eslint-comments/require-description` ([118e964](https://github.com/cherryblossom000/eslint-config/commit/118e96431628c140f92a2d49408e2ad4c140a131))
+* prohibit unused jsx expressions ([b14d8b3](https://github.com/cherryblossom000/eslint-config/commit/b14d8b3a156b3af80a0fd6d62bb5c2bac15dcddc))
+* **ts:** disable `unicorn/prefer-includes` ([2cc29a1](https://github.com/cherryblossom000/eslint-config/commit/2cc29a11f5193dcd7ecd4b80b69a6a67fb4436e9))
+* **ts:** remove `project` from `parserOptions` ([dd42bb0](https://github.com/cherryblossom000/eslint-config/commit/dd42bb0c678a9146a3f1254fb882e4968e94d83f))
+
+
+### Features
+
+* add `unicorn/prefer-module` for browser and node/esm configs ([2a14a26](https://github.com/cherryblossom000/eslint-config/commit/2a14a2649a3173621335d1fa402ec889c9d9496e))
+* support `eslint-plugin-jsdoc@31` ([8938ddf](https://github.com/cherryblossom000/eslint-config/commit/8938ddfb32322c6fed2c63d7d4df254a51dcafef))
+* **node:** split configs into `esm` and `commonjs` configs ([8f2b147](https://github.com/cherryblossom000/eslint-config/commit/8f2b147ba30fa52e79fef86bf23ecb18cc4d0b51))
+* add `jsdoc/require-yields-check` ([7276dc0](https://github.com/cherryblossom000/eslint-config/commit/7276dc07b782a83bb791c6bf83150e0fd5814682))
+* add `jsdoc/require-yields` ([ebcc34b](https://github.com/cherryblossom000/eslint-config/commit/ebcc34b6318f98b70cd438a4f584e3550da9e32a))
+* add `unicorn/consistent-destructuring` ([45bcb2d](https://github.com/cherryblossom000/eslint-config/commit/45bcb2d9853b17b55febb10b51e198c606736cdc))
+* add `unicorn/no-array-for-each` ([5eb3b62](https://github.com/cherryblossom000/eslint-config/commit/5eb3b620dca2942c12879f2a1d6ba2f13b742fcc))
+* add `unicorn/no-array-push-push` ([2cf2521](https://github.com/cherryblossom000/eslint-config/commit/2cf252166b794024e01a64fd87f402a82dcc1c12))
+* add `unicorn/no-this-assignment` ([54fe12f](https://github.com/cherryblossom000/eslint-config/commit/54fe12f1a1072700ff3ea5f9eb76f1c21b0a88b7))
+* add `unicorn/prefer-array-flat` ([1af9680](https://github.com/cherryblossom000/eslint-config/commit/1af9680453242406acb7ef848c1b79c923fe47f5))
+* add `unicorn/prefer-array-index-of` rule ([2053a8b](https://github.com/cherryblossom000/eslint-config/commit/2053a8b1f4379c839604a57b93b86e8e99cb39d3))
+* add `unicorn/prefer-node-protocol` ([d7bb5b3](https://github.com/cherryblossom000/eslint-config/commit/d7bb5b3aa07dd5cb797524c574a4044f1c4f32fc))
+* add `unicorn/prefer-regexp-test` ([cf77c33](https://github.com/cherryblossom000/eslint-config/commit/cf77c3344878f803e7b2744021f4928d901fd731))
+* add `unicorn/prefer-switch` ([a76656a](https://github.com/cherryblossom000/eslint-config/commit/a76656a14e605e5166707d2971fb99a624ead5ce))
+* support `eslint-plugin-jsdoc@32` ([3a94c6b](https://github.com/cherryblossom000/eslint-config/commit/3a94c6beca447e6ca4e57447544a67913f7460c2))
+* support `eslint-plugin-jsdoc@33` ([a073740](https://github.com/cherryblossom000/eslint-config/commit/a073740926929cc1dd3bb6a732d0808e44255835))
+* support `eslint-plugin-promise@5` ([4b92b3d](https://github.com/cherryblossom000/eslint-config/commit/4b92b3dd391b039d6273162094edc5e0e91db4ce))
+* support `eslint-plugin-unicorn@29` ([0bd1ddf](https://github.com/cherryblossom000/eslint-config/commit/0bd1ddf4b8f3c66248de49a564c1c03d8e743735))
+* support `eslint-plugin-unicorn@31` ([d51863b](https://github.com/cherryblossom000/eslint-config/commit/d51863b2ece7a7980c388f27671ce7f705cc7401))
+* **jest:** remove default project for ts and overrides for test files ([0dbb747](https://github.com/cherryblossom000/eslint-config/commit/0dbb747c813383d17a6444bef5ea7ac1b7d3fede))
+* **js:** add `unicorn/no-static-only-class` rule ([754966c](https://github.com/cherryblossom000/eslint-config/commit/754966c2b8477b566dee060d0faaaa0d968e7b0b))
+* **markdown:** use `eslint-plugin-markdown@2` ([33008e0](https://github.com/cherryblossom000/eslint-config/commit/33008e0d142ae54c6c6136bb5bfeb14c2e634589))
+* **ts:** add `@typescript-eslint/no-unsafe-argument` ([c13287e](https://github.com/cherryblossom000/eslint-config/commit/c13287e478b8dc45dca29e0eb473453f5a4d0e45))
+* **ts/jest:** add `jest/unbound-method` ([4a914af](https://github.com/cherryblossom000/eslint-config/commit/4a914afef7ea20ff427e099427d7c742ec990185))
+* make some rules errors instead of warnings ([0555400](https://github.com/cherryblossom000/eslint-config/commit/0555400e70822c45dd26a5971b3665be96d6e856))
+* support `eslint-plugin-jsdoc@31` ([2ae345d](https://github.com/cherryblossom000/eslint-config/commit/2ae345df6a90fa82ee00a03edbf9fb0905f27874))
+* support `eslint-plugin-unicorn@28` ([b82ad2e](https://github.com/cherryblossom000/eslint-config/commit/b82ad2e308ee0767a4231ece8f6c2bded7fd6405))
+
+
+### BREAKING CHANGES
+
+* **jest:** Activates more rules for more files.
+* Requires `eslint-plugin-unicorn@31`.
+* Requires `eslint-plugin-unicorn@^30`.
+* **ts:** Requires `@typescript-eslint/eslint-plugin@^4.21`.
+* **js:** Requires `eslint-plugin-unicorn@^29`.
+* **ts/jest:** Requires `eslint-plugin-jest@^24.3`.
+* **markdown:** Requires `eslint-plugin-markdown@^2`.
+* **jest:** `tsconfig.json` is no longer the default project for `ts/jest`.
+* **ts:** `tsconfig.json` isn't the default `project` for TypeScript configurations anymore.
+* Requires `eslint-plugin-jsdoc@>=31.2`.
+* Requires `eslint-plugin-jsdoc@>=31.1`.
+* Requires `eslint-plugin-unicorn@^27`.
+* Requires `eslint-plugin-unicorn@^26`.
+
 # [14.0.0-beta.6](https://github.com/cherryblossom000/eslint-config/compare/v14.0.0-beta.5...v14.0.0-beta.6) (2021-05-09)
 
 

@@ -86,6 +86,7 @@ module.exports = {
     ],
     '@typescript-eslint/no-dynamic-delete': 2,
     '@typescript-eslint/no-explicit-any': 2,
+    'unicorn/no-static-only-class': 0,
     '@typescript-eslint/no-extraneous-class': 2,
     // Covered by no-floating-promises
     'promise/catch-or-return': 0,

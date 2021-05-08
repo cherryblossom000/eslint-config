@@ -1,5 +1,23 @@
 # Changelog
 
+# [14.0.0-beta.5](https://github.com/cherryblossom000/eslint-config/compare/v14.0.0-beta.4...v14.0.0-beta.5) (2021-05-08)
+
+
+### Bug Fixes
+
+* **jest:** use TS rules for all TS files, not just `tests/**/*.test.ts` ([ec48925](https://github.com/cherryblossom000/eslint-config/commit/ec489252a213dba986c2d1ed356275037f1a47de))
+
+
+### Features
+
+* add `unicorn/prefer-module` for browser and node/esm configs ([2a14a26](https://github.com/cherryblossom000/eslint-config/commit/2a14a2649a3173621335d1fa402ec889c9d9496e))
+* **node:** split configs into `esm` and `commonjs` configs ([8f2b147](https://github.com/cherryblossom000/eslint-config/commit/8f2b147ba30fa52e79fef86bf23ecb18cc4d0b51))
+
+
+### BREAKING CHANGES
+
+* **jest:** Activates more rules for more files.
+
 # [14.0.0-beta.4](https://github.com/cherryblossom000/eslint-config/compare/v14.0.0-beta.3...v14.0.0-beta.4) (2021-05-08)
 
 

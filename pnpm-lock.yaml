@@ -13,7 +13,7 @@ specifiers:
   eslint-plugin-jsdoc: ^33.1.0
   eslint-plugin-node: ^11.1.0
   eslint-plugin-prettier: ^3.4.0
-  eslint-plugin-promise: ^4.3.1
+  eslint-plugin-promise: ^5.1.0
   eslint-plugin-unicorn: ^31.0.0
   prettier: ^2.2.1
   semantic-release: ^17.4.2
@@ -34,7 +34,7 @@ devDependencies:
   eslint-plugin-jsdoc: 33.1.0_eslint@7.26.0
   eslint-plugin-node: 11.1.0_eslint@7.26.0
   eslint-plugin-prettier: 3.4.0_eslint@7.26.0+prettier@2.2.1
-  eslint-plugin-promise: 4.3.1
+  eslint-plugin-promise: 5.1.0_eslint@7.26.0
   eslint-plugin-unicorn: 31.0.0_eslint@7.26.0
   prettier: 2.2.1
   semantic-release: 17.4.2
@@ -1632,9 +1632,13 @@ packages:
       prettier-linter-helpers: 1.0.0
     dev: true
 
-  /eslint-plugin-promise/4.3.1:
-    resolution: {integrity: sha512-bY2sGqyptzFBDLh/GMbAxfdJC+b0f23ME63FOE4+Jao0oZ3E1LEwFtWJX/1pGMJLiTtrSSern2CRM/g+dfc0eQ==}
-    engines: {node: '>=6'}
+  /eslint-plugin-promise/5.1.0_eslint@7.26.0:
+    resolution: {integrity: sha512-NGmI6BH5L12pl7ScQHbg7tvtk4wPxxj8yPHH47NvSmMtFneC077PSeY3huFj06ZWZvtbfxSPt3RuOQD5XcR4ng==}
+    engines: {node: ^10.12.0 || >=12.0.0}
+    peerDependencies:
+      eslint: ^7.0.0
+    dependencies:
+      eslint: 7.26.0
     dev: true
 
   /eslint-plugin-unicorn/31.0.0_eslint@7.26.0:

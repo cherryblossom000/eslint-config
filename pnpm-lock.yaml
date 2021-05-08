@@ -4,6 +4,7 @@ specifiers:
   '@cherryblossom/eslint-config': file:.
   '@semantic-release/changelog': ^5.0.1
   '@semantic-release/git': ^9.0.0
+  '@types/eslint': ^7.2.10
   '@typescript-eslint/parser': ^4.15.0
   commitizen: ^4.2.4
   cz-conventional-changelog: ^3.3.0
@@ -26,6 +27,7 @@ devDependencies:
   '@cherryblossom/eslint-config': 'link:'
   '@semantic-release/changelog': 5.0.1_semantic-release@17.4.2
   '@semantic-release/git': 9.0.0_semantic-release@17.4.2
+  '@types/eslint': 7.2.10
   commitizen: 4.2.4
   cz-conventional-changelog: 3.3.0
   eslint: 7.26.0
@@ -549,6 +551,21 @@ packages:
 
   /@types/color-name/1.1.1:
     resolution: {integrity: sha512-rr+OQyAjxze7GgWrSaJwydHStIhHq2lvY3BOC2Mj7KnzI7XK0Uw1TOOdI9lDoajEbSWLiYgoo4f1R51erQfhPQ==}
+    dev: true
+
+  /@types/eslint/7.2.10:
+    resolution: {integrity: sha512-kUEPnMKrqbtpCq/KTaGFFKAcz6Ethm2EjCoKIDaCmfRBWLbFuTcOJfTlorwbnboXBzahqWLgUp1BQeKHiJzPUQ==}
+    dependencies:
+      '@types/estree': 0.0.47
+      '@types/json-schema': 7.0.7
+    dev: true
+
+  /@types/estree/0.0.47:
+    resolution: {integrity: sha512-c5ciR06jK8u9BstrmJyO97m+klJrrhCf9u3rLu3DEAJBirxRqSCvDQoYKmxuYwQI5SZChAWu+tq9oVlGRuzPAg==}
+    dev: true
+
+  /@types/json-schema/7.0.7:
+    resolution: {integrity: sha512-cxWFQVseBm6O9Gbw1IWb8r6OS4OhSt3hPZLkFApLjM8TEXROBuQGLAH2i2gZpcXdLBIrpXuTDhH7Vbm1iXmNGA==}
     dev: true
 
   /@types/json5/0.0.29:

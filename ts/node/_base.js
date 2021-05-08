@@ -1,7 +1,7 @@
 'use strict'
 
 module.exports = {
-  extends: ['../js/node', '.'],
+  extends: ['../../js/node/_base', '.'],
   settings: {
     node: {
       tryExtensions: ['.js', '.json', '.ts']

@@ -1,5 +1,7 @@
 'use strict'
 
+const getPackageJson = require('eslint-plugin-node/lib/util/get-package-json')
+
 /**
  * Checks if a package is installed.
  *
@@ -17,4 +19,22 @@ module.exports.hasPackage = name => {
     if (error.code !== 'MODULE_NOT_FOUND') throw error
   }
   return hasPackage
+}
+
+/**
+ * Gets the Node.js configuration that detects whether the package is using ESM
+ * or CommonJS modules.
+ *
+ * @returns {import('@types/eslint').Linter.Config} The configuration.
+ */
+module.exports.nodeConfig = () => {
+  const packageJson = getPackageJson()
+  return {
+    extends:
+      (packageJson && packageJson.type) === 'module' ? './esm' : './commonjs',
+    overrides: [
+      {files: ['*.cjs', '.*.cjs'], extends: ['./commonjs']},
+      {files: ['*.mjs', '.*.mjs'], extends: ['./esm']}
+    ]
+  }
 }

@@ -1,11 +1,11 @@
 'use strict'
 
 module.exports = {
-  extends: ['./js/node'],
+  extends: ['../js/node/commonjs'],
   overrides: [
     {
       files: ['**/*.ts'],
-      extends: ['./ts/node']
+      extends: ['../ts/node/commonjs']
     }
   ]
 }

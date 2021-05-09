@@ -10,6 +10,7 @@ module.exports = {
   },
   rules: {
     'import/no-nodejs-modules': 2,
+    'unicorn/no-document-cookie': 2,
     'unicorn/prefer-add-event-listener': 2,
     'unicorn/prefer-dom-node-append': 2,
     'unicorn/prefer-dom-node-dataset': 2,

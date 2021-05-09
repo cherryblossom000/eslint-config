@@ -1,5 +1,26 @@
 # Changelog
 
+# [15.0.0-beta.1](https://github.com/cherryblossom000/eslint-config/compare/v14.0.1...v15.0.0-beta.1) (2021-05-09)
+
+
+### Bug Fixes
+
+* fix `ts/node` and `node` configs from crashing eslint ([67da35c](https://github.com/cherryblossom000/eslint-config/commit/67da35cb3a50d86f6fa4ef80dfedcb3d74d21193))
+
+
+### Features
+
+* add `unicorn/numeric-separators-style` for `js` configs ([3c20d87](https://github.com/cherryblossom000/eslint-config/commit/3c20d877d47a3bb291df564988da4f9baa20bd49))
+* **browser:** add `unicorn/no-document-cookie` ([12a8acb](https://github.com/cherryblossom000/eslint-config/commit/12a8acb09923e950f15eaed8a99784b3218a31d4))
+* add `unicorn/numeric-separators-style` for `js` configs ([5705f19](https://github.com/cherryblossom000/eslint-config/commit/5705f19c2ce744f8fce3f44ce1e62c0bef8ff464))
+* support `eslint-plugin-unicorn@32` ([d1a6e72](https://github.com/cherryblossom000/eslint-config/commit/d1a6e72e09f3010129a9e5773bbb3997db438657))
+
+
+### BREAKING CHANGES
+
+* **browser:** Requires `eslint-plugin-unicorn@^32`.
+* Requires Node.js v12.
+
 ## [14.0.1](https://github.com/cherryblossom000/eslint-config/compare/v14.0.0...v14.0.1) (2021-05-09)
 
 

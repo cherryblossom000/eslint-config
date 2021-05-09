@@ -1,5 +1,25 @@
 # Changelog
 
+# [14.0.0-beta.6](https://github.com/cherryblossom000/eslint-config/compare/v14.0.0-beta.5...v14.0.0-beta.6) (2021-05-09)
+
+
+### Bug Fixes
+
+* **ts:** disable `unicorn/prefer-includes` ([fb673cb](https://github.com/cherryblossom000/eslint-config/commit/fb673cba25920cd8cf55936851eecc4651fae1f1))
+
+
+### Features
+
+* **browser:** add `unicorn/no-document-cookie` ([12a8acb](https://github.com/cherryblossom000/eslint-config/commit/12a8acb09923e950f15eaed8a99784b3218a31d4))
+* support `eslint-plugin-jsdoc@31` ([8938ddf](https://github.com/cherryblossom000/eslint-config/commit/8938ddfb32322c6fed2c63d7d4df254a51dcafef))
+* support `eslint-plugin-unicorn@32` ([d1a6e72](https://github.com/cherryblossom000/eslint-config/commit/d1a6e72e09f3010129a9e5773bbb3997db438657))
+
+
+### BREAKING CHANGES
+
+* **browser:** Requires `eslint-plugin-unicorn@^32`.
+* Requires Node.js v12.
+
 # [14.0.0-beta.5](https://github.com/cherryblossom000/eslint-config/compare/v14.0.0-beta.4...v14.0.0-beta.5) (2021-05-08)
 
 

@@ -1,5 +1,12 @@
 # Changelog
 
+## [14.0.1](https://github.com/cherryblossom000/eslint-config/compare/v14.0.0...v14.0.1) (2021-05-09)
+
+
+### Bug Fixes
+
+* fix `ts/node` and `node` configs from crashing eslint ([5c47165](https://github.com/cherryblossom000/eslint-config/commit/5c47165f42d78a7aac82ce3a15e3c86bc591092f))
+
 # [14.0.0](https://github.com/cherryblossom000/eslint-config/compare/v13.0.0...v14.0.0) (2021-05-08)
 
 

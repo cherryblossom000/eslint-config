@@ -190,9 +190,6 @@ module.exports = {
     'jsdoc/require-param-type': 0,
     'jsdoc/require-returns-type': 0,
 
-    // Unicorn
-    'unicorn/numeric-separators-style': [1, {hexadecimal: {minimumDigits: 5}}],
-
     // Already checked by TS
     'array-callback-return': 0,
     'consistent-return': 0,

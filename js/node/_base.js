@@ -31,6 +31,9 @@ module.exports = {
     'node/prefer-promises/fs': 2,
 
     // Deprecated
-    'no-process-exit': 0
+    'no-process-exit': 0,
+
+    // Unicorn
+    'unicorn/prefer-node-protocol': 1
   }
 }

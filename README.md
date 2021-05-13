@@ -52,10 +52,7 @@ This does not follow semantic versioning strictly.
   - `index`
   - `browser` (import, compat)
   - `react` (import, compat, react-hooks)
-  - `node`: all of the following require import and node
-    - `index`
-    - `commonjs`
-    - `esm`
+  - `node` (import, node)
   - `jest` (jest)
 
 ## License

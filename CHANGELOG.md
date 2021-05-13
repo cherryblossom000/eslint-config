@@ -1,5 +1,12 @@
 # Changelog
 
+## [14.1.1](https://github.com/cherryblossom000/eslint-config/compare/v14.1.0...v14.1.1) (2021-05-13)
+
+
+### Bug Fixes
+
+* disable unicorn/prefer-node-protocol for TS configs ([e834e22](https://github.com/cherryblossom000/eslint-config/commit/e834e22ffa851ba60562c4ee47a58c0f5ee437d8))
+
 # [14.1.0](https://github.com/cherryblossom000/eslint-config/compare/v14.0.1...v14.1.0) (2021-05-13)
 
 

@@ -1,5 +1,18 @@
 # Changelog
 
+# [15.0.0-beta.2](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.1...v15.0.0-beta.2) (2021-05-13)
+
+
+### Bug Fixes
+
+* **ts/node:** remove ts/node/{commonjs,esm} configs ([7fa1d51](https://github.com/cherryblossom000/eslint-config/commit/7fa1d51b86005bc43b4ac6d79d806667afac2e32))
+* disable unicorn/prefer-node-protocol for TS configs ([e834e22](https://github.com/cherryblossom000/eslint-config/commit/e834e22ffa851ba60562c4ee47a58c0f5ee437d8))
+
+
+### BREAKING CHANGES
+
+* **ts/node:** Removes the `ts/node/commonjs` and `ts/node/esm` configs.
+
 # [15.0.0-beta.1](https://github.com/cherryblossom000/eslint-config/compare/v14.0.1...v15.0.0-beta.1) (2021-05-09)
 
 

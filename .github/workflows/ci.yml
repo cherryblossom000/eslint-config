@@ -5,7 +5,7 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v2.3.4
     - uses: actions/setup-node@v2.1.5
       with:
         node-version: '12'
@@ -20,11 +20,11 @@ jobs:
     if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/beta')
     needs: build
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v2.3.4
     - uses: actions/setup-node@v2.1.5
       with:
         node-version: '12'
-    - uses: crazy-max/ghaction-import-gpg@v3
+    - uses: crazy-max/ghaction-import-gpg@v3.1.0
       with:
         gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
         passphrase: ${{ secrets.GPG_PASSPHRASE }}

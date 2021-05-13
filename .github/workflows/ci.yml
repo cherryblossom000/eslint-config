@@ -5,12 +5,26 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
+
     - uses: actions/checkout@v2.3.4
     - uses: actions/setup-node@v2.1.5
       with:
         node-version: '12'
-    - name: Install
-      run: npm i -g pnpm && pnpm i
+
+    - name: Cache pnpm modules
+      uses: actions/cache@v2.1.5
+      env:
+        cache-name: cache-pnpm-modules
+      with:
+        path: ~/.pnpm-store
+        key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ matrix.node-version }}-${{ hashFiles('**/package.json') }}
+        restore-keys: ${{ runner.os }}-build-${{ env.cache-name }}-${{ matrix.node-version }}-
+
+    - uses: pnpm/action-setup@v2.0.1
+      with:
+        version: 6.3.0
+        run_install: true
+
     - name: Lint
       run: pnpm run lint
 
@@ -20,18 +34,33 @@ jobs:
     if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/beta')
     needs: build
     steps:
+
     - uses: actions/checkout@v2.3.4
     - uses: actions/setup-node@v2.1.5
       with:
         node-version: '12'
+
     - uses: crazy-max/ghaction-import-gpg@v3.1.0
       with:
         gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
         passphrase: ${{ secrets.GPG_PASSPHRASE }}
         git-user-signingkey: true
         git-commit-gpgsign: true
-    - name: Install
-      run: npm i -g pnpm && pnpm i
+
+    - name: Cache pnpm modules
+      uses: actions/cache@v2.1.5
+      env:
+        cache-name: cache-pnpm-modules
+      with:
+        path: ~/.pnpm-store
+        key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ matrix.node-version }}-${{ hashFiles('**/package.json') }}
+        restore-keys: ${{ runner.os }}-build-${{ env.cache-name }}-${{ matrix.node-version }}-
+
+    - uses: pnpm/action-setup@v2.0.1
+      with:
+        version: 6.3.0
+        run_install: true
+
     - name: Release
       run: pnpx semantic-release
       env:

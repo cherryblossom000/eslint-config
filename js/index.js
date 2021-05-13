@@ -285,7 +285,6 @@ module.exports = {
     'unicorn/prefer-includes': 2,
     'unicorn/prefer-math-trunc': 2,
     'unicorn/prefer-negative-index': 2,
-    'unicorn/prefer-node-protocol': 1,
     'unicorn/prefer-optional-catch-binding': 1,
     'unicorn/prefer-reflect-apply': 2,
     'unicorn/prefer-regexp-test': 2,

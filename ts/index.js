@@ -200,6 +200,8 @@ module.exports = {
     'promise/valid-params': 0,
 
     // Doesn't work for class fields
-    'no-invalid-this': 0
+    'no-invalid-this': 0,
+    // TypeScript can't resolve node: paths
+    'unicorn/prefer-node-protocol': 0
   }
 }

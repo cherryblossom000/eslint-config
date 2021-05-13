@@ -21,6 +21,21 @@
 * **browser:** Requires `eslint-plugin-unicorn@^32`.
 * Requires Node.js v12.
 
+
+## [14.1.1](https://github.com/cherryblossom000/eslint-config/compare/v14.1.0...v14.1.1) (2021-05-13)
+
+
+### Bug Fixes
+
+* disable unicorn/prefer-node-protocol for TS configs ([e834e22](https://github.com/cherryblossom000/eslint-config/commit/e834e22ffa851ba60562c4ee47a58c0f5ee437d8))
+
+# [14.1.0](https://github.com/cherryblossom000/eslint-config/compare/v14.0.1...v14.1.0) (2021-05-13)
+
+
+### Features
+
+* add `unicorn/numeric-separators-style` for `js` configs ([5705f19](https://github.com/cherryblossom000/eslint-config/commit/5705f19c2ce744f8fce3f44ce1e62c0bef8ff464))
+
 ## [14.0.1](https://github.com/cherryblossom000/eslint-config/compare/v14.0.0...v14.0.1) (2021-05-09)
 
 

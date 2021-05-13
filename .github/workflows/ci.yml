@@ -1,8 +1,8 @@
 name: CI
 on: [push, pull_request]
 jobs:
-  build:
-    name: Build
+  lint:
+    name: Lint
     runs-on: ubuntu-latest
     strategy:
       matrix:

@@ -278,6 +278,8 @@ module.exports = {
     'unicorn/no-zero-fractions': 1,
     'unicorn/numeric-separators-style': [1, {hexadecimal: {minimumDigits: 5}}],
     'unicorn/prefer-array-find': 2,
+    'unicorn/prefer-array-flat': 2,
+    'unicorn/prefer-array-flat-map': 2,
     'unicorn/prefer-array-index-of': 2,
     'unicorn/prefer-array-some': 2,
     'unicorn/prefer-date-now': 2,

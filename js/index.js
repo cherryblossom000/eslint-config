@@ -223,6 +223,7 @@ module.exports = {
       1,
       {matchDescription: '^([A-Z]|[`\\d_{])[\\s\\S]*[.?!`]$'}
     ],
+    'jsdoc/multiline-blocks': 0,
     'jsdoc/require-asterisk-prefix': 1,
     'jsdoc/require-description': 1,
     'jsdoc/require-description-complete-sentence': 1,

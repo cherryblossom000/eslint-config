@@ -41,7 +41,7 @@
     "eslint-plugin-html": "^6",
     "eslint-plugin-import": "^2.21",
     "eslint-plugin-jest": "^24.3",
-    "eslint-plugin-jsdoc": ">=31.2 <34",
+    "eslint-plugin-jsdoc": "^33.2",
     "eslint-plugin-markdown": "^2",
     "eslint-plugin-node": "^11.1",
     "eslint-plugin-prettier": "^3",

@@ -1,5 +1,27 @@
 # Changelog
 
+# [15.0.0-beta.3](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.2...v15.0.0-beta.3) (2021-05-30)
+
+
+### Bug Fixes
+
+* add back `unicorn/prefer-array-flat` and `unicorn/prefer-array-flat-map` ([965005e](https://github.com/cherryblossom000/eslint-config/commit/965005ebddbe06ffa63cd8b706169a7a254c985b))
+* **ts/node:** fix config ([7f664a8](https://github.com/cherryblossom000/eslint-config/commit/7f664a8544f7e7d77b07641f3fd0f7a4b1b73a13))
+
+
+### Features
+
+* add `jsdoc/require-asterisk-prefix` ([e1d9aad](https://github.com/cherryblossom000/eslint-config/commit/e1d9aadb4938495ad73260fb74d86644b4139720))
+* add `jsdoc/tag-lines` ([a623ece](https://github.com/cherryblossom000/eslint-config/commit/a623eced0b06d74bc6e66c4ab75cad13f9eb4494))
+* support `eslint-plugin-jsdoc@34` ([e095b90](https://github.com/cherryblossom000/eslint-config/commit/e095b908e722325310b91f5ac1532d1b71e9cc01))
+* support `eslint-plugin-jsdoc@35` ([087062b](https://github.com/cherryblossom000/eslint-config/commit/087062b663a195d92cedc1742d662686a182a4eb))
+
+
+### BREAKING CHANGES
+
+* Requires `eslint-plugin-jsdoc@^34.4`.
+* Requires `eslint-plugin-jsdoc@^33.2`.
+
 # [15.0.0-beta.2](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.1...v15.0.0-beta.2) (2021-05-13)
 
 

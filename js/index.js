@@ -231,6 +231,7 @@ module.exports = {
     'jsdoc/require-throws': 1,
     'jsdoc/require-yields': 1,
     'jsdoc/require-yields-check': [1, {checkGeneratorsOnly: true}],
+    'jsdoc/tag-lines': 1,
 
     // Prettier
     'prettier/prettier': [

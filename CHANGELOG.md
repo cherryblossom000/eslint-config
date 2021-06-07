@@ -1,5 +1,18 @@
 # Changelog
 
+# [15.0.0-beta.4](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.3...v15.0.0-beta.4) (2021-06-07)
+
+
+### Features
+
+* add `unicorn/prefer-prototype-methods` ([3757c39](https://github.com/cherryblossom000/eslint-config/commit/3757c39debc6c035ad161a343679d3c76245244b))
+* support `eslint-plugin-unicorn@33` ([42d36ac](https://github.com/cherryblossom000/eslint-config/commit/42d36ac56f7cf6943d5f87c08ef8fc6a5138ad47))
+
+
+### BREAKING CHANGES
+
+* Requires `eslint-plugin-unicorn@^33`.
+
 # [15.0.0-beta.3](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.2...v15.0.0-beta.3) (2021-05-30)
 
 

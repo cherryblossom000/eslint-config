@@ -291,6 +291,7 @@ module.exports = {
     'unicorn/prefer-math-trunc': 2,
     'unicorn/prefer-negative-index': 2,
     'unicorn/prefer-optional-catch-binding': 1,
+    'unicorn/prefer-prototype-methods': 2,
     'unicorn/prefer-reflect-apply': 2,
     'unicorn/prefer-regexp-test': 2,
     'unicorn/prefer-set-has': 2,

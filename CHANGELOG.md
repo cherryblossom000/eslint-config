@@ -1,5 +1,12 @@
 # Changelog
 
+# [14.3.0](https://github.com/cherryblossom000/eslint-config/compare/v14.2.0...v14.3.0) (2021-06-08)
+
+
+### Features
+
+* support `eslint-plugin-jsdoc@35` ([35853ce](https://github.com/cherryblossom000/eslint-config/commit/35853cea55dba1dfc4f8963713e139a45bf201c7))
+
 # [14.2.0](https://github.com/cherryblossom000/eslint-config/compare/v14.1.1...v14.2.0) (2021-06-07)
 
 

@@ -224,7 +224,6 @@ module.exports = {
       {matchDescription: '^([A-Z]|[`\\d_{])[\\s\\S]*[.?!`]$'}
     ],
     'jsdoc/multiline-blocks': 0,
-    'jsdoc/require-asterisk-prefix': 1,
     'jsdoc/require-description': 1,
     'jsdoc/require-description-complete-sentence': 1,
     'jsdoc/require-hyphen-before-param-description': [1, 'never'],
@@ -252,7 +251,6 @@ module.exports = {
     'promise/always-return': 0,
     'promise/catch-or-return': [2, {allowFinally: true}],
     'promise/param-names': 1,
-    'promise/prefer-await-to-then': 2,
     'promise/prefer-await-to-callbacks': 2,
     'promise/valid-params': 2,
 

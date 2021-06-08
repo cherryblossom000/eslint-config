@@ -70,6 +70,12 @@
 * Requires Node.js v12.
 
 
+## [14.3.1](https://github.com/cherryblossom000/eslint-config/compare/v14.3.0...v14.3.1) (2021-06-08)
+
+
+### Bug Fixes
+
+* disable `promise/prefer-await-to-then` ([4b86b2f](https://github.com/cherryblossom000/eslint-config/commit/4b86b2f6aa09da674f887c3e470eb789d317bea2))
 # [14.3.0](https://github.com/cherryblossom000/eslint-config/compare/v14.2.0...v14.3.0) (2021-06-08)
 
 

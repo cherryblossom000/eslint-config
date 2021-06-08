@@ -250,7 +250,6 @@ module.exports = {
     'promise/always-return': 0,
     'promise/catch-or-return': [2, {allowFinally: true}],
     'promise/param-names': 1,
-    'promise/prefer-await-to-then': 2,
     'promise/prefer-await-to-callbacks': 2,
     'promise/valid-params': 2,
 

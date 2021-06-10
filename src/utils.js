@@ -1,5 +1,7 @@
 'use strict'
 
+const getPackageJson = require('eslint-plugin-node/lib/util/get-package-json')
+
 /**
  * Checks if a package is installed.
  *
@@ -17,4 +19,14 @@ module.exports.hasPackage = name => {
     if (error.code !== 'MODULE_NOT_FOUND') throw error
   }
   return hasPackage
+}
+
+/**
+ * Checks whether this is an ESM file.
+ *
+ * @returns Whether this is an ESM file.
+ */
+module.exports.isESM = () => {
+  const packageJson = getPackageJson()
+  return (packageJson && packageJson.type) === 'module'
 }

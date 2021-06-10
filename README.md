@@ -33,7 +33,7 @@ This does not follow semantic versioning strictly.
 - `index` (@typescript-eslint)
 - `browser` (import, compat, @typescript-eslint)
 - `react` (import, compat, react-hooks, @typescript-eslint)
-- `node`: all of the following reuiqre import, node, and @typescript-eslint
+- `node`: all of the following require import, node, and @typescript-eslint
   - `index`
   - `commonjs`
   - `esm`
@@ -52,7 +52,10 @@ This does not follow semantic versioning strictly.
   - `index`
   - `browser` (import, compat)
   - `react` (import, compat, react-hooks)
-  - `node` (import, node)
+  - `node`: all of the following require import and node
+    - `index`
+    - `commonjs`
+    - `esm`
   - `jest` (jest)
 
 ## License

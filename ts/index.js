@@ -5,9 +5,9 @@ const {rules} = require('../js')
 module.exports = {
   extends: [
     '../js',
-    './_import',
     'plugin:@typescript-eslint/recommended',
-    'plugin:@typescript-eslint/recommended-requiring-type-checking'
+    'plugin:@typescript-eslint/recommended-requiring-type-checking',
+    '../_mixins/ts/import'
   ],
   env: {es2020: true},
   parser: '@typescript-eslint/parser',
@@ -96,8 +96,6 @@ module.exports = {
     '@typescript-eslint/no-misused-promises': [2, {checksVoidReturn: false}],
     '@typescript-eslint/no-namespace': [2, {allowDeclarations: true}],
     '@typescript-eslint/no-non-null-assertion': 0,
-    '@typescript-eslint/no-var-requires': 0,
-    '@typescript-eslint/no-require-imports': 2,
     'unicorn/no-this-assignment': 0,
     '@typescript-eslint/no-this-alias': 2,
     'no-throw-literal': 0,

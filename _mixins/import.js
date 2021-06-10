@@ -2,16 +2,18 @@
 
 module.exports = {
   extends: ['plugin:import/recommended'],
+  plugins: ['import', 'unicorn'],
   rules: {
     // Static Analysis
-    'node/no-missing-import': 0,
     'import/no-absolute-path': 2,
     'import/no-cycle': [2, {ignoreExternal: true}],
+    'import/no-dynamic-require': 2,
     'import/no-self-import': 2,
-    'import/no-useless-path-segments': [1, {noUselessIndex: true}],
+    'import/no-useless-path-segments': 1,
     'import/no-webpack-loader-syntax': 2,
 
     // Helpful Warnings
+    'import/no-deprecated': 1,
     'import/no-mutable-exports': 2,
     'import/no-unused-modules': [1, {unusedExports: true}],
 

@@ -3,7 +3,7 @@
 const {hasPackage} = require('../src/utils')
 
 module.exports = {
-  extends: ['.', './_import', 'plugin:compat/recommended'],
+  extends: ['.', '../_mixins/import', 'plugin:compat/recommended'],
   env: {
     es2020: true,
     browser: true

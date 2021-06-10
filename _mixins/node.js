@@ -1,18 +1,19 @@
 'use strict'
 
 module.exports = {
-  extends: ['..', 'plugin:node/recommended'],
+  extends: ['plugin:node/recommended'],
   env: {
     es2017: true,
     node: true
   },
-  plugins: ['import'],
+  plugins: ['import', 'node'],
   parserOptions: {ecmaVersion: 10},
   rules: {
     // Possible Errors
     'node/handle-callback-err': 2,
     'node/no-callback-literal': 2,
     'node/no-path-concat': 2,
+    'no-process-exit': 0,
     'node/no-process-exit': 2,
     'node/process-exit-as-throw': 2,
 
@@ -30,10 +31,11 @@ module.exports = {
     'node/prefer-promises/dns': 2,
     'node/prefer-promises/fs': 2,
 
-    // Deprecated
-    'no-process-exit': 0,
-
-    // Unicorn
+    // Import
+    'node/no-extraneous-import': 0,
+    'node/no-extraneous-require': 0,
+    'node/no-missing-import': 0,
+    'import/no-extraneous-dependencies': 2,
     'unicorn/prefer-node-protocol': 1
   }
 }

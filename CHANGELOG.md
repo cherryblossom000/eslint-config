@@ -1,5 +1,18 @@
 # Changelog
 
+# [15.0.0-beta.5](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.4...v15.0.0-beta.5) (2021-06-08)
+
+
+### Bug Fixes
+
+* disable `promise/prefer-await-to-then` ([4b86b2f](https://github.com/cherryblossom000/eslint-config/commit/4b86b2f6aa09da674f887c3e470eb789d317bea2))
+
+
+### Features
+
+* support `eslint-plugin-jsdoc@35` ([35853ce](https://github.com/cherryblossom000/eslint-config/commit/35853cea55dba1dfc4f8963713e139a45bf201c7))
+* support `eslint-plugin-unicorn@32` and `eslint-plugin-unicorn@33` ([e9f59ff](https://github.com/cherryblossom000/eslint-config/commit/e9f59ffa8f1ca520f9640eef1ad42bf66f54fb3c))
+
 # [15.0.0-beta.4](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.3...v15.0.0-beta.4) (2021-06-07)
 
 

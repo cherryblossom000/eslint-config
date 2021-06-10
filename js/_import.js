@@ -15,9 +15,6 @@ module.exports = {
     'import/no-mutable-exports': 2,
     'import/no-unused-modules': [1, {unusedExports: true}],
 
-    // Module Systems
-    'import/unambiguous': 2,
-
     // Style Guide
     'import/first': 1,
     'import/no-duplicates': 1,

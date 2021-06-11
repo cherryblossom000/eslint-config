@@ -1,5 +1,22 @@
 # Changelog
 
+# [15.0.0-beta.6](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.5...v15.0.0-beta.6) (2021-06-11)
+
+
+### Bug Fixes
+
+* remove the `import/unambiguous` rule ([b7f536a](https://github.com/cherryblossom000/eslint-config/commit/b7f536aa65c74414db2690fae844d0e9e96b241f))
+
+
+### Features
+
+* add `ts/node/{esm,commonjs}` configs ([5f06683](https://github.com/cherryblossom000/eslint-config/commit/5f066837b75aeb5c4b3dd5d2142545cb5f08f38b))
+
+
+### BREAKING CHANGES
+
+* Behaviour of `ts/node` is different.
+
 # [15.0.0-beta.5](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.4...v15.0.0-beta.5) (2021-06-08)
 
 

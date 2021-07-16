@@ -1,5 +1,12 @@
 # Changelog
 
+## [14.3.2](https://github.com/cherryblossom000/eslint-config/compare/v14.3.1...v14.3.2) (2021-07-16)
+
+
+### Bug Fixes
+
+* fix node engine version ([a9a4d9a](https://github.com/cherryblossom000/eslint-config/commit/a9a4d9abad3b108de247fd1e473c7c67154baa8c))
+
 ## [14.3.1](https://github.com/cherryblossom000/eslint-config/compare/v14.3.0...v14.3.1) (2021-06-08)
 
 

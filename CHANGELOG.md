@@ -1,5 +1,13 @@
 # Changelog
 
+# [14.4.0](https://github.com/cherryblossom000/eslint-config/compare/v14.3.2...v14.4.0) (2021-07-16)
+
+
+### Features
+
+* enable `unicorn/prefer-ternary` ([bab85fb](https://github.com/cherryblossom000/eslint-config/commit/bab85fb364658df808b6c7435e95200fb53ed356))
+* enable `unicorn/throw-new-error` ([baf6e41](https://github.com/cherryblossom000/eslint-config/commit/baf6e41715413120ba17bf42e3800e3e47e25329))
+
 ## [14.3.2](https://github.com/cherryblossom000/eslint-config/compare/v14.3.1...v14.3.2) (2021-07-16)
 
 

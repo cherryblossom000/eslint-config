@@ -19,7 +19,8 @@ module.exports = {
     'unicorn/prefer-keyboard-event-key': 2,
     'unicorn/prefer-modern-dom-apis': 2,
     // TODO: remove when replaceAll gets into Node (when it will be in the base config)
-    'unicorn/prefer-string-replace-all': 2
+    'unicorn/prefer-string-replace-all': 2,
+    'unicorn/require-post-message-target-origin': 2
   },
   ...(hasPackage('eslint-plugin-html')
     ? {

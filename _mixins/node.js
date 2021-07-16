@@ -7,7 +7,7 @@ module.exports = {
     node: true
   },
   plugins: ['import', 'node'],
-  parserOptions: {ecmaVersion: 10},
+  parserOptions: {ecmaVersion: 2019},
   rules: {
     // Possible Errors
     'node/handle-callback-err': 2,

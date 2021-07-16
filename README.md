@@ -63,6 +63,13 @@ This does not follow semantic versioning strictly.
     - `esm`
   - `jest` (jest)
 
+There are some additional configs that are meant to be used in conjunction with
+another one:
+
+- `node/12`: Node.js 12
+- `node/14`: Node.js 14
+- `node/16`: Node.js 16
+
 ## License
 
 [MIT](LICENSE) © 2020–2021 cherryblossom000

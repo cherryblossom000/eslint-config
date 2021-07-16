@@ -295,8 +295,6 @@ module.exports = {
     'unicorn/prefer-regexp-test': 2,
     'unicorn/prefer-set-has': 2,
     'unicorn/prefer-spread': 1,
-    // TODO: uncomment when replaceAll gets into Node
-    // 'unicorn/prefer-string-replace-all': 2,
     'unicorn/prefer-string-slice': 2,
     'unicorn/prefer-string-starts-ends-with': 2,
     'unicorn/prefer-string-trim-start-end': 1,

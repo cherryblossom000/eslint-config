@@ -30,6 +30,7 @@ module.exports = {
     ],
     'import/prefer-default-export': 1,
 
-    'unicorn/prefer-module': 2
+    'unicorn/prefer-module': 2,
+    'unicorn/prefer-top-level-await': 2
   }
 }

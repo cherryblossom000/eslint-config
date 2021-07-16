@@ -3,9 +3,14 @@
 const {hasPackage} = require('../src/utils')
 
 module.exports = {
-  extends: ['.', '../_mixins/import', 'plugin:compat/recommended'],
+  extends: [
+    '.',
+    '../_mixins/import',
+    '../_mixins/es/2021',
+    'plugin:compat/recommended'
+  ],
   env: {
-    es2020: true,
+    es2021: true,
     browser: true
   },
   rules: {
@@ -18,8 +23,6 @@ module.exports = {
     'unicorn/prefer-dom-node-remove': 2,
     'unicorn/prefer-keyboard-event-key': 2,
     'unicorn/prefer-modern-dom-apis': 2,
-    // TODO: remove when replaceAll gets into Node (when it will be in the base config)
-    'unicorn/prefer-string-replace-all': 2,
     'unicorn/require-post-message-target-origin': 2
   },
   ...(hasPackage('eslint-plugin-html')

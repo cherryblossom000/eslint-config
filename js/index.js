@@ -300,6 +300,7 @@ module.exports = {
     'unicorn/prefer-string-trim-start-end': 1,
     'unicorn/prefer-switch': [1, {emptyDefaultCase: 'no-default-case'}],
     'unicorn/prefer-ternary': 2,
-    'unicorn/prefer-type-error': 2
+    'unicorn/prefer-type-error': 2,
+    'unicorn/throw-new-error': 1
   }
 }

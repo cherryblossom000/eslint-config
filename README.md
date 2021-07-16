@@ -4,6 +4,11 @@
 
 @cherryblossom000’s ESLint configuration.
 
+## ⚠️ Warning
+
+This isn't intended for anyone else except for me. Things ~~may~~ *will* break
+frequently.
+
 ## Versioning
 
 This does not follow semantic versioning strictly.

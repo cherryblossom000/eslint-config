@@ -298,6 +298,7 @@ module.exports = {
     'unicorn/prefer-string-starts-ends-with': 2,
     'unicorn/prefer-string-trim-start-end': 1,
     'unicorn/prefer-switch': [1, {emptyDefaultCase: 'no-default-case'}],
+    'unicorn/prefer-ternary': 2,
     'unicorn/prefer-type-error': 2
   }
 }

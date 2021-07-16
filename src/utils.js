@@ -24,7 +24,7 @@ module.exports.hasPackage = name => {
 /**
  * Checks whether this is an ESM file.
  *
- * @returns Whether this is an ESM file.
+ * @returns {boolean} Whether this is an ESM file.
  */
 module.exports.isESM = () => {
   const packageJson = getPackageJson()

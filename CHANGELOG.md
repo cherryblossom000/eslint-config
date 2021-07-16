@@ -1,5 +1,12 @@
 # Changelog
 
+# [15.0.0-beta.7](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.6...v15.0.0-beta.7) (2021-07-16)
+
+
+### Bug Fixes
+
+* **js/node:** extend base config ([6969c56](https://github.com/cherryblossom000/eslint-config/commit/6969c566433d5c5535883064189fefb7af34b54d))
+
 # [15.0.0-beta.6](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.5...v15.0.0-beta.6) (2021-06-11)
 
 

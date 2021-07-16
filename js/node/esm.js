@@ -2,6 +2,7 @@
 
 module.exports = {
   extends: [
+    '..',
     '../../_mixins/node',
     '../../_mixins/esm',
     'plugin:node/recommended-module'

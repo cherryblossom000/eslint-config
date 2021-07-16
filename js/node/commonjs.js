@@ -1,7 +1,7 @@
 'use strict'
 
 module.exports = {
-  extends: ['plugin:node/recommended-script', '../../_mixins/node'],
+  extends: ['..', 'plugin:node/recommended-script', '../../_mixins/node'],
   rules: {
     // Node
     'node/global-require': 2,

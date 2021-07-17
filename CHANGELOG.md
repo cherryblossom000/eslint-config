@@ -1,5 +1,23 @@
 # Changelog
 
+# [15.0.0-beta.8](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.7...v15.0.0-beta.8) (2021-07-17)
+
+
+### Features
+
+* enable `unicorn/prefer-ternary` ([feb7c78](https://github.com/cherryblossom000/eslint-config/commit/feb7c7837f3528c40d72f3b4a7c27c9a63bdea43))
+* enable `unicorn/throw-new-error` ([47eea4e](https://github.com/cherryblossom000/eslint-config/commit/47eea4e6f30ef7adc7728b61591eb4967cd64ddd))
+* **browser:** enable `unicorn/require-post-message-target-origin` ([ccf453b](https://github.com/cherryblossom000/eslint-config/commit/ccf453ba713d9f5952a96672870c7c68fcdc8de3))
+* **import,node:** enable `unicorn/prefer-top-level-await` ([b790798](https://github.com/cherryblossom000/eslint-config/commit/b790798dc7cfdb2153e280c5eb728eaf9f331d36))
+* enable `unicorn/no-array-method-this-argument` ([46ffce3](https://github.com/cherryblossom000/eslint-config/commit/46ffce3c8aaac1340cec68f587e4aabf2180b5c2))
+
+
+### BREAKING CHANGES
+
+* **import,node:** For Node.js 12 usage with the `esm` configs, you might need to extend `node/12` to
+disable `unicorn/prefer-top-level-await`.
+* Requires `eslint-plugin-unicorn@^34`.
+
 # [15.0.0-beta.7](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.6...v15.0.0-beta.7) (2021-07-16)
 
 

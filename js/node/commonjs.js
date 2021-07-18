@@ -12,6 +12,8 @@ module.exports = {
     'import/no-useless-path-segments': [
       1,
       {noUselessIndex: true, commonjs: true}
-    ]
+    ],
+
+    'unicorn/prefer-module': 0
   }
 }

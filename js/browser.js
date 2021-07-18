@@ -5,7 +5,7 @@ const {hasPackage} = require('../src/utils')
 module.exports = {
   extends: [
     '.',
-    '../_mixins/import',
+    '../_mixins/esm',
     '../_mixins/es/2021',
     'plugin:compat/recommended'
   ],
@@ -15,6 +15,12 @@ module.exports = {
   },
   rules: {
     'import/no-nodejs-modules': 2,
+    'import/no-unused-modules': [
+      1,
+      // In _mixins/esm missingExports is true
+      {missingExports: false, unusedExports: true}
+    ],
+
     'unicorn/no-document-cookie': 2,
     'unicorn/prefer-add-event-listener': 2,
     'unicorn/prefer-dom-node-append': 2,

@@ -1,5 +1,14 @@
 # Changelog
 
+# [15.0.0-beta.10](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.9...v15.0.0-beta.10) (2021-07-18)
+
+
+### Bug Fixes
+
+* **browser:** stop reporting missing exports ([cdaebef](https://github.com/cherryblossom000/eslint-config/commit/cdaebefd30b8e477ac6ce65b64d252cde0efe3b0))
+* **node/commonjs:** disable `unicorn/prefer-module` ([725666c](https://github.com/cherryblossom000/eslint-config/commit/725666c76f52bde1a830e4ace359b1be80951f48))
+* **ts:** disable `unicorn/prefer-module` for non-`esm` configs ([0286e21](https://github.com/cherryblossom000/eslint-config/commit/0286e211ac65130428ade101100e3e4e0a3b31ed))
+
 # [15.0.0-beta.9](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.8...v15.0.0-beta.9) (2021-07-18)
 
 

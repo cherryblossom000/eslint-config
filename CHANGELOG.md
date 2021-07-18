@@ -1,5 +1,12 @@
 # Changelog
 
+# [15.0.0-beta.9](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.8...v15.0.0-beta.9) (2021-07-18)
+
+
+### Bug Fixes
+
+* fix `node/12` config ([5f089fa](https://github.com/cherryblossom000/eslint-config/commit/5f089fa729693b70ad19a4d879f84184a9889f65))
+
 # [15.0.0-beta.8](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.7...v15.0.0-beta.8) (2021-07-17)
 
 

@@ -1,5 +1,5 @@
 'use strict'
 
 module.exports = {
-  env: {2020: true}
+  env: {es2020: true}
 }

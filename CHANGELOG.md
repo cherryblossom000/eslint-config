@@ -1,5 +1,12 @@
 # Changelog
 
+## [14.5.1](https://github.com/cherryblossom000/eslint-config/compare/v14.5.0...v14.5.1) (2021-07-29)
+
+
+### Bug Fixes
+
+* allow css files in `import/no-unassigned-import` ([80a5f68](https://github.com/cherryblossom000/eslint-config/commit/80a5f68a50b5aaa0a7939365e93aaf3c53a3e8d8))
+
 # [14.5.0](https://github.com/cherryblossom000/eslint-config/compare/v14.4.0...v14.5.0) (2021-07-17)
 
 

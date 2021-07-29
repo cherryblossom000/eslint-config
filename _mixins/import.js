@@ -23,7 +23,10 @@ module.exports = {
     'import/extensions': 1,
     'import/max-dependencies': 1,
     'import/no-named-default': 1,
-    'import/no-unassigned-import': [1, {allow: ['reflect-metadata']}],
+    'import/no-unassigned-import': [
+      1,
+      {allow: ['reflect-metadata', '**/*.css']}
+    ],
     'import/order': [
       1,
       {'newlines-between': 'never', alphabetize: {order: 'asc'}}

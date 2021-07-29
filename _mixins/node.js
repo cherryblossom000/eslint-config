@@ -8,6 +8,9 @@ module.exports = {
   },
   plugins: ['import', 'node'],
   parserOptions: {ecmaVersion: 2019},
+  settings: {
+    'import/resolver': 'node'
+  },
   rules: {
     // Possible Errors
     'node/handle-callback-err': 2,
@@ -35,7 +38,6 @@ module.exports = {
     'node/no-extraneous-import': 0,
     'node/no-extraneous-require': 0,
     'node/no-missing-import': 0,
-    'import/no-extraneous-dependencies': 2,
-    'unicorn/prefer-node-protocol': 1
+    'import/no-extraneous-dependencies': 2
   }
 }

@@ -2,5 +2,9 @@
 
 module.exports = {
   extends: '../_mixins/es/2021',
-  env: {es2021: true}
+  env: {es2021: true},
+  parserOptions: {ecmaVersion: 2021},
+  rules: {
+    'unicorn/prefer-node-protocol': 1
+  }
 }

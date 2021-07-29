@@ -1,5 +1,13 @@
 # Changelog
 
+# [15.0.0-beta.12](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.11...v15.0.0-beta.12) (2021-07-29)
+
+
+### Bug Fixes
+
+* allow css files in `import/no-unassigned-import` ([1cd5396](https://github.com/cherryblossom000/eslint-config/commit/1cd53960b9ed1b4aa05eccf379628e0552bf0c0a))
+* fix some issues with node configs ([dcf7fa1](https://github.com/cherryblossom000/eslint-config/commit/dcf7fa109774d1fb21aebfab8d20528da086375a))
+
 # [15.0.0-beta.11](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.10...v15.0.0-beta.11) (2021-07-20)
 
 

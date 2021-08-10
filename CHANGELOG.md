@@ -1,5 +1,21 @@
 # Changelog
 
+# [15.0.0-beta.13](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.12...v15.0.0-beta.13) (2021-08-10)
+
+
+### Features
+
+* enable rules introduced in `eslint-plugin-unicorn@35` ([1020dda](https://github.com/cherryblossom000/eslint-config/commit/1020ddaf527f6d56eb17c8f9c091540fb4b6bd88))
+* **jest:** enable `jest/max-nested-describe` ([66feb2c](https://github.com/cherryblossom000/eslint-config/commit/66feb2c04e67fbc1f8aa392dee56df7ba2bf7730))
+* support `eslint-plugin-jsdoc@36` ([9780a5d](https://github.com/cherryblossom000/eslint-config/commit/9780a5dc92eb90e76872c1146739af9a21627a80))
+* support `eslint-plugin-unicorn@35` ([b0cf25d](https://github.com/cherryblossom000/eslint-config/commit/b0cf25d7e63b054c10e0e8de6b25a78540e03953))
+
+
+### BREAKING CHANGES
+
+* Requires `eslint-plugin-unicorn@^35`.
+* **jest:** Requires `eslint-plugin-jest@^24.4`.
+
 # [15.0.0-beta.12](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.11...v15.0.0-beta.12) (2021-07-29)
 
 

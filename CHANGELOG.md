@@ -1,5 +1,20 @@
 # Changelog
 
+# [15.0.0-beta.14](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.13...v15.0.0-beta.14) (2021-08-28)
+
+
+### Features
+
+* **ts:** disable `@typescript-eslint/no-implicit-any-catch` ([7f0fd1c](https://github.com/cherryblossom000/eslint-config/commit/7f0fd1ce1cc922556678fa6cc2835bebe38acbf3))
+* disable `import/prefer-default-export` ([95fb51e](https://github.com/cherryblossom000/eslint-config/commit/95fb51e5b3beea7517058991a2ebe642933c88a8))
+* ignore type imports for `import/max-dependencies` ([26238b6](https://github.com/cherryblossom000/eslint-config/commit/26238b68e1cb503ebf7e181a476197400e2e840a))
+
+
+### BREAKING CHANGES
+
+* **ts:** Intended to be used for TypeScript v4.4+.
+* Requires `eslint-plugin-import^@2.24`.
+
 # [15.0.0-beta.13](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.12...v15.0.0-beta.13) (2021-08-10)
 
 

@@ -21,7 +21,7 @@ module.exports = {
     'import/first': 1,
     'import/no-duplicates': 1,
     'import/extensions': 1,
-    'import/max-dependencies': 1,
+    'import/max-dependencies': [1, {ignoreTypeImports: true}],
     'import/no-named-default': 1,
     'import/no-unassigned-import': [
       1,

@@ -16,8 +16,7 @@ module.exports = {
     {
       files: ['**/*.d.ts'],
       rules: {
-        'import/no-unused-modules': 0,
-        'import/prefer-default-export': 0
+        'import/no-unused-modules': 0
       }
     }
   ],

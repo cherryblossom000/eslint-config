@@ -31,7 +31,6 @@ module.exports = {
       1,
       {'newlines-between': 'never', alphabetize: {order: 'asc'}}
     ],
-    'import/prefer-default-export': 1,
 
     'unicorn/prefer-top-level-await': 2
   }

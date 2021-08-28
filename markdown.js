@@ -35,8 +35,7 @@ module.exports = {
               'import/namespace': 0,
               'import/no-extraneous-dependencies': 0,
               'import/no-unresolved': 0,
-              'import/no-unused-modules': 0,
-              'import/prefer-default-export': 0
+              'import/no-unused-modules': 0
             }
           : {}),
         ...(hasPackage('eslint-plugin-node')

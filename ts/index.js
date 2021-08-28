@@ -90,7 +90,6 @@ module.exports = {
     // Covered by no-floating-promises
     'promise/catch-or-return': 0,
     'no-implied-eval': 0,
-    '@typescript-eslint/no-implicit-any-catch': 2,
     '@typescript-eslint/no-inferrable-types': 2,
     '@typescript-eslint/no-misused-promises': [2, {checksVoidReturn: false}],
     '@typescript-eslint/no-namespace': [2, {allowDeclarations: true}],

@@ -6,18 +6,6 @@
 ### Bug Fixes
 
 * add `prettier` as a peer dependency ([aebfbbe](https://github.com/cherryblossom000/eslint-config/commit/aebfbbe3d632e02503a673b556cc2d62ffd165ee))
-* allow css files in `import/no-unassigned-import` ([80a5f68](https://github.com/cherryblossom000/eslint-config/commit/80a5f68a50b5aaa0a7939365e93aaf3c53a3e8d8))
-* fix node engine version ([a9a4d9a](https://github.com/cherryblossom000/eslint-config/commit/a9a4d9abad3b108de247fd1e473c7c67154baa8c))
-
-
-### Features
-
-* enable `unicorn/prefer-ternary` ([bab85fb](https://github.com/cherryblossom000/eslint-config/commit/bab85fb364658df808b6c7435e95200fb53ed356))
-* enable `unicorn/throw-new-error` ([baf6e41](https://github.com/cherryblossom000/eslint-config/commit/baf6e41715413120ba17bf42e3800e3e47e25329))
-* support `eslint-plugin-jsdoc@36` ([9b96c8c](https://github.com/cherryblossom000/eslint-config/commit/9b96c8c5bb63082c9601387902750e00315a3f06))
-* support `eslint-plugin-prettier@4` ([492da2b](https://github.com/cherryblossom000/eslint-config/commit/492da2b4cbb296767edb9cfb57cf70169ab78261))
-* support `eslint-plugin-unicorn@34` ([1d5473b](https://github.com/cherryblossom000/eslint-config/commit/1d5473b597c5e0a73c25d7ce2f08457ba21448bb))
-* support `eslint-plugin-unicorn@35` ([554fd72](https://github.com/cherryblossom000/eslint-config/commit/554fd727fa2ec03db13714d815aeb90008390052))
 
 
 ### BREAKING CHANGES

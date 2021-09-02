@@ -1,5 +1,12 @@
 # Changelog
 
+# [14.7.0](https://github.com/cherryblossom000/eslint-config/compare/v14.6.0...v14.7.0) (2021-09-02)
+
+
+### Features
+
+* support `eslint-plugin-prettier@4` ([492da2b](https://github.com/cherryblossom000/eslint-config/commit/492da2b4cbb296767edb9cfb57cf70169ab78261))
+
 # [14.6.0](https://github.com/cherryblossom000/eslint-config/compare/v14.5.1...v14.6.0) (2021-08-10)
 
 

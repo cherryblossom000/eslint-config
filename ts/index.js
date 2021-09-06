@@ -49,33 +49,51 @@ module.exports = {
       {
         selector: 'default',
         format: ['camelCase'],
-        leadingUnderscore: 'allow',
+        leadingUnderscore: 'forbid',
         trailingUnderscore: 'allow'
+      },
+      {
+        selector: 'variableLike',
+        modifiers: ['unused'],
+        filter: '^_+$',
+        format: null
+      },
+      {
+        selector: 'variableLike',
+        modifiers: ['unused'],
+        format: ['camelCase'],
+        leadingUnderscore: 'require',
+        trailingUnderscore: 'forbid'
       },
       {
         selector: 'variable',
         modifiers: ['const'],
         format: ['camelCase', 'UPPER_CASE'],
-        leadingUnderscore: 'allow',
+        leadingUnderscore: 'forbid',
         trailingUnderscore: 'allow'
       },
       {
         selector: 'property',
+        modifiers: ['requiresQuotes'],
+        format: null
+      },
+      {
+        selector: 'property',
         format: ['camelCase', 'UPPER_CASE'],
-        leadingUnderscore: 'allow',
-        trailingUnderscore: 'allow'
+        leadingUnderscore: 'allowSingleOrDouble', // _id, __typename, etc.
+        trailingUnderscore: 'forbid'
       },
       {
         selector: 'typeLike',
         format: ['PascalCase'],
-        leadingUnderscore: 'allow',
-        trailingUnderscore: 'allow'
+        leadingUnderscore: 'forbid',
+        trailingUnderscore: 'forbid'
       },
       {
         selector: 'enumMember',
         format: ['UPPER_CASE', 'PascalCase'],
-        leadingUnderscore: 'allow',
-        trailingUnderscore: 'allow'
+        leadingUnderscore: 'forbid',
+        trailingUnderscore: 'forbid'
       }
     ],
     '@typescript-eslint/no-base-to-string': 2,

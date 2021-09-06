@@ -1,5 +1,18 @@
 # Changelog
 
+# [15.0.0-beta.16](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.15...v15.0.0-beta.16) (2021-09-06)
+
+
+### Features
+
+* **ts:** change `@typescript-eslint/naming-convention` config ([2837171](https://github.com/cherryblossom000/eslint-config/commit/28371718efb4a124e1ca8fe6437359cd4dc0430b))
+
+
+### BREAKING CHANGES
+
+* **ts:** Leading and trailing underscores are mostly forbidden, except for unused variables
+where leading underscores are required.
+
 # [15.0.0-beta.15](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.14...v15.0.0-beta.15) (2021-09-02)
 
 

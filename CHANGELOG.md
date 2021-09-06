@@ -1,5 +1,12 @@
 # Changelog
 
+# [15.0.0-beta.17](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.16...v15.0.0-beta.17) (2021-09-06)
+
+
+### Features
+
+* **ts:** allow `object` ([b83cb79](https://github.com/cherryblossom000/eslint-config/commit/b83cb794864f15f07278921cb12e2ef487fc394a))
+
 # [15.0.0-beta.16](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.15...v15.0.0-beta.16) (2021-09-06)
 
 

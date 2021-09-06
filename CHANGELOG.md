@@ -1,5 +1,12 @@
 # Changelog
 
+# [14.8.0](https://github.com/cherryblossom000/eslint-config/compare/v14.7.0...v14.8.0) (2021-09-06)
+
+
+### Features
+
+* **ts:** allow `object` ([b83cb79](https://github.com/cherryblossom000/eslint-config/commit/b83cb794864f15f07278921cb12e2ef487fc394a))
+
 # [14.7.0](https://github.com/cherryblossom000/eslint-config/compare/v14.6.0...v14.7.0) (2021-09-02)
 
 

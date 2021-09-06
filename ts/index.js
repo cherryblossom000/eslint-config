@@ -31,7 +31,53 @@ module.exports = {
         'ts-nocheck': 'allow-with-description'
       }
     ],
-    '@typescript-eslint/ban-types': 2,
+    '@typescript-eslint/ban-types': [
+      2,
+      // defaults except object
+      // https://github.com/typescript-eslint/typescript-eslint/blob/v4.30.0/packages/eslint-plugin/src/rules/ban-types.ts#L56-L105
+      {
+        String: {
+          message: 'Use string instead',
+          fixWith: 'string'
+        },
+        Boolean: {
+          message: 'Use boolean instead',
+          fixWith: 'boolean'
+        },
+        Number: {
+          message: 'Use number instead',
+          fixWith: 'number'
+        },
+        Symbol: {
+          message: 'Use symbol instead',
+          fixWith: 'symbol'
+        },
+        Function: {
+          message: [
+            'The `Function` type accepts any function-like value.',
+            'It provides no type safety when calling the function, which can be a common source of bugs.',
+            'It also accepts things like class declarations, which will throw at runtime as they will not be called with `new`.',
+            'If you are expecting the function to accept certain arguments, you should explicitly define the function shape.'
+          ].join('\n')
+        },
+
+        Object: {
+          message: [
+            'The `Object` type actually means "any non-nullish value", so it is marginally better than `unknown`.',
+            '- If you want a type meaning "any object", you probably want `Record<string, unknown>` instead.',
+            '- If you want a type meaning "any value", you probably want `unknown` instead.'
+          ].join('\n')
+        },
+        '{}': {
+          message: [
+            '`{}` actually means "any non-nullish value".',
+            '- If you want a type meaning "any object", you probably want `Record<string, unknown>` instead.',
+            '- If you want a type meaning "any value", you probably want `unknown` instead.',
+            '- If you want a type meaning "empty object", you probably want `Record<string, never>` instead.'
+          ].join('\n')
+        }
+      }
+    ],
     '@typescript-eslint/class-literal-property-style': 2,
     '@typescript-eslint/consistent-indexed-object-style': 1,
     '@typescript-eslint/consistent-type-assertions': 2,

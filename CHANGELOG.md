@@ -1,5 +1,12 @@
 # Changelog
 
+# [15.0.0-beta.22](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.21...v15.0.0-beta.22) (2021-09-14)
+
+
+### Bug Fixes
+
+* **node:** fix commonjs and esm configs for ts files ([345d04d](https://github.com/cherryblossom000/eslint-config/commit/345d04de42d4f41e46ebb9ce3e4df9b05bb2bb13))
+
 # [15.0.0-beta.21](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.20...v15.0.0-beta.21) (2021-09-14)
 
 

@@ -1,5 +1,19 @@
 # Changelog
 
+# [15.0.0-beta.18](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.17...v15.0.0-beta.18) (2021-09-14)
+
+
+### Features
+
+* **browser:** enable `unicorn/no-invalid-remove-event-listener` ([ffaae63](https://github.com/cherryblossom000/eslint-config/commit/ffaae632e802d593c312649798532d4b0e707e37))
+* enable `unicorn/no-useless-fallback-in-spread` ([877e6f6](https://github.com/cherryblossom000/eslint-config/commit/877e6f6ead17564bfaf3eb5cb608dd9af480be07))
+* support `eslint-plugin-unicorn@36` ([aae46ec](https://github.com/cherryblossom000/eslint-config/commit/aae46ece26b161db22f60f87d8b5631beff58501))
+
+
+### BREAKING CHANGES
+
+* Requires `eslint-plugin-unicorn@36`.
+
 # [15.0.0-beta.17](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.16...v15.0.0-beta.17) (2021-09-06)
 
 

@@ -22,6 +22,7 @@ module.exports = {
     ],
 
     'unicorn/no-document-cookie': 2,
+    'unicorn/no-invalid-remove-event-listener': 2,
     'unicorn/prefer-add-event-listener': 2,
     'unicorn/prefer-dom-node-append': 2,
     'unicorn/prefer-dom-node-dataset': 2,

@@ -102,19 +102,28 @@ module.exports = {
         leadingUnderscore: 'forbid',
         trailingUnderscore: 'allow'
       },
-      {
-        selector: 'variableLike',
-        modifiers: ['unused'],
-        filter: '^_+$',
-        format: null
-      },
-      {
-        selector: 'variableLike',
-        modifiers: ['unused'],
-        format: ['camelCase'],
-        leadingUnderscore: 'require',
-        trailingUnderscore: 'forbid'
-      },
+      ...[['const'], []].flatMap(modifiers => [
+        {
+          selector: ['variable', 'parameter'],
+          modifiers: ['destructured', ...modifiers],
+          format: null
+        },
+        // don't change to variableLike so these have higher precedence over the
+        // const selector
+        {
+          selector: ['variable', 'parameter'],
+          modifiers: ['unused', ...modifiers],
+          filter: '^_+$',
+          format: null
+        },
+        {
+          selector: ['variable', 'parameter'],
+          modifiers: ['unused', ...modifiers],
+          format: ['camelCase'],
+          leadingUnderscore: 'require',
+          trailingUnderscore: 'forbid'
+        }
+      ]),
       {
         selector: 'variable',
         modifiers: ['const'],

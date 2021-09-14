@@ -1,5 +1,12 @@
 # Changelog
 
+# [15.0.0-beta.21](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.20...v15.0.0-beta.21) (2021-09-14)
+
+
+### Bug Fixes
+
+* **ts:** ignore destructured variables and parameters ([7567a02](https://github.com/cherryblossom000/eslint-config/commit/7567a025b75ed199909a2e6cee5517da1d9e787e))
+
 # [15.0.0-beta.20](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.19...v15.0.0-beta.20) (2021-09-14)
 
 

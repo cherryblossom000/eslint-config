@@ -1,5 +1,12 @@
 # Changelog
 
+# [15.0.0-beta.20](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.19...v15.0.0-beta.20) (2021-09-14)
+
+
+### Features
+
+* **ts:** disable `@typescript-eslint/naming-convention` for declaration files ([3942881](https://github.com/cherryblossom000/eslint-config/commit/39428819ccbc280436653efb5cf0b7f0ad2e80bc))
+
 # [15.0.0-beta.19](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.18...v15.0.0-beta.19) (2021-09-14)
 
 

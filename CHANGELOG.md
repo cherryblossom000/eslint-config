@@ -1,5 +1,12 @@
 # Changelog
 
+## [14.9.1](https://github.com/cherryblossom000/eslint-config/compare/v14.9.0...v14.9.1) (2021-09-14)
+
+
+### Bug Fixes
+
+* **ts:** fix config for `@typescript-eslint/ban-types` ([758f3cf](https://github.com/cherryblossom000/eslint-config/commit/758f3cfcfa76544e38ee7c3a6956a26ed0518970))
+
 # [14.9.0](https://github.com/cherryblossom000/eslint-config/compare/v14.8.0...v14.9.0) (2021-09-14)
 
 

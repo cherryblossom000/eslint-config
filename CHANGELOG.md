@@ -1,5 +1,12 @@
 # Changelog
 
+# [15.0.0-beta.19](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.18...v15.0.0-beta.19) (2021-09-14)
+
+
+### Bug Fixes
+
+* **ts:** fix config for `@typescript-eslint/ban-types` ([758f3cf](https://github.com/cherryblossom000/eslint-config/commit/758f3cfcfa76544e38ee7c3a6956a26ed0518970))
+
 # [15.0.0-beta.18](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.17...v15.0.0-beta.18) (2021-09-14)
 
 

@@ -19,6 +19,7 @@ module.exports = {
     'jest/prefer-spy-on': 2,
     'jest/prefer-to-be': 1,
     'jest/prefer-todo': 1,
+    'jest/require-hook': 2,
     'jest/require-to-throw-message': 2,
     'jest/require-top-level-describe': 1,
     'jest/valid-expect': [2, {alwaysAwait: true}],

@@ -170,6 +170,7 @@ module.exports = {
     '@typescript-eslint/no-inferrable-types': 2,
     '@typescript-eslint/no-misused-promises': [2, {checksVoidReturn: false}],
     '@typescript-eslint/no-namespace': [2, {allowDeclarations: true}],
+    '@typescript-eslint/no-non-null-asserted-nullish-coalescing': 2,
     '@typescript-eslint/no-non-null-assertion': 0,
     'unicorn/no-this-assignment': 0,
     '@typescript-eslint/no-this-alias': 2,

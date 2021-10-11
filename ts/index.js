@@ -237,7 +237,7 @@ module.exports = {
     'no-loop-func': 0,
     '@typescript-eslint/no-loop-func': rules['no-loop-func'],
     'no-loss-of-precision': 0,
-    '@typescript-eslint/no-loss-of-precision': rules['no-loss-of-precision'],
+    '@typescript-eslint/no-loss-of-precision': 2,
     'no-redeclare': 0,
     '@typescript-eslint/no-redeclare': rules['no-redeclare'],
     'no-shadow': 0,

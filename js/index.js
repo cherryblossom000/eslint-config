@@ -28,6 +28,7 @@ module.exports = {
     'no-unsafe-negation': [2, {enforceForOrderingRelations: true}],
     'no-unsafe-optional-chaining': [2, {disallowArithmeticOperators: true}],
     'no-unreachable-loop': 2,
+    'no-unused-private-class-members': 1,
     'no-unused-vars': [
       1,
       {

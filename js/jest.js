@@ -6,7 +6,6 @@ module.exports = {
   rules: {
     'jest/consistent-test-it': [1, {fn: 'test'}],
     'jest/expect-expect': 2,
-    'jest/lowercase-name': 1,
     'jest/max-nested-describe': 1,
     'jest/no-duplicate-hooks': 1,
     'jest/no-identical-title': 1,
@@ -16,6 +15,7 @@ module.exports = {
     'jest/prefer-called-with': 2,
     'jest/prefer-expect-resolves': 2,
     'jest/prefer-hooks-on-top': 1,
+    'jest/prefer-lowercase-title': 1,
     'jest/prefer-spy-on': 2,
     'jest/prefer-to-be': 1,
     'jest/prefer-todo': 1,

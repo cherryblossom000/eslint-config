@@ -1,5 +1,33 @@
 # Changelog
 
+# [15.0.0-beta.23](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.22...v15.0.0-beta.23) (2021-10-25)
+
+
+### Features
+
+* drop Node.js 12 support ([5b57a55](https://github.com/cherryblossom000/eslint-config/commit/5b57a55b320b905904e85587f991746ad90e0ff5))
+* enable `no-unused-private-class-members` ([5494603](https://github.com/cherryblossom000/eslint-config/commit/5494603de7fac3f4365e3056b7e02dcba7977d3f))
+* **jest:** enable `jest/prefer-to-be` and `jest/prefer-expect-resolves` ([381c83f](https://github.com/cherryblossom000/eslint-config/commit/381c83ff6b756264bede0d456d9b8cf563334760))
+* **jest:** enable `jest/require-hook` ([0992702](https://github.com/cherryblossom000/eslint-config/commit/0992702eeae20cd5e37037ff18bc2c4abdb5b37a))
+* **jest:** support `eslint-plugin-jest@25` ([0f3aa9f](https://github.com/cherryblossom000/eslint-config/commit/0f3aa9fc0fd0e333d770d98937bed52ed4fcdf03))
+* require eslint v8 ([40e8d61](https://github.com/cherryblossom000/eslint-config/commit/40e8d6196ef48f2756de034403aa205a1bbeb104))
+* support `eslint-plugin-jsdoc@37` ([e51af5c](https://github.com/cherryblossom000/eslint-config/commit/e51af5cb6fb57b03c55ed90feabe81f7136bde92))
+* support `eslint-plugin-unicorn@37` ([1ffbff9](https://github.com/cherryblossom000/eslint-config/commit/1ffbff96c0d2491a4520e7f6ba5cc6b8a3fc381f))
+* **ts:** enable `@typescript-eslint/no-non-null-asserted-nullish-coalescing` rule ([b12b870](https://github.com/cherryblossom000/eslint-config/commit/b12b8703212d9567439b060f6a597b5fc296acf1))
+* **ts:** support [@typescript-eslint](https://github.com/typescript-eslint) v5 ([cc5f00a](https://github.com/cherryblossom000/eslint-config/commit/cc5f00afefbba67374d4af6f13b0b3b7efc1f2c9))
+
+
+### BREAKING CHANGES
+
+* Requires `eslint@^8.1`.
+* **ts:** Requires `@typescript-eslint/eslint-plugin@^5`.
+* Drop support for Node.js 12.
+* **jest:** Requires `eslint-plugin-jest@^25`.
+* Requires eslint@^8.
+* **jest:** Requires `eslint-plugin-jest@^24.7`.
+* **jest:** Requires `eslint-plugin-jest@^24.5`.
+* **ts:** Requires `@typescript-eslint/eslint-plugin@^4.32`.
+
 # [15.0.0-beta.22](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.21...v15.0.0-beta.22) (2021-09-14)
 
 

@@ -198,6 +198,7 @@ module.exports = {
     // JSDoc
     // Can't disable new line at end of 'file' for Prettier
     // https://github.com/prettier/prettier/issues/6360
+    // Also https://github.com/eslint/eslint/issues/14745
     /* 'jsdoc/check-examples': [
       1,
       {

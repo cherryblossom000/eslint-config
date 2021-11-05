@@ -2,6 +2,9 @@
 
 module.exports = {
   extends: ['..', 'plugin:node/recommended-script', '../../_mixins/node'],
+  settings: {
+    'import/extensions': ['js', 'cjs']
+  },
   rules: {
     // Node
     'node/global-require': 2,

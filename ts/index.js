@@ -49,36 +49,21 @@ module.exports = {
       {
         selector: 'default',
         format: ['camelCase'],
-        leadingUnderscore: 'forbid',
+        leadingUnderscore: 'allow',
         trailingUnderscore: 'allow'
       },
-      ...[['const'], []].flatMap(modifiers => [
-        {
-          selector: ['variable', 'parameter'],
-          modifiers: ['destructured', ...modifiers],
-          format: null
-        },
-        // don't change to variableLike so these have higher precedence over the
-        // const selector
-        {
-          selector: ['variable', 'parameter'],
-          modifiers: ['unused', ...modifiers],
-          filter: '^_+$',
-          format: null
-        },
-        {
-          selector: ['variable', 'parameter'],
-          modifiers: ['unused', ...modifiers],
-          format: ['camelCase'],
-          leadingUnderscore: 'require',
-          trailingUnderscore: 'forbid'
-        }
-      ]),
+      // don't change to variableLike so these have higher precedence over the
+      // const selector
+      {
+        selector: ['variable', 'parameter'],
+        modifiers: ['destructured'],
+        format: null
+      },
       {
         selector: 'variable',
         modifiers: ['const'],
         format: ['camelCase', 'UPPER_CASE'],
-        leadingUnderscore: 'forbid',
+        leadingUnderscore: 'allow',
         trailingUnderscore: 'allow'
       },
       {
@@ -90,13 +75,13 @@ module.exports = {
         selector: 'property',
         format: ['camelCase', 'UPPER_CASE'],
         leadingUnderscore: 'allowSingleOrDouble', // _id, __typename, etc.
-        trailingUnderscore: 'forbid'
+        trailingUnderscore: 'allow'
       },
       {
         selector: 'typeLike',
         format: ['PascalCase'],
-        leadingUnderscore: 'forbid',
-        trailingUnderscore: 'forbid'
+        leadingUnderscore: 'allow',
+        trailingUnderscore: 'allow'
       },
       {
         selector: 'enumMember',

@@ -1,5 +1,23 @@
 # Changelog
 
+# [15.0.0-beta.24](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.23...v15.0.0-beta.24) (2021-11-05)
+
+
+### Bug Fixes
+
+* **js/node:** use cjs/mjs extensions for import/extensions ([4f8412a](https://github.com/cherryblossom000/eslint-config/commit/4f8412ab97243ce765dbf460147468030d7b2b13))
+
+
+### Features
+
+* add `unicorn/no-empty-file` and `unicorn/prefer-export-from` rules ([940ff29](https://github.com/cherryblossom000/eslint-config/commit/940ff29e3c40180d72666c19f93e26aef1cbacb8))
+* **ts:** relax naming convention rules ([ccf7669](https://github.com/cherryblossom000/eslint-config/commit/ccf7669c2d2ef6d52d1f100b7a10806ebc7cab9f))
+
+
+### BREAKING CHANGES
+
+* Requires `eslint-plugin-unicorn@^38`.
+
 # [15.0.0-beta.23](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.22...v15.0.0-beta.23) (2021-10-25)
 
 

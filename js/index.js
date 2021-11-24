@@ -278,6 +278,7 @@ module.exports = {
     'unicorn/prefer-array-flat-map': 2,
     'unicorn/prefer-array-index-of': 2,
     'unicorn/prefer-array-some': 2,
+    'unicorn/prefer-code-point': 2,
     'unicorn/prefer-date-now': 2,
     'unicorn/prefer-default-parameters': 2,
     'unicorn/prefer-export-from': 1,

@@ -1,5 +1,12 @@
 # Changelog
 
+# [15.0.0-beta.25](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.24...v15.0.0-beta.25) (2021-11-24)
+
+
+### Features
+
+* allow `dotenv/config` for `import/no-unassigned-import` ([349a0d0](https://github.com/cherryblossom000/eslint-config/commit/349a0d0c9af927ee77ae1dcba2331ead18ca8209))
+
 # [15.0.0-beta.24](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.23...v15.0.0-beta.24) (2021-11-05)
 
 

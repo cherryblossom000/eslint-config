@@ -31,13 +31,5 @@ module.exports = {
     'unicorn/prefer-keyboard-event-key': 2,
     'unicorn/prefer-modern-dom-apis': 2,
     'unicorn/require-post-message-target-origin': 2
-  },
-  ...(hasPackage('eslint-plugin-html')
-    ? {
-        plugins: ['html'],
-        settings: {
-          'html/report-bad-indent': 1
-        }
-      }
-    : {})
+  }
 }

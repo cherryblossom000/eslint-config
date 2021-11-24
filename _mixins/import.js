@@ -25,7 +25,7 @@ module.exports = {
     'import/no-named-default': 1,
     'import/no-unassigned-import': [
       1,
-      {allow: ['reflect-metadata', '**/*.css']}
+      {allow: ['dotenv/config', 'reflect-metadata', '**/*.css']}
     ],
     'import/order': [
       1,

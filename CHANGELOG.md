@@ -1,5 +1,33 @@
 # Changelog
 
+# [15.0.0-beta.26](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.25...v15.0.0-beta.26) (2021-12-26)
+
+
+### Bug Fixes
+
+* **ts:** allow unused parameters to start with any number of `_`s ([374bdfb](https://github.com/cherryblossom000/eslint-config/commit/374bdfb4ab0c98176fea4d098bb1834d430dc409))
+
+
+### chore
+
+* remove some configs ([4fe7a63](https://github.com/cherryblossom000/eslint-config/commit/4fe7a63a2aff65091370663e565e4ecd8624d430))
+* upgrade eslint-plugin-promise ([ec97841](https://github.com/cherryblossom000/eslint-config/commit/ec97841b64f67a8024aaf59cdc6acf12a464710c))
+
+
+### Features
+
+* enable `prefer-object-has-own` for ES2022 configs ([9cbc711](https://github.com/cherryblossom000/eslint-config/commit/9cbc711e0d6b2d7c2155041d9eb5ee45d7c12932))
+* enable `unicorn/prefer-code-point` ([4ad0749](https://github.com/cherryblossom000/eslint-config/commit/4ad07491690cdd5106805b4323c3e07054345c8b))
+* enable es2022 rules for node/16 config ([fc16882](https://github.com/cherryblossom000/eslint-config/commit/fc168823dd3d02f312b076697c86f9879c73e96f))
+
+
+### BREAKING CHANGES
+
+* Requires `eslint@^8.5`.
+* Requires `eslint-plugin-promise@^6`.
+* The `react`, `js/react`, `ts/react`, and `markdown` configs have been removed.
+* Requires `eslint-plugin-unicorn@^39`.
+
 # [15.0.0-beta.25](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.24...v15.0.0-beta.25) (2021-11-24)
 
 

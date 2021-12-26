@@ -1,7 +1,5 @@
 'use strict'
 
-const {hasPackage} = require('../src/utils')
-
 module.exports = {
   extends: [
     '.',

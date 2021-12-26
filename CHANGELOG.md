@@ -1,5 +1,12 @@
 # Changelog
 
+# [15.0.0-beta.27](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.26...v15.0.0-beta.27) (2021-12-26)
+
+
+### Bug Fixes
+
+* **ts:** fix naming-convention config ([87893c5](https://github.com/cherryblossom000/eslint-config/commit/87893c51f975a3e4fee37f43f6750bce7caabf24))
+
 # [15.0.0-beta.26](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.25...v15.0.0-beta.26) (2021-12-26)
 
 

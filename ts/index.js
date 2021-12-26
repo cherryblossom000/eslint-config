@@ -62,7 +62,8 @@ module.exports = {
       {
         selector: 'parameter',
         modifiers: ['unused'],
-        filter: {regex: '^_+', match: true}
+        filter: {regex: '^_+', match: true},
+        format: null
       },
       {
         selector: 'variable',

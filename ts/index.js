@@ -60,6 +60,11 @@ module.exports = {
         format: null
       },
       {
+        selector: 'parameter',
+        modifiers: ['unused'],
+        filter: {regex: '^_+', match: true}
+      },
+      {
         selector: 'variable',
         modifiers: ['const'],
         format: ['camelCase', 'UPPER_CASE'],

@@ -214,6 +214,7 @@ module.exports = {
       {matchDescription: '^([A-Z]|[`\\d_{])[\\s\\S]*[.?!`]$'}
     ],
     'jsdoc/multiline-blocks': 0,
+    'jsdoc/no-multi-asterisks': [1, {allowWhitespace: true}],
     'jsdoc/require-description': 1,
     'jsdoc/require-description-complete-sentence': 1,
     'jsdoc/require-hyphen-before-param-description': [1, 'never'],

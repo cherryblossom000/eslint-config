@@ -211,6 +211,7 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 0,
     'promise/no-new-static': 0,
     'promise/valid-params': 0,
+    'unicorn/no-thenable': 0,
 
     // Doesn't work for class fields
     'no-invalid-this': 0,

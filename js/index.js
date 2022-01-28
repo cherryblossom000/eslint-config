@@ -271,6 +271,7 @@ module.exports = {
     'unicorn/no-unused-properties': 1,
     'unicorn/no-useless-fallback-in-spread': 2,
     'unicorn/no-useless-length-check': 2,
+    'unicorn/no-useless-promise-resolve-reject': 2,
     'unicorn/no-useless-spread': 2,
     'unicorn/no-useless-undefined': [1, {checkArguments: false}],
     'unicorn/no-zero-fractions': 1,

@@ -1,5 +1,12 @@
 # Changelog
 
+# [15.0.0-beta.29](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.28...v15.0.0-beta.29) (2022-02-20)
+
+
+### Bug Fixes
+
+* allow 6 digit hex numbers without separators ([a8454ed](https://github.com/cherryblossom000/eslint-config/commit/a8454edc3cedca821c13484104b204360fec8ef8))
+
 # [15.0.0-beta.28](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.27...v15.0.0-beta.28) (2022-02-20)
 
 

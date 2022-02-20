@@ -38,6 +38,8 @@ module.exports = {
     'node/no-extraneous-import': 0,
     'node/no-extraneous-require': 0,
     'node/no-missing-import': 0,
-    'import/no-extraneous-dependencies': 2
+    'import/no-extraneous-dependencies': 2,
+
+    'unicorn/text-encoding-identifier-case': 1
   }
 }

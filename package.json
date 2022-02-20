@@ -19,8 +19,8 @@
     "node": ">=14"
   },
   "scripts": {
-    "lint": "eslint --max-warnings 0 --report-unused-disable-directives .",
-    "lint:dev": "pnpm run lint -- --cache"
+    "lint": "eslint --max-warnings 0 .",
+    "lint:dev": "dum lint -- --cache"
   },
   "publishConfig": {
     "access": "public"
@@ -39,7 +39,7 @@
     "eslint-plugin-compat": "^3",
     "eslint-plugin-eslint-comments": "^3.2",
     "eslint-plugin-import": "^2.24",
-    "eslint-plugin-jest": ">=25.7 <27",
+    "eslint-plugin-jest": "^26.1",
     "eslint-plugin-jsdoc": "^37.5",
     "eslint-plugin-node": "^11.1",
     "eslint-plugin-prettier": ">=3 <5",

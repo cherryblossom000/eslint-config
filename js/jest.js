@@ -18,6 +18,7 @@ module.exports = {
     'jest/prefer-expect-resolves': 2,
     'jest/prefer-hooks-on-top': 1,
     'jest/prefer-lowercase-title': 1,
+    'jest/prefer-snapshot-hint': 1,
     'jest/prefer-spy-on': 2,
     'jest/prefer-to-be': 1,
     'jest/prefer-todo': 1,

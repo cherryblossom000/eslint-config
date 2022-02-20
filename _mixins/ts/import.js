@@ -1,10 +1,12 @@
 'use strict'
 
 module.exports = {
-  extends: ['../js/_import', 'plugin:import/typescript'],
+  extends: ['../import', 'plugin:import/typescript'],
+  plugins: ['@typescript-eslint'],
   rules: {
-    // TS requires the json extension
-    'import/extensions': [1, 'never', {json: 'always'}],
+    'import/no-dynamic-require': 0,
+    '@typescript-eslint/no-var-requires': 0,
+    '@typescript-eslint/no-require-imports': 2,
 
     // Already checked by TS/@typescript-eslint
     'import/no-unresolved': 0,
@@ -14,10 +16,6 @@ module.exports = {
     'import/export': 0,
     'import/no-named-as-default': 0,
     'import/no-named-as-default-member': 0,
-    'import/no-commonjs': 0,
-
-    // Compiled by TS
-    'import/unambiguous': 0,
 
     // Doesn't support grouping type vs non-type imports
     'import/order': 0

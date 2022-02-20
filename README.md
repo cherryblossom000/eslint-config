@@ -9,6 +9,11 @@
 This isn't intended for anyone else except for me. Things ~~may~~ *will* break
 frequently.
 
+Additionally, the `node`, `js/node`, and `ts/node` configs might not work
+correctly if you run `eslint` in a working directory with a `package.json`
+different to the `package.json` of the files being linted. To fix this,
+explicitly extend either the `commonjs` or `esm` variant.
+
 ## Versioning
 
 This does not follow semantic versioning strictly.
@@ -62,6 +67,13 @@ This does not follow semantic versioning strictly.
     - `commonjs`
     - `esm`
   - `jest` (jest)
+
+There are some additional configs that are meant to be used in conjunction with
+another one:
+
+- `node/12`: Node.js 12
+- `node/14`: Node.js 14
+- `node/16`: Node.js 16
 
 ## License
 

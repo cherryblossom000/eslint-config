@@ -1,7 +1,10 @@
 'use strict'
 
 module.exports = {
-  extends: ['./_base', 'plugin:node/recommended-script'],
+  extends: ['..', 'plugin:node/recommended-script', '../../_mixins/node'],
+  settings: {
+    'import/extensions': ['js', 'cjs']
+  },
   rules: {
     // Node
     'node/global-require': 2,
@@ -13,8 +16,7 @@ module.exports = {
       1,
       {noUselessIndex: true, commonjs: true}
     ],
-    'import/no-deprecated': 1,
-    'node/no-extraneous-require': 0,
-    'import/no-extraneous-dependencies': 2
+
+    'unicorn/prefer-module': 0
   }
 }

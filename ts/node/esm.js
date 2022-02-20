@@ -1,5 +1,5 @@
 'use strict'
 
 module.exports = {
-  extends: ['../../js/node/esm', './_base', '../_import']
+  extends: ['../../js/node/esm', '../../_mixins/ts/node', '..']
 }

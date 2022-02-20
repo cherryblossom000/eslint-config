@@ -1,6 +1,6 @@
 {
   "name": "@cherryblossom/eslint-config",
-  "version": "14.9.1",
+  "version": "15.0.0-beta.29",
   "description": "@cherryblossom000's ESLint configuration.",
   "keywords": [
     "eslint",
@@ -16,11 +16,11 @@
     "**/*.js"
   ],
   "engines": {
-    "node": ">=12"
+    "node": ">=14"
   },
   "scripts": {
-    "lint": "eslint --max-warnings 0 --report-unused-disable-directives .",
-    "lint:dev": "pnpm run lint -- --cache"
+    "lint": "eslint --max-warnings 0 .",
+    "lint:dev": "dum lint -- --cache"
   },
   "publishConfig": {
     "access": "public"
@@ -31,23 +31,21 @@
     }
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^4.31.1"
+    "@typescript-eslint/parser": "^5.12.0"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.21",
-    "eslint": "^7.15",
+    "@typescript-eslint/eslint-plugin": "^5",
+    "eslint": "^8.5",
     "eslint-plugin-compat": "^3",
     "eslint-plugin-eslint-comments": "^3.2",
-    "eslint-plugin-html": "^6",
-    "eslint-plugin-import": "^2.21",
-    "eslint-plugin-jest": "^24.3",
-    "eslint-plugin-jsdoc": ">=31.2 <37",
-    "eslint-plugin-markdown": "^2",
+    "eslint-plugin-import": "^2.24",
+    "eslint-plugin-jest": "^26.1",
+    "eslint-plugin-jsdoc": "^37.8",
     "eslint-plugin-node": "^11.1",
     "eslint-plugin-prettier": ">=3 <5",
-    "eslint-plugin-promise": ">=4 <6",
-    "eslint-plugin-react-hooks": "^4",
-    "eslint-plugin-unicorn": ">=31 <37",
+    "eslint-plugin-promise": "^6",
+    "eslint-plugin-unicorn": "^41",
+    "prettier": ">=1.13.0",
     "typescript": "^4.1.2"
   },
   "peerDependenciesMeta": {
@@ -72,30 +70,27 @@
     "eslint-plugin-node": {
       "optional": true
     },
-    "eslint-plugin-react-hooks": {
-      "optional": true
-    },
     "typescript": {
       "optional": true
     }
   },
   "devDependencies": {
     "@cherryblossom/eslint-config": "link:",
-    "@semantic-release/changelog": "^5.0.1",
-    "@semantic-release/git": "^9.0.1",
-    "@types/eslint": "^7.28.0",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@types/eslint": "^8.4.1",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^7.32.0",
+    "eslint": "^8.9.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-import": "^2.24.2",
-    "eslint-plugin-jsdoc": "^36.1.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsdoc": "^37.9.4",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-promise": "^5.1.0",
-    "eslint-plugin-unicorn": "^36.0.0",
-    "prettier": "^2.4.0",
-    "semantic-release": "^17.4.7",
-    "typescript": "~4.4.3"
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-unicorn": "^41.0.0",
+    "prettier": "^2.5.1",
+    "semantic-release": "^19.0.2",
+    "typescript": "~4.5.5"
   }
 }

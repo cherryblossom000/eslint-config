@@ -5,9 +5,9 @@ const {rules} = require('../js')
 module.exports = {
   extends: [
     '../js',
-    './_import',
     'plugin:@typescript-eslint/recommended',
-    'plugin:@typescript-eslint/recommended-requiring-type-checking'
+    'plugin:@typescript-eslint/recommended-requiring-type-checking',
+    '../_mixins/ts/import'
   ],
   env: {es2020: true},
   parser: '@typescript-eslint/parser',
@@ -17,7 +17,8 @@ module.exports = {
       files: ['**/*.d.ts'],
       rules: {
         'import/no-unused-modules': 0,
-        'import/prefer-default-export': 0
+        'import/prefer-default-export': 0,
+        '@typescript-eslint/naming-convention': 0
       }
     }
   ],
@@ -31,62 +32,12 @@ module.exports = {
         'ts-nocheck': 'allow-with-description'
       }
     ],
-    '@typescript-eslint/ban-types': [
-      2,
-      // defaults except object
-      // https://github.com/typescript-eslint/typescript-eslint/blob/v4.30.0/packages/eslint-plugin/src/rules/ban-types.ts#L56-L105
-      {
-        types: {
-          String: {
-            message: 'Use string instead',
-            fixWith: 'string'
-          },
-          Boolean: {
-            message: 'Use boolean instead',
-            fixWith: 'boolean'
-          },
-          Number: {
-            message: 'Use number instead',
-            fixWith: 'number'
-          },
-          Symbol: {
-            message: 'Use symbol instead',
-            fixWith: 'symbol'
-          },
-          Function: {
-            message: [
-              'The `Function` type accepts any function-like value.',
-              'It provides no type safety when calling the function, which can be a common source of bugs.',
-              'It also accepts things like class declarations, which will throw at runtime as they will not be called with `new`.',
-              'If you are expecting the function to accept certain arguments, you should explicitly define the function shape.'
-            ].join('\n')
-          },
-
-          Object: {
-            message: [
-              'The `Object` type actually means "any non-nullish value", so it is marginally better than `unknown`.',
-              '- If you want a type meaning "any object", you probably want `Record<string, unknown>` instead.',
-              '- If you want a type meaning "any value", you probably want `unknown` instead.'
-            ].join('\n')
-          },
-          '{}': {
-            message: [
-              '`{}` actually means "any non-nullish value".',
-              '- If you want a type meaning "any object", you probably want `Record<string, unknown>` instead.',
-              '- If you want a type meaning "any value", you probably want `unknown` instead.',
-              '- If you want a type meaning "empty object", you probably want `Record<string, never>` instead.'
-            ].join('\n')
-          }
-        }
-      }
-    ],
     '@typescript-eslint/class-literal-property-style': 2,
     '@typescript-eslint/consistent-indexed-object-style': 1,
     '@typescript-eslint/consistent-type-assertions': 2,
     '@typescript-eslint/consistent-type-imports': 1,
     '@typescript-eslint/consistent-type-definitions': [1, 'interface'],
     '@typescript-eslint/explicit-function-return-type': 2,
-    '@typescript-eslint/explicit-module-boundary-types': 0,
     '@typescript-eslint/explicit-member-accessibility': [
       1,
       {accessibility: 'no-public'}
@@ -101,6 +52,19 @@ module.exports = {
         leadingUnderscore: 'allow',
         trailingUnderscore: 'allow'
       },
+      // don't change to variableLike so these have higher precedence over the
+      // const selector
+      {
+        selector: ['variable', 'parameter'],
+        modifiers: ['destructured'],
+        format: null
+      },
+      {
+        selector: 'parameter',
+        modifiers: ['unused'],
+        filter: {regex: '^_+', match: true},
+        format: null
+      },
       {
         selector: 'variable',
         modifiers: ['const'],
@@ -110,8 +74,13 @@ module.exports = {
       },
       {
         selector: 'property',
+        modifiers: ['requiresQuotes'],
+        format: null
+      },
+      {
+        selector: 'property',
         format: ['camelCase', 'UPPER_CASE'],
-        leadingUnderscore: 'allow',
+        leadingUnderscore: 'allowSingleOrDouble', // _id, __typename, etc.
         trailingUnderscore: 'allow'
       },
       {
@@ -123,8 +92,8 @@ module.exports = {
       {
         selector: 'enumMember',
         format: ['UPPER_CASE', 'PascalCase'],
-        leadingUnderscore: 'allow',
-        trailingUnderscore: 'allow'
+        leadingUnderscore: 'forbid',
+        trailingUnderscore: 'forbid'
       }
     ],
     '@typescript-eslint/no-base-to-string': 2,
@@ -139,13 +108,11 @@ module.exports = {
     // Covered by no-floating-promises
     'promise/catch-or-return': 0,
     'no-implied-eval': 0,
-    '@typescript-eslint/no-implicit-any-catch': 2,
     '@typescript-eslint/no-inferrable-types': 2,
     '@typescript-eslint/no-misused-promises': [2, {checksVoidReturn: false}],
     '@typescript-eslint/no-namespace': [2, {allowDeclarations: true}],
+    '@typescript-eslint/no-non-null-asserted-nullish-coalescing': 2,
     '@typescript-eslint/no-non-null-assertion': 0,
-    '@typescript-eslint/no-var-requires': 0,
-    '@typescript-eslint/no-require-imports': 2,
     'unicorn/no-this-assignment': 0,
     '@typescript-eslint/no-this-alias': 2,
     'no-throw-literal': 0,
@@ -158,7 +125,6 @@ module.exports = {
     '@typescript-eslint/no-unnecessary-qualifier': 2,
     '@typescript-eslint/no-unnecessary-type-arguments': 1,
     '@typescript-eslint/no-unnecessary-type-constraint': 1,
-    '@typescript-eslint/no-unsafe-argument': 2,
     '@typescript-eslint/non-nullable-type-assertion-style': 1,
     '@typescript-eslint/prefer-as-const': 2,
     '@typescript-eslint/prefer-for-of': 2,
@@ -168,6 +134,7 @@ module.exports = {
     '@typescript-eslint/prefer-nullish-coalescing': 2,
     '@typescript-eslint/prefer-optional-chain': 2,
     '@typescript-eslint/prefer-readonly': 2,
+    '@typescript-eslint/prefer-regexp-exec': 2,
     'unicorn/prefer-string-starts-ends-with': 0,
     '@typescript-eslint/prefer-string-starts-ends-with': 2,
     '@typescript-eslint/promise-function-async': 2,
@@ -210,8 +177,6 @@ module.exports = {
     '@typescript-eslint/no-extra-semi': rules['no-extra-semi'],
     'no-loop-func': 0,
     '@typescript-eslint/no-loop-func': rules['no-loop-func'],
-    'no-loss-of-precision': 0,
-    '@typescript-eslint/no-loss-of-precision': rules['no-loss-of-precision'],
     'no-redeclare': 0,
     '@typescript-eslint/no-redeclare': rules['no-redeclare'],
     'no-shadow': 0,
@@ -246,6 +211,7 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 0,
     'promise/no-new-static': 0,
     'promise/valid-params': 0,
+    'unicorn/no-thenable': 0,
 
     // Doesn't work for class fields
     'no-invalid-this': 0,

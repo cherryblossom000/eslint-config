@@ -1,5 +1,30 @@
 # Changelog
 
+# [15.0.0-beta.28](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.27...v15.0.0-beta.28) (2022-02-20)
+
+
+### Features
+
+* enable `jsdoc/sort-tags` ([46b8990](https://github.com/cherryblossom000/eslint-config/commit/46b89905db5fdb9e7c3067ca3039725f8dd94b08))
+* enable `unicorn/no-thenable` ([155032d](https://github.com/cherryblossom000/eslint-config/commit/155032db32d0f1a6d51256332b9022f719ddf9a6))
+* enable `unicorn/no-useless-promise-resolve-reject` ([ceffced](https://github.com/cherryblossom000/eslint-config/commit/ceffceddd85a9c422d658a3e06869cc739b42b6b))
+* enable `unicorn/relative-url-style` ([060ec6b](https://github.com/cherryblossom000/eslint-config/commit/060ec6b2c4172845f440534448fbbabc3538835d))
+* ignore whitespace for `jsdoc/no-multi-asterisks` ([eb2d1f8](https://github.com/cherryblossom000/eslint-config/commit/eb2d1f82511fc02682c8e4da627f28d73d713c2c))
+* **jest:** enable `jest/perfer-{comparison,equality}-matcher` ([77414fe](https://github.com/cherryblossom000/eslint-config/commit/77414fe1e37b9e6e6b3326adb23111a9e738b7da))
+* **jest:** enable `jest/prefer-snaphsot-hint` ([e8b0071](https://github.com/cherryblossom000/eslint-config/commit/e8b00717f5c111d45bd47299001b8e941a850951))
+* **node:** enable `unicorn/text-encoding-identifier-case` ([fea1183](https://github.com/cherryblossom000/eslint-config/commit/fea1183c49448093ff6511dc5e9335d937804059))
+* support `eslint-plugin-jest@26` ([b8ee0e8](https://github.com/cherryblossom000/eslint-config/commit/b8ee0e8a068e06122dce408f15a449f4fe1c16b5))
+
+
+### BREAKING CHANGES
+
+* **node:** Requires `eslint-plugin-unicorn@^41`.
+* Requires `eslint-plugin-jsdoc@^37.8`.
+* **jest:** Requires `eslint-plugin-jest@^26.1`.
+* **jest:** Requires `eslint-plugin-jest@^25.7`.
+* Requires `eslint-plugin-unicorn@^40`.
+* Requires `eslint-plugin-jsdoc@^37.5`.
+
 # [15.0.0-beta.27](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0-beta.26...v15.0.0-beta.27) (2021-12-26)
 
 

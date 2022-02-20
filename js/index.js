@@ -276,7 +276,7 @@ module.exports = {
     'unicorn/no-useless-spread': 2,
     'unicorn/no-useless-undefined': [1, {checkArguments: false}],
     'unicorn/no-zero-fractions': 1,
-    'unicorn/numeric-separators-style': [1, {hexadecimal: {minimumDigits: 5}}],
+    'unicorn/numeric-separators-style': [1, {hexadecimal: {minimumDigits: 7}}],
     'unicorn/prefer-array-find': 2,
     'unicorn/prefer-array-flat': 2,
     'unicorn/prefer-array-flat-map': 2,

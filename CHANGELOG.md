@@ -1,5 +1,12 @@
 # Changelog
 
+## [15.0.1](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0...v15.0.1) (2022-02-27)
+
+
+### Bug Fixes
+
+* **ts:** fix @typescript-eslint/no-shadow for eslint v8.10 ([cbcab01](https://github.com/cherryblossom000/eslint-config/commit/cbcab01b81be3ff67228924c45541928e7c3bba6))
+
 # [15.0.0](https://github.com/cherryblossom000/eslint-config/compare/v14.9.1...v15.0.0) (2022-02-20)
 
 

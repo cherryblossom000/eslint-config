@@ -183,7 +183,10 @@ module.exports = {
     // ESLint seems to be modifying the config object from the JS config, normalising it by
     // adding the ignoreOnInitialization property, which causes a config error because
     // typescript-eslnt doesn't support this property
-    '@typescript-eslint/no-shadow': [rules['no-shadow'][0], {...rules['no-shadow'][1]}],
+    '@typescript-eslint/no-shadow': [
+      rules['no-shadow'][0],
+      {...rules['no-shadow'][1]}
+    ],
     'no-unused-expressions': 0,
     '@typescript-eslint/no-unused-expressions': rules['no-unused-expressions'],
     'no-use-before-define': 0,

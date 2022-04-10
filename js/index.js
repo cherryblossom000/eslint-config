@@ -211,7 +211,7 @@ module.exports = {
     'jsdoc/check-syntax': 1,
     'jsdoc/match-description': [
       1,
-      {matchDescription: '^([A-Z]|[`\\d_{])[\\s\\S]*[.?!`]$'}
+      {matchDescription: '^([A-Z]|[`\\d_{])[\\s\\S]*[.?!`]\\s*$'}
     ],
     'jsdoc/multiline-blocks': 0,
     'jsdoc/no-multi-asterisks': [1, {allowWhitespace: true}],

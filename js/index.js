@@ -274,6 +274,7 @@ module.exports = {
     'unicorn/no-useless-length-check': 2,
     'unicorn/no-useless-promise-resolve-reject': 2,
     'unicorn/no-useless-spread': 2,
+    'unicorn/no-useless-switch-case': 2,
     'unicorn/no-useless-undefined': [1, {checkArguments: false}],
     'unicorn/no-zero-fractions': 1,
     'unicorn/numeric-separators-style': [1, {hexadecimal: {minimumDigits: 7}}],

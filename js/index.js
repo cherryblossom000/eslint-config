@@ -290,6 +290,7 @@ module.exports = {
     'unicorn/prefer-includes': 2,
     'unicorn/prefer-math-trunc': 2,
     'unicorn/prefer-modern-math-apis': 2,
+    'unicorn/prefer-native-coercion-functions': 2,
     'unicorn/prefer-negative-index': 2,
     'unicorn/prefer-object-from-entries': 2,
     'unicorn/prefer-optional-catch-binding': 1,

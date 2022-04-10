@@ -1,5 +1,28 @@
 # Changelog
 
+# [16.0.0-beta.1](https://github.com/cherryblossom000/eslint-config/compare/v15.0.1...v16.0.0-beta.1) (2022-04-10)
+
+
+### Bug Fixes
+
+* support eslint-plugin-jsdoc v38 and v39 ([54feffe](https://github.com/cherryblossom000/eslint-config/commit/54feffe4e0482611ff29c8237f642da0e58ee5a1))
+* support eslint-plugin-unicorn v42 ([e41a8d9](https://github.com/cherryblossom000/eslint-config/commit/e41a8d92eb244ae5452b4144be1b767ac531bc63))
+
+
+### Features
+
+* enable `@typescript-eslint/no-useless-empty-export` ([789d7ef](https://github.com/cherryblossom000/eslint-config/commit/789d7efc2c86be11e67f704f357564d75a1ebe0c))
+* enable `unicorn/no-useless-switch-case` ([4654580](https://github.com/cherryblossom000/eslint-config/commit/46545808cc1db4f4802d1f3a93766dfe4a7e3949))
+* enable `unicorn/prefer-modern-math-apis` ([5d9e68b](https://github.com/cherryblossom000/eslint-config/commit/5d9e68b55c5bde2aab9b454a4d38c7684b95419c))
+* enable `unicorn/prefer-native-coercion-functions` ([5258170](https://github.com/cherryblossom000/eslint-config/commit/52581703914b8b84ce43a552e4670878e6a5fa87))
+* **ts:** enable `@typescript-eslint/no-useless-type-constituents` ([35439ec](https://github.com/cherryblossom000/eslint-config/commit/35439eca98f8df66eb293914d6c9b20444554e8d))
+
+
+### BREAKING CHANGES
+
+* Requires `eslint-plugin-unicorn@^42`.
+* **ts:** Requires `@typescript-eslint/eslint-plugin@^5.13`.
+
 ## [15.0.1](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0...v15.0.1) (2022-02-27)
 
 

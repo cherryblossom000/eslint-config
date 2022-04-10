@@ -113,6 +113,7 @@ module.exports = {
     '@typescript-eslint/no-namespace': [2, {allowDeclarations: true}],
     '@typescript-eslint/no-non-null-asserted-nullish-coalescing': 2,
     '@typescript-eslint/no-non-null-assertion': 0,
+    '@typescript-eslint/no-useless-empty-export': 1,
     '@typescript-eslint/no-useless-type-constituents': 1,
     'unicorn/no-this-assignment': 0,
     '@typescript-eslint/no-this-alias': 2,

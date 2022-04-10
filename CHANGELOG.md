@@ -1,5 +1,12 @@
 # Changelog
 
+# [16.0.0-beta.2](https://github.com/cherryblossom000/eslint-config/compare/v16.0.0-beta.1...v16.0.0-beta.2) (2022-04-10)
+
+
+### Bug Fixes
+
+* **ts:** fix config ([f30c119](https://github.com/cherryblossom000/eslint-config/commit/f30c119395d5819878cda07557082e98b429fd60))
+
 # [16.0.0-beta.1](https://github.com/cherryblossom000/eslint-config/compare/v15.0.1...v16.0.0-beta.1) (2022-04-10)
 
 

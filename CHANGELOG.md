@@ -1,5 +1,13 @@
 # Changelog
 
+## [15.0.2](https://github.com/cherryblossom000/eslint-config/compare/v15.0.1...v15.0.2) (2022-04-10)
+
+
+### Bug Fixes
+
+* support eslint-plugin-jsdoc v38 and v39 ([54feffe](https://github.com/cherryblossom000/eslint-config/commit/54feffe4e0482611ff29c8237f642da0e58ee5a1))
+* support eslint-plugin-unicorn v42 ([e41a8d9](https://github.com/cherryblossom000/eslint-config/commit/e41a8d92eb244ae5452b4144be1b767ac531bc63))
+
 ## [15.0.1](https://github.com/cherryblossom000/eslint-config/compare/v15.0.0...v15.0.1) (2022-02-27)
 
 

@@ -101,6 +101,7 @@ module.exports = {
       2,
       {ignoreArrowShorthand: true}
     ],
+    '@typescript-eslint/no-duplicate-enum-values': 2,
     '@typescript-eslint/no-dynamic-delete': 2,
     '@typescript-eslint/no-explicit-any': 2,
     'unicorn/no-static-only-class': 0,
@@ -185,7 +186,7 @@ module.exports = {
     'no-shadow': 0,
     // ESLint seems to be modifying the config object from the JS config, normalising it by
     // adding the ignoreOnInitialization property, which causes a config error because
-    // typescript-eslnt doesn't support this property
+    // typescript-eslint doesn't support this property
     '@typescript-eslint/no-shadow': [
       rules['no-shadow'][0],
       {...rules['no-shadow'][1]}

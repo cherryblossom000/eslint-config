@@ -1,5 +1,25 @@
 # Changelog
 
+# [16.0.0-beta.3](https://github.com/cherryblossom000/eslint-config/compare/v16.0.0-beta.2...v16.0.0-beta.3) (2022-06-02)
+
+
+### Features
+
+* enable `no-constant-binary-expression` ([ead426b](https://github.com/cherryblossom000/eslint-config/commit/ead426b94aa874e63b31e65ddf4d973499b7bb15))
+* **ts:** enable `no-duplicate-enum-values` ([7ddd344](https://github.com/cherryblossom000/eslint-config/commit/7ddd3444f0c8ca259f5913a15a2f3c48d10dd2bd))
+* **ts:** enable `overrideMethods` option for `no-empty-function` ([2119097](https://github.com/cherryblossom000/eslint-config/commit/211909711f3df1150e2ce957926e57e43bafad0b))
+* **ts:** enable `parameter-properties` ([714b731](https://github.com/cherryblossom000/eslint-config/commit/714b731b14c6774a2ec7cde8e023e31504b8dad0))
+* **ts:** enable strict config ([ad50254](https://github.com/cherryblossom000/eslint-config/commit/ad50254078d6f3a49e6b0c80251a596cfa130dcb))
+
+
+### BREAKING CHANGES
+
+* Requires eslint@^8.14.
+* **ts:** Enables more lints and changes the warn/error status for some other rules.
+* **ts:** Requires @typescript-eslint/eslint-plugin@^5.25
+* **ts:** Requires @typescript-eslint/eslint-plugin@^5.22.
+* **ts:** Requires @typescript-eslint/eslint-plugin@^5.21
+
 # [16.0.0-beta.2](https://github.com/cherryblossom000/eslint-config/compare/v16.0.0-beta.1...v16.0.0-beta.2) (2022-04-10)
 
 

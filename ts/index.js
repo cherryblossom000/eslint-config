@@ -7,6 +7,7 @@ module.exports = {
     '../js',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
+    'plugin:@typescript-eslint/strict',
     '../_mixins/ts/import'
   ],
   env: {es2020: true},
@@ -32,11 +33,7 @@ module.exports = {
         'ts-nocheck': 'allow-with-description'
       }
     ],
-    '@typescript-eslint/class-literal-property-style': 2,
-    '@typescript-eslint/consistent-indexed-object-style': 1,
-    '@typescript-eslint/consistent-type-assertions': 2,
     '@typescript-eslint/consistent-type-imports': 1,
-    '@typescript-eslint/consistent-type-definitions': [1, 'interface'],
     '@typescript-eslint/explicit-function-return-type': 2,
     '@typescript-eslint/explicit-member-accessibility': [
       1,
@@ -97,19 +94,20 @@ module.exports = {
       }
     ],
     '@typescript-eslint/no-base-to-string': 2,
+    '@typescript-eslint/no-confusing-non-null-assertion': 0,
     '@typescript-eslint/no-confusing-void-expression': [
       2,
       {ignoreArrowShorthand: true}
     ],
     '@typescript-eslint/no-duplicate-enum-values': 2,
-    '@typescript-eslint/no-dynamic-delete': 2,
     '@typescript-eslint/no-explicit-any': 2,
-    'unicorn/no-static-only-class': 0,
     '@typescript-eslint/no-extraneous-class': 2,
     // Covered by no-floating-promises
     'promise/catch-or-return': 0,
     'no-implied-eval': 0,
     '@typescript-eslint/no-inferrable-types': 2,
+    '@typescript-eslint/no-invalid-void-type': 2,
+    '@typescript-eslint/no-meaningless-void-operator': 2,
     '@typescript-eslint/no-misused-promises': [2, {checksVoidReturn: false}],
     '@typescript-eslint/no-namespace': [2, {allowDeclarations: true}],
     '@typescript-eslint/no-non-null-asserted-nullish-coalescing': 2,
@@ -125,20 +123,21 @@ module.exports = {
       {allowConstantLoopConditions: true}
     ],
     '@typescript-eslint/no-unnecessary-qualifier': 2,
-    '@typescript-eslint/no-unnecessary-type-arguments': 1,
     '@typescript-eslint/no-unnecessary-type-constraint': 1,
     '@typescript-eslint/no-useless-empty-export': 1,
-    '@typescript-eslint/non-nullable-type-assertion-style': 1,
     '@typescript-eslint/parameter-properties': [1, {prefer: 'parameter-property'}],
     '@typescript-eslint/prefer-as-const': 2,
     '@typescript-eslint/prefer-for-of': 2,
     '@typescript-eslint/prefer-function-type': 2,
     'unicorn/prefer-includes': 0,
     '@typescript-eslint/prefer-includes': 2,
+    '@typescript-eslint/prefer-literal-enum-member': 0,
     '@typescript-eslint/prefer-nullish-coalescing': 2,
     '@typescript-eslint/prefer-optional-chain': 2,
     '@typescript-eslint/prefer-readonly': 2,
+    '@typescript-eslint/prefer-reduce-type-parameter': 2,
     '@typescript-eslint/prefer-regexp-exec': 2,
+    '@typescript-eslint/prefer-return-this-type': 2,
     'unicorn/prefer-string-starts-ends-with': 0,
     '@typescript-eslint/prefer-string-starts-ends-with': 2,
     '@typescript-eslint/promise-function-async': 2,
@@ -199,9 +198,6 @@ module.exports = {
       rules['no-use-before-define'][0],
       {functions: false, ignoreTypeReferences: false}
     ],
-    'no-useless-constructor': 0,
-    '@typescript-eslint/no-useless-constructor':
-      rules['no-useless-constructor'],
     quotes: 0,
     '@typescript-eslint/quotes': rules.quotes,
     'require-await': 0,

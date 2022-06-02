@@ -173,7 +173,8 @@ module.exports = {
         allow: [
           'protected-constructors',
           'private-constructors',
-          'decoratedFunctions'
+          'decoratedFunctions',
+          'overrideMethods'
         ]
       }
     ],

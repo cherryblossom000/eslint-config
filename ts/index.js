@@ -125,7 +125,10 @@ module.exports = {
     '@typescript-eslint/no-unnecessary-qualifier': 2,
     '@typescript-eslint/no-unnecessary-type-constraint': 1,
     '@typescript-eslint/no-useless-empty-export': 1,
-    '@typescript-eslint/parameter-properties': [1, {prefer: 'parameter-property'}],
+    '@typescript-eslint/parameter-properties': [
+      1,
+      {prefer: 'parameter-property'}
+    ],
     '@typescript-eslint/prefer-as-const': 2,
     '@typescript-eslint/prefer-for-of': 2,
     '@typescript-eslint/prefer-function-type': 2,

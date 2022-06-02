@@ -16,6 +16,7 @@ module.exports = {
     'array-callback-return': [2, {allowImplicit: true}],
     'no-await-in-loop': 2,
     'no-cond-assign': 0,
+    'no-constant-binary-expression': 2,
     'no-constant-condition': [2, {checkLoops: false}],
     'no-constructor-return': 2,
     'no-inner-declarations': [2, 'both'],

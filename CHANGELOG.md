@@ -1,5 +1,12 @@
 # Changelog
 
+## [15.0.3](https://github.com/cherryblossom000/eslint-config/compare/v15.0.2...v15.0.3) (2022-06-11)
+
+
+### Bug Fixes
+
+* fix eslint-plugin-compat version range ([22d1422](https://github.com/cherryblossom000/eslint-config/commit/22d1422e68b26134fe25b204cc758703a6b87472))
+
 ## [15.0.2](https://github.com/cherryblossom000/eslint-config/compare/v15.0.1...v15.0.2) (2022-04-10)
 
 

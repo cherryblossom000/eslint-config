@@ -1,5 +1,22 @@
 # Changelog
 
+# [16.0.0-beta.4](https://github.com/cherryblossom000/eslint-config/compare/v16.0.0-beta.3...v16.0.0-beta.4) (2022-06-11)
+
+
+### Bug Fixes
+
+* fix eslint-plugin-compat version range ([091b3ce](https://github.com/cherryblossom000/eslint-config/commit/091b3ce42effa48e43f5a9f9cf7bf0a302ef151c))
+
+
+### Features
+
+* **jest:** enable `prefer-hooks-in-order` ([02d197e](https://github.com/cherryblossom000/eslint-config/commit/02d197ec1da41ca71bcce3fbdc8f345bfefcf117))
+
+
+### BREAKING CHANGES
+
+* **jest:** Requires eslint-plugin-jest@^26.3.
+
 # [16.0.0-beta.3](https://github.com/cherryblossom000/eslint-config/compare/v16.0.0-beta.2...v16.0.0-beta.3) (2022-06-02)
 
 

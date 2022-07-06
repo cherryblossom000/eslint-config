@@ -289,6 +289,7 @@ module.exports = {
     'unicorn/prefer-default-parameters': 2,
     'unicorn/prefer-export-from': 1,
     'unicorn/prefer-includes': 2,
+    'unicorn/prefer-logical-operator-over-ternary': 2,
     'unicorn/prefer-math-trunc': 2,
     'unicorn/prefer-modern-math-apis': 2,
     'unicorn/prefer-native-coercion-functions': 2,

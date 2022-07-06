@@ -1,5 +1,18 @@
 # Changelog
 
+# [16.0.0-beta.5](https://github.com/cherryblossom000/eslint-config/compare/v16.0.0-beta.4...v16.0.0-beta.5) (2022-07-06)
+
+
+### Features
+
+* enable `unicorn/prefer-logical-operator-over-ternary` ([91f8cb1](https://github.com/cherryblossom000/eslint-config/commit/91f8cb11211588b4a3d099df5ccc0e9c2185ad46))
+* **node:** enable `unicorn/prefer-event-target ([27daa5c](https://github.com/cherryblossom000/eslint-config/commit/27daa5c6eb75248da2a92acac4ce2eb90fa85662))
+
+
+### BREAKING CHANGES
+
+* Requires `eslint-plugin-unicorn@^43`.
+
 # [16.0.0-beta.4](https://github.com/cherryblossom000/eslint-config/compare/v16.0.0-beta.3...v16.0.0-beta.4) (2022-06-11)
 
 

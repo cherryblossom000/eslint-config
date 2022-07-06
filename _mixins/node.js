@@ -40,6 +40,7 @@ module.exports = {
     'node/no-missing-import': 0,
     'import/no-extraneous-dependencies': 2,
 
+    'unicorn/prefer-event-target': 2,
     'unicorn/text-encoding-identifier-case': 1
   }
 }

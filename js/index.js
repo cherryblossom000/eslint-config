@@ -234,9 +234,9 @@ module.exports = {
         bracketSpacing: false,
         semi: false,
         singleQuote: true,
-        trailingComma: 'none'
-      },
-      {usePrettierrc: false}
+        trailingComma: 'none',
+				useTabs: true
+      }
     ],
 
     // Promise

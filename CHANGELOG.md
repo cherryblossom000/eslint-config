@@ -1,5 +1,12 @@
 # Changelog
 
+# [16.0.0-beta.7](https://github.com/cherryblossom000/eslint-config/compare/v16.0.0-beta.6...v16.0.0-beta.7) (2022-07-21)
+
+
+### Bug Fixes
+
+* **ts:** allow shadowing globals configured via ESLint ([20ffd90](https://github.com/cherryblossom000/eslint-config/commit/20ffd9048ac136855977e7b78e7860d02528eb25))
+
 # [16.0.0-beta.6](https://github.com/cherryblossom000/eslint-config/compare/v16.0.0-beta.5...v16.0.0-beta.6) (2022-07-21)
 
 

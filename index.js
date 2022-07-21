@@ -1,11 +1,11 @@
 'use strict'
 
 module.exports = {
-  extends: ['./js'],
-  overrides: [
-    {
-      files: ['**/*.ts'],
-      extends: ['./ts']
-    }
-  ]
+	extends: ['./js'],
+	overrides: [
+		{
+			files: ['**/*.ts'],
+			extends: ['./ts']
+		}
+	]
 }

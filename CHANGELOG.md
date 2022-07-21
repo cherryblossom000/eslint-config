@@ -1,5 +1,12 @@
 # Changelog
 
+# [16.0.0-beta.6](https://github.com/cherryblossom000/eslint-config/compare/v16.0.0-beta.5...v16.0.0-beta.6) (2022-07-21)
+
+
+### Features
+
+* use tabs ([f121dca](https://github.com/cherryblossom000/eslint-config/commit/f121dca61ae4f0d685e9369b44bfef1e43b3ba48))
+
 # [16.0.0-beta.5](https://github.com/cherryblossom000/eslint-config/compare/v16.0.0-beta.4...v16.0.0-beta.5) (2022-07-06)
 
 

@@ -1,11 +1,92 @@
 # Changelog
 
+# [16.0.0-beta.6](https://github.com/cherryblossom000/eslint-config/compare/v16.0.0-beta.5...v16.0.0-beta.6) (2022-07-21)
+
+
+### Features
+
+* use tabs ([f121dca](https://github.com/cherryblossom000/eslint-config/commit/f121dca61ae4f0d685e9369b44bfef1e43b3ba48))
+
+# [16.0.0-beta.5](https://github.com/cherryblossom000/eslint-config/compare/v16.0.0-beta.4...v16.0.0-beta.5) (2022-07-06)
+
+
+### Features
+
+* enable `unicorn/prefer-logical-operator-over-ternary` ([91f8cb1](https://github.com/cherryblossom000/eslint-config/commit/91f8cb11211588b4a3d099df5ccc0e9c2185ad46))
+* **node:** enable `unicorn/prefer-event-target ([27daa5c](https://github.com/cherryblossom000/eslint-config/commit/27daa5c6eb75248da2a92acac4ce2eb90fa85662))
+
+
+### BREAKING CHANGES
+
+* Requires `eslint-plugin-unicorn@^43`.
+
+# [16.0.0-beta.4](https://github.com/cherryblossom000/eslint-config/compare/v16.0.0-beta.3...v16.0.0-beta.4) (2022-06-11)
+
+
+### Bug Fixes
+
+* fix eslint-plugin-compat version range ([091b3ce](https://github.com/cherryblossom000/eslint-config/commit/091b3ce42effa48e43f5a9f9cf7bf0a302ef151c))
+
+
+### Features
+
+* **jest:** enable `prefer-hooks-in-order` ([02d197e](https://github.com/cherryblossom000/eslint-config/commit/02d197ec1da41ca71bcce3fbdc8f345bfefcf117))
+
+
+### BREAKING CHANGES
+
+* **jest:** Requires eslint-plugin-jest@^26.3.
+
 ## [15.0.3](https://github.com/cherryblossom000/eslint-config/compare/v15.0.2...v15.0.3) (2022-06-11)
 
 
 ### Bug Fixes
 
 * fix eslint-plugin-compat version range ([22d1422](https://github.com/cherryblossom000/eslint-config/commit/22d1422e68b26134fe25b204cc758703a6b87472))
+
+# [16.0.0-beta.3](https://github.com/cherryblossom000/eslint-config/compare/v16.0.0-beta.2...v16.0.0-beta.3) (2022-06-02)
+
+
+### Features
+
+* enable `no-constant-binary-expression` ([ead426b](https://github.com/cherryblossom000/eslint-config/commit/ead426b94aa874e63b31e65ddf4d973499b7bb15))
+* **ts:** enable `no-duplicate-enum-values` ([7ddd344](https://github.com/cherryblossom000/eslint-config/commit/7ddd3444f0c8ca259f5913a15a2f3c48d10dd2bd))
+* **ts:** enable `overrideMethods` option for `no-empty-function` ([2119097](https://github.com/cherryblossom000/eslint-config/commit/211909711f3df1150e2ce957926e57e43bafad0b))
+* **ts:** enable `parameter-properties` ([714b731](https://github.com/cherryblossom000/eslint-config/commit/714b731b14c6774a2ec7cde8e023e31504b8dad0))
+* **ts:** enable strict config ([ad50254](https://github.com/cherryblossom000/eslint-config/commit/ad50254078d6f3a49e6b0c80251a596cfa130dcb))
+
+
+### BREAKING CHANGES
+
+* Requires eslint@^8.14.
+* **ts:** Enables more lints and changes the warn/error status for some other rules.
+* **ts:** Requires @typescript-eslint/eslint-plugin@^5.25
+* **ts:** Requires @typescript-eslint/eslint-plugin@^5.22.
+* **ts:** Requires @typescript-eslint/eslint-plugin@^5.21
+
+# [16.0.0-beta.2](https://github.com/cherryblossom000/eslint-config/compare/v16.0.0-beta.1...v16.0.0-beta.2) (2022-04-10)
+
+
+### Bug Fixes
+
+* **ts:** fix config ([f30c119](https://github.com/cherryblossom000/eslint-config/commit/f30c119395d5819878cda07557082e98b429fd60))
+
+# [16.0.0-beta.1](https://github.com/cherryblossom000/eslint-config/compare/v15.0.1...v16.0.0-beta.1) (2022-04-10)
+
+
+### Features
+
+* enable `@typescript-eslint/no-useless-empty-export` ([789d7ef](https://github.com/cherryblossom000/eslint-config/commit/789d7efc2c86be11e67f704f357564d75a1ebe0c))
+* enable `unicorn/no-useless-switch-case` ([4654580](https://github.com/cherryblossom000/eslint-config/commit/46545808cc1db4f4802d1f3a93766dfe4a7e3949))
+* enable `unicorn/prefer-modern-math-apis` ([5d9e68b](https://github.com/cherryblossom000/eslint-config/commit/5d9e68b55c5bde2aab9b454a4d38c7684b95419c))
+* enable `unicorn/prefer-native-coercion-functions` ([5258170](https://github.com/cherryblossom000/eslint-config/commit/52581703914b8b84ce43a552e4670878e6a5fa87))
+* **ts:** enable `@typescript-eslint/no-useless-type-constituents` ([35439ec](https://github.com/cherryblossom000/eslint-config/commit/35439eca98f8df66eb293914d6c9b20444554e8d))
+
+
+### BREAKING CHANGES
+
+* Requires `eslint-plugin-unicorn@^42`.
+* **ts:** Requires `@typescript-eslint/eslint-plugin@^5.13`.
 
 ## [15.0.2](https://github.com/cherryblossom000/eslint-config/compare/v15.0.1...v15.0.2) (2022-04-10)
 

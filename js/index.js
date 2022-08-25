@@ -16,6 +16,7 @@ module.exports = {
 		'array-callback-return': [2, {allowImplicit: true}],
 		'no-await-in-loop': 2,
 		'no-cond-assign': 0,
+		'no-constant-binary-expression': 2,
 		'no-constant-condition': [2, {checkLoops: false}],
 		'no-constructor-return': 2,
 		'no-inner-declarations': [2, 'both'],
@@ -233,9 +234,9 @@ module.exports = {
 				bracketSpacing: false,
 				semi: false,
 				singleQuote: true,
-				trailingComma: 'none'
-			},
-			{usePrettierrc: false}
+				trailingComma: 'none',
+				useTabs: true
+			}
 		],
 
 		// Promise
@@ -274,6 +275,7 @@ module.exports = {
 		'unicorn/no-useless-length-check': 2,
 		'unicorn/no-useless-promise-resolve-reject': 2,
 		'unicorn/no-useless-spread': 2,
+		'unicorn/no-useless-switch-case': 2,
 		'unicorn/no-useless-undefined': [1, {checkArguments: false}],
 		'unicorn/no-zero-fractions': 1,
 		'unicorn/numeric-separators-style': [1, {hexadecimal: {minimumDigits: 7}}],
@@ -287,7 +289,10 @@ module.exports = {
 		'unicorn/prefer-default-parameters': 2,
 		'unicorn/prefer-export-from': 1,
 		'unicorn/prefer-includes': 2,
+		'unicorn/prefer-logical-operator-over-ternary': 2,
 		'unicorn/prefer-math-trunc': 2,
+		'unicorn/prefer-modern-math-apis': 2,
+		'unicorn/prefer-native-coercion-functions': 2,
 		'unicorn/prefer-negative-index': 2,
 		'unicorn/prefer-object-from-entries': 2,
 		'unicorn/prefer-optional-catch-binding': 1,

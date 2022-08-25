@@ -16,6 +16,7 @@ module.exports = {
 		'jest/prefer-comparison-matcher': 2,
 		'jest/prefer-equality-matcher': 2,
 		'jest/prefer-expect-resolves': 2,
+		'jest/prefer-hooks-in-order': 1,
 		'jest/prefer-hooks-on-top': 1,
 		'jest/prefer-lowercase-title': 1,
 		'jest/prefer-snapshot-hint': 1,

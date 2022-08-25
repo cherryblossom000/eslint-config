@@ -3,5 +3,5 @@
 const {isESM} = require('../../src/utils')
 
 module.exports = {
-  extends: isESM() ? './esm' : './commonjs'
+	extends: isESM() ? './esm' : './commonjs'
 }

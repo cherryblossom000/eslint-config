@@ -27,6 +27,6 @@ const getPackageJson = require('eslint-plugin-node/lib/util/get-package-json')
  * @returns {boolean} Whether this is an ESM file.
  */
 module.exports.isESM = () => {
-  const packageJson = getPackageJson()
-  return (packageJson && packageJson.type) === 'module'
+	const packageJson = getPackageJson()
+	return (packageJson && packageJson.type) === 'module'
 }

@@ -1,96 +1,96 @@
 {
-  "name": "@cherryblossom/eslint-config",
-  "version": "15.0.3",
-  "description": "@cherryblossom000's ESLint configuration.",
-  "keywords": [
-    "eslint",
-    "eslint-config",
-    "eslintconfig"
-  ],
-  "homepage": "https://github.com/cherryblossom000/eslint-config#readme",
-  "repository": "github:cherryblossom000/eslint-config",
-  "bugs": "https://github.com/cherryblossom000/eslint-config/issues",
-  "license": "MIT",
-  "author": "cherryblossom (https://github.com/cherryblossom000)",
-  "files": [
-    "**/*.js"
-  ],
-  "engines": {
-    "node": ">=14"
-  },
-  "scripts": {
-    "lint": "eslint --max-warnings 0 .",
-    "lint:dev": "dum lint -- --cache"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
-  },
-  "dependencies": {
-    "@typescript-eslint/parser": "^5.27.0"
-  },
-  "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5",
-    "eslint": "^8.5",
-    "eslint-plugin-compat": "^4",
-    "eslint-plugin-eslint-comments": "^3.2",
-    "eslint-plugin-import": "^2.24",
-    "eslint-plugin-jest": "^26.1",
-    "eslint-plugin-jsdoc": ">=37.8 <40",
-    "eslint-plugin-node": "^11.1",
-    "eslint-plugin-prettier": ">=3 <5",
-    "eslint-plugin-promise": "^6",
-    "eslint-plugin-unicorn": ">=41 <43",
-    "prettier": ">=1.13.0",
-    "typescript": "^4.1.2"
-  },
-  "peerDependenciesMeta": {
-    "@typescript-eslint/eslint-plugin": {
-      "optional": true
-    },
-    "eslint-plugin-compat": {
-      "optional": true
-    },
-    "eslint-plugin-html": {
-      "optional": true
-    },
-    "eslint-plugin-import": {
-      "optional": true
-    },
-    "eslint-plugin-jest": {
-      "optional": true
-    },
-    "eslint-plugin-markdown": {
-      "optional": true
-    },
-    "eslint-plugin-node": {
-      "optional": true
-    },
-    "typescript": {
-      "optional": true
-    }
-  },
-  "devDependencies": {
-    "@cherryblossom/eslint-config": "link:",
-    "@semantic-release/changelog": "^6.0.1",
-    "@semantic-release/git": "^10.0.1",
-    "@types/eslint": "^8.4.2",
-    "commitizen": "^4.2.4",
-    "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^8.16.0",
-    "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jsdoc": "^39.3.2",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-unicorn": "^42.0.0",
-    "prettier": "^2.6.2",
-    "semantic-release": "^19.0.2",
-    "typescript": "^4.7.2"
-  }
+	"name": "@cherryblossom/eslint-config",
+	"version": "15.0.3",
+	"description": "@cherryblossom000's ESLint configuration.",
+	"keywords": [
+		"eslint",
+		"eslint-config",
+		"eslintconfig"
+	],
+	"homepage": "https://github.com/cherryblossom000/eslint-config#readme",
+	"repository": "github:cherryblossom000/eslint-config",
+	"bugs": "https://github.com/cherryblossom000/eslint-config/issues",
+	"license": "MIT",
+	"author": "cherryblossom (https://github.com/cherryblossom000)",
+	"files": [
+		"**/*.js"
+	],
+	"engines": {
+		"node": ">=14"
+	},
+	"scripts": {
+		"lint": "eslint --max-warnings 0 .",
+		"lint:dev": "dum lint -- --cache"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"config": {
+		"commitizen": {
+			"path": "cz-conventional-changelog"
+		}
+	},
+	"dependencies": {
+		"@typescript-eslint/parser": "^5.27.0"
+	},
+	"peerDependencies": {
+		"@typescript-eslint/eslint-plugin": "^5",
+		"eslint": "^8.5",
+		"eslint-plugin-compat": "^4",
+		"eslint-plugin-eslint-comments": "^3.2",
+		"eslint-plugin-import": "^2.24",
+		"eslint-plugin-jest": "^26.1",
+		"eslint-plugin-jsdoc": ">=37.8 <40",
+		"eslint-plugin-node": "^11.1",
+		"eslint-plugin-prettier": ">=3 <5",
+		"eslint-plugin-promise": "^6",
+		"eslint-plugin-unicorn": ">=41 <43",
+		"prettier": ">=1.13.0",
+		"typescript": "^4.1.2"
+	},
+	"peerDependenciesMeta": {
+		"@typescript-eslint/eslint-plugin": {
+			"optional": true
+		},
+		"eslint-plugin-compat": {
+			"optional": true
+		},
+		"eslint-plugin-html": {
+			"optional": true
+		},
+		"eslint-plugin-import": {
+			"optional": true
+		},
+		"eslint-plugin-jest": {
+			"optional": true
+		},
+		"eslint-plugin-markdown": {
+			"optional": true
+		},
+		"eslint-plugin-node": {
+			"optional": true
+		},
+		"typescript": {
+			"optional": true
+		}
+	},
+	"devDependencies": {
+		"@cherryblossom/eslint-config": "link:",
+		"@semantic-release/changelog": "^6.0.1",
+		"@semantic-release/git": "^10.0.1",
+		"@types/eslint": "^8.4.2",
+		"commitizen": "^4.2.4",
+		"cz-conventional-changelog": "^3.3.0",
+		"eslint": "^8.16.0",
+		"eslint-plugin-eslint-comments": "^3.2.0",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-jsdoc": "^39.3.2",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-prettier": "^4.0.0",
+		"eslint-plugin-promise": "^6.0.0",
+		"eslint-plugin-unicorn": "^42.0.0",
+		"prettier": "^2.6.2",
+		"semantic-release": "^19.0.2",
+		"typescript": "^4.7.2"
+	}
 }

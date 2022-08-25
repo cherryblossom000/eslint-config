@@ -1,7 +1,7 @@
 'use strict'
 
 module.exports = {
-  rules: {
-    'unicorn/prefer-string-replace-all': 2
-  }
+	rules: {
+		'unicorn/prefer-string-replace-all': 2
+	}
 }

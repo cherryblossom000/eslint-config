@@ -42,12 +42,10 @@ This does not follow semantic versioning strictly.
 
 - `index` (@typescript-eslint)
 - `browser` (import, compat, @typescript-eslint)
-- `react` (import, compat, react-hooks, @typescript-eslint)
 - `node`: all of the following require import, node, and @typescript-eslint
   - `index`
   - `commonjs`
   - `esm`
-- `jest` (jest, @typescript-eslint)
 - `markdown` (markdown)
 - `js`
   - `index`
@@ -56,22 +54,17 @@ This does not follow semantic versioning strictly.
     - `index`
     - `commonjs`
     - `esm`
-  - `jest` (jest)
-  - `react` (import, compat, react-hooks)
 - `ts`: all of the following require @typescript-eslint
   - `index`
   - `browser` (import, compat)
-  - `react` (import, compat, react-hooks)
   - `node`: all of the following require import and node
     - `index`
     - `commonjs`
     - `esm`
-  - `jest` (jest)
 
 There are some additional configs that are meant to be used in conjunction with
 another one:
 
-- `node/12`: Node.js 12
 - `node/14`: Node.js 14
 - `node/16`: Node.js 16
 

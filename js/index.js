@@ -62,6 +62,11 @@ module.exports = {
 		'grouped-accessor-pairs': [1, 'getBeforeSet'],
 		'guard-for-in': 2,
 		'id-length': [1, {min: 1, max: 30}],
+		'logical-assignment-operators': [
+			1,
+			'always',
+			{enforceForIfStatements: true}
+		],
 		'max-depth': 1,
 		'max-lines': [1, {max: 500, skipBlankLines: true, skipComments: true}],
 		'max-lines-per-function': [

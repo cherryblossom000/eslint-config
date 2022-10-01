@@ -7,25 +7,17 @@ jobs:
     env:
       NODE_VERSION: 14
     steps:
-
     - uses: actions/checkout@v3
+
+    - uses: pnpm/action-setup@v2
+      with:
+        version: 7.12.2
     - uses: actions/setup-node@v3
       with:
-        node-version: ${{ env.NODE_VERSION }}
-
-    - name: Cache pnpm modules
-      uses: actions/cache@v3.0.8
-      env:
-        cache-name: cache-pnpm-modules
-      with:
-        path: ~/.pnpm-store
-        key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ env.NODE_VERSION }}-${{ hashFiles('**/package.json') }}
-        restore-keys: ${{ runner.os }}-build-${{ env.cache-name }}-${{ env.NODE_VERSION }}-
-
-    - uses: pnpm/action-setup@v2.2.2
-      with:
-        version: 6.3.0
-        run_install: true
+        node-version: 14
+        cache: pnpm
+    - name: Install node_modules
+      run: pnpm i --frozen-lockfile
 
     - name: Lint
       run: pnpm run lint
@@ -36,15 +28,20 @@ jobs:
     if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/beta')
     needs: lint
     env:
-      NODE_VERSION: 14
       GIT_COMMITTER_NAME: cherryblossom
       GIT_COMMITTER_EMAIL: 31467609+cherryblossom000@users.noreply.github.com
 
     steps:
     - uses: actions/checkout@v3
+    - uses: pnpm/action-setup@v2
+      with:
+        version: 7.12.2
     - uses: actions/setup-node@v3
       with:
-        node-version: ${{ env.NODE_VERSION }}
+        node-version: 14
+        cache: pnpm
+    - name: Install node_modules
+      run: pnpm i --frozen-lockfile
 
     - uses: crazy-max/ghaction-import-gpg@v5
       with:
@@ -52,20 +49,6 @@ jobs:
         passphrase: ${{ secrets.GPG_PASSPHRASE }}
         git_user_signingkey: true
         git_commit_gpgsign: true
-
-    - name: Cache pnpm modules
-      uses: actions/cache@v3.0.8
-      env:
-        cache-name: cache-pnpm-modules
-      with:
-        path: ~/.pnpm-store
-        key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ env.NODE_VERSION }}-${{ hashFiles('**/package.json') }}
-        restore-keys: ${{ runner.os }}-build-${{ env.cache-name }}-${{ env.NODE_VERSION }}-
-
-    - uses: pnpm/action-setup@v2.2.2
-      with:
-        version: 6.3.0
-        run_install: true
 
     - name: Release
       run: pnpx semantic-release

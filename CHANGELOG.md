@@ -1,5 +1,17 @@
 # Changelog
 
+# [17.0.0-beta.1](https://github.com/cherryblossom000/eslint-config/compare/v16.0.0...v17.0.0-beta.1) (2022-10-01)
+
+
+### Features
+
+* enable logical-assignment-operators ([a5cb8c4](https://github.com/cherryblossom000/eslint-config/commit/a5cb8c4cb8c2bd927a736b84142bf6a19228396a))
+
+
+### BREAKING CHANGES
+
+* Requires `eslint@^8.24`.
+
 # [16.0.0](https://github.com/cherryblossom000/eslint-config/compare/v15.0.3...v16.0.0) (2022-08-25)
 
 

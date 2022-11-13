@@ -248,6 +248,7 @@ module.exports = {
 		// then can be used for side effects
 		'promise/always-return': 0,
 		'promise/catch-or-return': [2, {allowFinally: true}],
+		'promise/no-multiple-resolved': 2,
 		'promise/param-names': 1,
 		'promise/prefer-await-to-callbacks': 2,
 		'promise/valid-params': 2,

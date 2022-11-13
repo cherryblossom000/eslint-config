@@ -274,6 +274,7 @@ module.exports = {
 		'unicorn/no-static-only-class': 2,
 		'unicorn/no-thenable': 1,
 		'unicorn/no-this-assignment': 2,
+		'unicorn/no-unnecessary-await': 2,
 		'unicorn/no-unsafe-regex': 2,
 		'unicorn/no-unused-properties': 1,
 		'unicorn/no-useless-fallback-in-spread': 2,

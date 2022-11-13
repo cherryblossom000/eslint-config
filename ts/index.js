@@ -26,6 +26,7 @@ module.exports = {
 	rules: {
 		'@typescript-eslint/adjacent-overload-signatures': 1,
 		'@typescript-eslint/array-type': 1,
+		'unicorn/no-unnecessary-await': 0,
 		'@typescript-eslint/ban-ts-comment': [
 			2,
 			{

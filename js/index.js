@@ -22,6 +22,7 @@ module.exports = {
 		'no-inner-declarations': [2, 'both'],
 		'no-irregular-whitespace': [2, {skipComments: false}],
 		'no-fallthrough': 0,
+		'no-new-native-nonconstructor': 2,
 		'no-promise-executor-return': 2,
 		'no-self-compare': 2,
 		'no-template-curly-in-string': 1,

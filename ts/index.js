@@ -26,7 +26,6 @@ module.exports = {
 	rules: {
 		'@typescript-eslint/adjacent-overload-signatures': 1,
 		'@typescript-eslint/array-type': 1,
-		'unicorn/no-unnecessary-await': 0,
 		'@typescript-eslint/ban-ts-comment': [
 			2,
 			{
@@ -212,10 +211,12 @@ module.exports = {
 		'array-callback-return': 0,
 		'consistent-return': 0,
 		'default-param-last': 0,
+		'no-new-native-nonconstructor': 0,
 		'no-unsafe-optional-chaining': 0,
 		'@typescript-eslint/no-unused-vars': 0,
 		'promise/no-new-static': 0,
 		'promise/valid-params': 0,
+		'unicorn/no-unnecessary-await': 0,
 		'unicorn/no-thenable': 0,
 
 		// Doesn't work for class fields

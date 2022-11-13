@@ -93,6 +93,7 @@ module.exports = {
 		'no-else-return': [1, {allowElseIf: false}],
 		'no-empty': [1, {allowEmptyCatch: true}],
 		'no-empty-function': 1,
+		'no-empty-static-block': 1,
 		'no-eval': 2,
 		'no-extend-native': 2,
 		'no-extra-bind': 2,

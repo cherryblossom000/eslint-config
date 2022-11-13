@@ -1,5 +1,21 @@
 # Changelog
 
+# [17.0.0-beta.2](https://github.com/cherryblossom000/eslint-config/compare/v17.0.0-beta.1...v17.0.0-beta.2) (2022-11-13)
+
+
+### Features
+
+* **enable `no-new-native-nonconstructor`:** enable the `no-new-native-nonconstructor` rule ([38846ef](https://github.com/cherryblossom000/eslint-config/commit/38846efb3faf9fa33c9851362b0d8b9cb7e39a75))
+* enable `promise/no-multiple-resolved` ([e9536da](https://github.com/cherryblossom000/eslint-config/commit/e9536da19cfcdee4cc56b75fe259a8c6e357ac68))
+* enable `unicorn/switch-case-braces` ([3d76337](https://github.com/cherryblossom000/eslint-config/commit/3d763375e59bc02ceba5139260b237c0305bcada))
+* **js:** enable `unicorn/no-unnecessary-await` ([8e330e3](https://github.com/cherryblossom000/eslint-config/commit/8e330e37363707dbbd8702e7c4d687a1e1b083de))
+
+
+### BREAKING CHANGES
+
+* Requires `eslint-plugin-promise@^6.1`.
+* **js:** Requires `eslint-plugin-unicorn@^44`.
+
 # [17.0.0-beta.1](https://github.com/cherryblossom000/eslint-config/compare/v16.0.0...v17.0.0-beta.1) (2022-10-01)
 
 

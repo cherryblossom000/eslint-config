@@ -314,6 +314,7 @@ module.exports = {
 		'unicorn/prefer-ternary': 2,
 		'unicorn/prefer-type-error': 2,
 		'unicorn/relative-url-style': 1,
+		'unicorn/switch-case-braces': [1, 'avoid'],
 		'unicorn/throw-new-error': 1
 	}
 }

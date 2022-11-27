@@ -1,5 +1,19 @@
 # Changelog
 
+# [17.0.0-beta.3](https://github.com/cherryblossom000/eslint-config/compare/v17.0.0-beta.2...v17.0.0-beta.3) (2022-11-27)
+
+
+### Features
+
+* enable `unicorn/no-typeof-undefined` ([5ec9576](https://github.com/cherryblossom000/eslint-config/commit/5ec957616f063e1333c897453ccfa9d81157c2c6))
+* enable `unicorn/prefer-set-sisze` ([b629084](https://github.com/cherryblossom000/eslint-config/commit/b629084190cee6587e2066f451b3ea69c6e2dba2))
+* use unicorn’s no-negated-condition ([9115a7b](https://github.com/cherryblossom000/eslint-config/commit/9115a7b130bb86c91aff107b3d14bc45483330ad))
+
+
+### BREAKING CHANGES
+
+* Requires `eslint-plugin-unicorn@^45.0.0`.
+
 # [17.0.0-beta.2](https://github.com/cherryblossom000/eslint-config/compare/v17.0.0-beta.1...v17.0.0-beta.2) (2022-11-13)
 
 

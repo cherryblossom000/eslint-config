@@ -1,7 +1,4 @@
 root: true
 extends: '@cherryblossom/eslint-config/js/node'
-settings:
-  jsdoc:
-    mode: typescript
 rules:
   id-length: 0

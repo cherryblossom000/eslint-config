@@ -27,11 +27,10 @@ This does not follow semantic versioning strictly.
 
 ## Configs
 
-> `config name` (requires plugin/peer dependency 1, plugin 2)
+> `config name` (required plugin/peer dependencies)
 
 - All of these require the following ESLint plugins:
   - eslint-comments
-  - jsdoc
   - unicorn
   - prettier
     - the `prettier` package
@@ -66,6 +65,8 @@ another one:
 
 - `node/14`: Node.js 14
 - `node/16`: Node.js 16
+- `js/jsdoc`: Lint JSDoc comments in JavaScript files (jsdoc)
+- `ts/jsdoc`: Lint JSDoc comments in TypeScript files (jsdoc)
 
 ## License
 

@@ -12,7 +12,6 @@ module.exports = {
 	],
 	env: {es2020: true},
 	parser: '@typescript-eslint/parser',
-	settings: {jsdoc: {mode: 'typescript'}},
 	overrides: [
 		{
 			files: ['**/*.d.ts'],
@@ -199,11 +198,6 @@ module.exports = {
 		'@typescript-eslint/require-await': rules['require-await'],
 		'no-return-await': 0,
 		'@typescript-eslint/return-await': rules['no-return-await'],
-
-		// JSDoc
-		'jsdoc/no-types': 1,
-		'jsdoc/require-param-type': 0,
-		'jsdoc/require-returns-type': 0,
 
 		// Already checked by TS
 		'array-callback-return': 0,

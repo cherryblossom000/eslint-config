@@ -5,7 +5,7 @@ module.exports = {
 		'eslint:recommended',
 		'plugin:eslint-comments/recommended',
 		'plugin:jsdoc/recommended',
-		'plugin:promise/recommended'
+		'plugin:promise/recommended',
 		// Don't extend unicorn's recommended config because it sets the env and parserOptions
 		// Don't extend prettier's recommended config because it sets it to error
 	],
@@ -38,8 +38,8 @@ module.exports = {
 				args: 'all',
 				argsIgnorePattern: '^_',
 				caughtErrors: 'all',
-				caughtErrorsIgnorePattern: '^_'
-			}
+				caughtErrorsIgnorePattern: '^_',
+			},
 		],
 		'require-atomic-updates': 2,
 		'use-isnan': [2, {enforceForSwitchCase: true, enforceForIndexOf: true}],
@@ -66,13 +66,13 @@ module.exports = {
 		'logical-assignment-operators': [
 			1,
 			'always',
-			{enforceForIfStatements: true}
+			{enforceForIfStatements: true},
 		],
 		'max-depth': 1,
 		'max-lines': [1, {max: 500, skipBlankLines: true, skipComments: true}],
 		'max-lines-per-function': [
 			1,
-			{max: 200, skipBlankLines: true, skipComments: true}
+			{max: 200, skipBlankLines: true, skipComments: true},
 		],
 		'max-nested-callbacks': 1,
 		'max-params': [1, {max: 5}],
@@ -84,9 +84,9 @@ module.exports = {
 				capIsNewExceptions: [
 					'AsyncFunction',
 					'GeneratorFunction',
-					'AsyncGeneratorFunction'
-				]
-			}
+					'AsyncGeneratorFunction',
+				],
+			},
 		],
 		'no-array-constructor': 1,
 		'no-caller': 2,
@@ -122,12 +122,12 @@ module.exports = {
 			// https://github.com/prettier/eslint-config-prettier#no-sequences
 			{
 				selector: 'SequenceExpression',
-				message: 'Unexpected use of comma operator.'
+				message: 'Unexpected use of comma operator.',
 			},
 			{
 				selector: 'ForInStatement',
-				message: 'Use for (const key of Object.keys(object)) { ... } instead.'
-			}
+				message: 'Use for (const key of Object.keys(object)) { ... } instead.',
+			},
 		],
 		'no-return-await': 2,
 		'no-script-url': 2,
@@ -140,7 +140,7 @@ module.exports = {
 		'no-useless-rename': 1,
 		'no-unused-expressions': [
 			1,
-			{allowTernary: true, allowTaggedTemplates: true, enforceForJSX: true}
+			{allowTernary: true, allowTaggedTemplates: true, enforceForJSX: true},
 		],
 		'no-unused-labels': 1,
 		'no-use-before-define': [2, 'nofunc'],
@@ -169,7 +169,7 @@ module.exports = {
 		'spaced-comment': [
 			1,
 			'always',
-			{line: {markers: ['/']}, block: {markers: ['*'], balanced: true}}
+			{line: {markers: ['/']}, block: {markers: ['*'], balanced: true}},
 		],
 		strict: 2,
 		'symbol-description': 2,
@@ -187,15 +187,15 @@ module.exports = {
 			{
 				blankLine: 'never',
 				prev: ['cjs-import', 'import'],
-				next: ['cjs-import', 'import']
+				next: ['cjs-import', 'import'],
 			},
 			{blankLine: 'always', prev: ['cjs-export', 'export'], next: '*'},
 			{
 				blankLine: 'any',
 				prev: ['cjs-export', 'export'],
-				next: ['cjs-export', 'export']
+				next: ['cjs-export', 'export'],
 			},
-			{blankLine: 'always', prev: 'function', next: '*'}
+			{blankLine: 'always', prev: 'function', next: '*'},
 		],
 		quotes: [1, 'single', {avoidEscape: true}],
 
@@ -218,7 +218,7 @@ module.exports = {
 		'jsdoc/check-syntax': 1,
 		'jsdoc/match-description': [
 			1,
-			{matchDescription: '^([A-Z]|[`\\d_{])[\\s\\S]*[.?!`]\\s*$'}
+			{matchDescription: '^([A-Z]|[`\\d_{])[\\s\\S]*[.?!`]\\s*$'},
 		],
 		'jsdoc/multiline-blocks': 0,
 		'jsdoc/no-multi-asterisks': [1, {allowWhitespace: true}],
@@ -241,8 +241,8 @@ module.exports = {
 				semi: false,
 				singleQuote: true,
 				trailingComma: 'all',
-				useTabs: true
-			}
+				useTabs: true,
+			},
 		],
 
 		// Promise
@@ -320,6 +320,6 @@ module.exports = {
 		'unicorn/prefer-type-error': 2,
 		'unicorn/relative-url-style': 1,
 		'unicorn/switch-case-braces': [1, 'avoid'],
-		'unicorn/throw-new-error': 1
-	}
+		'unicorn/throw-new-error': 1,
+	},
 }

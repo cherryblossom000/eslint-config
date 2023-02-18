@@ -3,6 +3,6 @@
 module.exports = {
 	env: {es2020: true},
 	parserOptions: {
-		ecmaVersion: 2021
-	}
+		ecmaVersion: 2021,
+	},
 }

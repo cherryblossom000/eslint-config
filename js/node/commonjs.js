@@ -3,7 +3,7 @@
 module.exports = {
 	extends: ['..', 'plugin:node/recommended-script', '../../_mixins/node'],
 	settings: {
-		'import/extensions': ['js', 'cjs']
+		'import/extensions': ['js', 'cjs'],
 	},
 	rules: {
 		// Node
@@ -14,9 +14,9 @@ module.exports = {
 		'import/no-unresolved': [2, {commonjs: true}],
 		'import/no-useless-path-segments': [
 			1,
-			{noUselessIndex: true, commonjs: true}
+			{noUselessIndex: true, commonjs: true},
 		],
 
-		'unicorn/prefer-module': 0
-	}
+		'unicorn/prefer-module': 0,
+	},
 }

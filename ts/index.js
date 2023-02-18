@@ -8,7 +8,7 @@ module.exports = {
 		'plugin:@typescript-eslint/recommended',
 		'plugin:@typescript-eslint/recommended-requiring-type-checking',
 		'plugin:@typescript-eslint/strict',
-		'../_mixins/ts/import'
+		'../_mixins/ts/import',
 	],
 	env: {es2020: true},
 	parser: '@typescript-eslint/parser',
@@ -19,9 +19,9 @@ module.exports = {
 			rules: {
 				'import/no-unused-modules': 0,
 				'import/prefer-default-export': 0,
-				'@typescript-eslint/naming-convention': 0
-			}
-		}
+				'@typescript-eslint/naming-convention': 0,
+			},
+		},
 	],
 	rules: {
 		'@typescript-eslint/adjacent-overload-signatures': 1,
@@ -30,14 +30,14 @@ module.exports = {
 			2,
 			{
 				'ts-ignore': 'allow-with-description',
-				'ts-nocheck': 'allow-with-description'
-			}
+				'ts-nocheck': 'allow-with-description',
+			},
 		],
 		'@typescript-eslint/consistent-type-imports': 1,
 		'@typescript-eslint/explicit-function-return-type': 2,
 		'@typescript-eslint/explicit-member-accessibility': [
 			1,
-			{accessibility: 'no-public'}
+			{accessibility: 'no-public'},
 		],
 		'@typescript-eslint/member-ordering': 1,
 		camelcase: 0,
@@ -47,57 +47,57 @@ module.exports = {
 				selector: 'default',
 				format: ['camelCase'],
 				leadingUnderscore: 'allow',
-				trailingUnderscore: 'allow'
+				trailingUnderscore: 'allow',
 			},
 			// don't change to variableLike so these have higher precedence over the
 			// const selector
 			{
 				selector: ['variable', 'parameter'],
 				modifiers: ['destructured'],
-				format: null
+				format: null,
 			},
 			{
 				selector: 'parameter',
 				modifiers: ['unused'],
 				filter: {regex: '^_+', match: true},
-				format: null
+				format: null,
 			},
 			{
 				selector: 'variable',
 				modifiers: ['const'],
 				format: ['camelCase', 'UPPER_CASE'],
 				leadingUnderscore: 'allow',
-				trailingUnderscore: 'allow'
+				trailingUnderscore: 'allow',
 			},
 			{
 				selector: 'property',
 				modifiers: ['requiresQuotes'],
-				format: null
+				format: null,
 			},
 			{
 				selector: 'property',
 				format: ['camelCase', 'UPPER_CASE'],
 				leadingUnderscore: 'allowSingleOrDouble', // _id, __typename, etc.
-				trailingUnderscore: 'allow'
+				trailingUnderscore: 'allow',
 			},
 			{
 				selector: 'typeLike',
 				format: ['PascalCase'],
 				leadingUnderscore: 'allow',
-				trailingUnderscore: 'allow'
+				trailingUnderscore: 'allow',
 			},
 			{
 				selector: 'enumMember',
 				format: ['UPPER_CASE', 'PascalCase'],
 				leadingUnderscore: 'forbid',
-				trailingUnderscore: 'forbid'
-			}
+				trailingUnderscore: 'forbid',
+			},
 		],
 		'@typescript-eslint/no-base-to-string': 2,
 		'@typescript-eslint/no-confusing-non-null-assertion': 0,
 		'@typescript-eslint/no-confusing-void-expression': [
 			2,
-			{ignoreArrowShorthand: true}
+			{ignoreArrowShorthand: true},
 		],
 		'@typescript-eslint/no-duplicate-enum-values': 2,
 		'@typescript-eslint/no-explicit-any': 2,
@@ -120,14 +120,14 @@ module.exports = {
 		'@typescript-eslint/no-unnecessary-boolean-literal-compare': 2,
 		'@typescript-eslint/no-unnecessary-condition': [
 			2,
-			{allowConstantLoopConditions: true}
+			{allowConstantLoopConditions: true},
 		],
 		'@typescript-eslint/no-unnecessary-qualifier': 2,
 		'@typescript-eslint/no-unnecessary-type-constraint': 1,
 		'@typescript-eslint/no-useless-empty-export': 1,
 		'@typescript-eslint/parameter-properties': [
 			1,
-			{prefer: 'parameter-property'}
+			{prefer: 'parameter-property'},
 		],
 		'@typescript-eslint/prefer-as-const': 2,
 		'@typescript-eslint/prefer-for-of': 2,
@@ -147,7 +147,7 @@ module.exports = {
 		'@typescript-eslint/restrict-template-expressions': 0,
 		'@typescript-eslint/require-array-sort-compare': [
 			1,
-			{ignoreStringArrays: true}
+			{ignoreStringArrays: true},
 		],
 		'@typescript-eslint/sort-type-union-intersection-members': 1,
 		'@typescript-eslint/strict-boolean-expressions': 2,
@@ -160,8 +160,8 @@ module.exports = {
 			rules['dot-notation'],
 			{
 				allowPrivateClassPropertyAccess: true,
-				allowProtectedClassPropertyAccess: true
-			}
+				allowProtectedClassPropertyAccess: true,
+			},
 		],
 		'lines-between-class-members': 0,
 		'@typescript-eslint/lines-between-class-members':
@@ -176,9 +176,9 @@ module.exports = {
 					'protected-constructors',
 					'private-constructors',
 					'decoratedFunctions',
-					'overrideMethods'
-				]
-			}
+					'overrideMethods',
+				],
+			},
 		],
 		'no-extra-semi': 0,
 		'@typescript-eslint/no-extra-semi': rules['no-extra-semi'],
@@ -193,7 +193,7 @@ module.exports = {
 		'no-use-before-define': 0,
 		'@typescript-eslint/no-use-before-define': [
 			rules['no-use-before-define'][0],
-			{functions: false, ignoreTypeReferences: false}
+			{functions: false, ignoreTypeReferences: false},
 		],
 		quotes: 0,
 		'@typescript-eslint/quotes': rules.quotes,
@@ -222,6 +222,6 @@ module.exports = {
 		// Doesn't work for class fields
 		'no-invalid-this': 0,
 		// TypeScript can't resolve node: paths
-		'unicorn/prefer-node-protocol': 0
-	}
+		'unicorn/prefer-node-protocol': 0,
+	},
 }

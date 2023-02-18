@@ -5,6 +5,6 @@ module.exports = {
 	env: {es2021: true},
 	parserOptions: {ecmaVersion: 2022},
 	rules: {
-		'unicorn/prefer-node-protocol': 1
-	}
+		'unicorn/prefer-node-protocol': 1,
+	},
 }

@@ -30,15 +30,15 @@ module.exports = {
 					'dotenv/config',
 					'element-behaviors',
 					'reflect-metadata',
-					'**/*.css'
-				]
-			}
+					'**/*.css',
+				],
+			},
 		],
 		'import/order': [
 			1,
-			{'newlines-between': 'never', alphabetize: {order: 'asc'}}
+			{'newlines-between': 'never', alphabetize: {order: 'asc'}},
 		],
 
-		'unicorn/prefer-top-level-await': 2
-	}
+		'unicorn/prefer-top-level-await': 2,
+	},
 }

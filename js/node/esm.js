@@ -5,12 +5,12 @@ module.exports = {
 		'..',
 		'../../_mixins/node',
 		'../../_mixins/esm',
-		'plugin:node/recommended-module'
+		'plugin:node/recommended-module',
 	],
 	settings: {
-		'import/extensions': ['js', 'mjs']
+		'import/extensions': ['js', 'mjs'],
 	},
 	rules: {
-		'import/no-extraneous-dependencies': 2
-	}
+		'import/no-extraneous-dependencies': 2,
+	},
 }

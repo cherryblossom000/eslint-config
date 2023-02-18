@@ -4,8 +4,8 @@ module.exports = {
 	extends: ['../node', './import'],
 	settings: {
 		node: {
-			tryExtensions: ['.js', '.json', '.ts']
-		}
+			tryExtensions: ['.js', '.json', '.ts'],
+		},
 	},
 	rules: {
 		// Already checked by TS
@@ -15,6 +15,6 @@ module.exports = {
 		'node/global-require': 0,
 
 		// Compiled by TS
-		'node/no-unsupported-features/es-syntax': 0
-	}
+		'node/no-unsupported-features/es-syntax': 0,
+	},
 }

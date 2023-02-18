@@ -5,18 +5,18 @@ module.exports = {
 		'.',
 		'../_mixins/esm',
 		'../_mixins/es/2021',
-		'plugin:compat/recommended'
+		'plugin:compat/recommended',
 	],
 	env: {
 		es2021: true,
-		browser: true
+		browser: true,
 	},
 	rules: {
 		'import/no-nodejs-modules': 2,
 		'import/no-unused-modules': [
 			1,
 			// In _mixins/esm missingExports is true
-			{missingExports: false, unusedExports: true}
+			{missingExports: false, unusedExports: true},
 		],
 
 		'unicorn/no-document-cookie': 2,
@@ -28,6 +28,6 @@ module.exports = {
 		'unicorn/prefer-dom-node-remove': 2,
 		'unicorn/prefer-keyboard-event-key': 2,
 		'unicorn/prefer-modern-dom-apis': 2,
-		'unicorn/require-post-message-target-origin': 2
-	}
+		'unicorn/require-post-message-target-origin': 2,
+	},
 }

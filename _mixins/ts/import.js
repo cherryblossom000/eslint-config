@@ -18,6 +18,6 @@ module.exports = {
 		'import/no-named-as-default-member': 0,
 
 		// Doesn't support grouping type vs non-type imports
-		'import/order': 0
-	}
+		'import/order': 0,
+	},
 }

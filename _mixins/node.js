@@ -4,12 +4,12 @@ module.exports = {
 	extends: ['plugin:node/recommended'],
 	env: {
 		es2017: true,
-		node: true
+		node: true,
 	},
 	plugins: ['import', 'node'],
 	parserOptions: {ecmaVersion: 2019},
 	settings: {
-		'import/resolver': 'node'
+		'import/resolver': 'node',
 	},
 	rules: {
 		// Possible Errors
@@ -41,6 +41,6 @@ module.exports = {
 		'import/no-extraneous-dependencies': 2,
 
 		'unicorn/prefer-event-target': 2,
-		'unicorn/text-encoding-identifier-case': 1
-	}
+		'unicorn/text-encoding-identifier-case': 1,
+	},
 }

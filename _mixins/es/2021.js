@@ -2,6 +2,6 @@
 
 module.exports = {
 	rules: {
-		'unicorn/prefer-string-replace-all': 2
-	}
+		'unicorn/prefer-string-replace-all': 2,
+	},
 }

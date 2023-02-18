@@ -5,7 +5,6 @@ module.exports = {
 		'eslint:recommended',
 		'plugin:eslint-comments/recommended',
 		'plugin:jsdoc/recommended',
-		'plugin:promise/recommended',
 		// Don't extend unicorn's recommended config because it sets the env and parserOptions
 		// Don't extend prettier's recommended config because it sets it to error
 	],
@@ -244,15 +243,6 @@ module.exports = {
 				useTabs: true,
 			},
 		],
-
-		// Promise
-		// then can be used for side effects
-		'promise/always-return': 0,
-		'promise/catch-or-return': [2, {allowFinally: true}],
-		'promise/no-multiple-resolved': 2,
-		'promise/param-names': 1,
-		'promise/prefer-await-to-callbacks': 2,
-		'promise/valid-params': 2,
 
 		// Unicorn
 		'unicorn/better-regex': 1,

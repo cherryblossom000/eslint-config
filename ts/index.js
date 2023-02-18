@@ -102,8 +102,6 @@ module.exports = {
 		'@typescript-eslint/no-duplicate-enum-values': 2,
 		'@typescript-eslint/no-explicit-any': 2,
 		'@typescript-eslint/no-extraneous-class': 2,
-		// Covered by no-floating-promises
-		'promise/catch-or-return': 0,
 		'no-implied-eval': 0,
 		'@typescript-eslint/no-inferrable-types': 2,
 		'@typescript-eslint/no-invalid-void-type': 2,
@@ -214,8 +212,6 @@ module.exports = {
 		'no-new-native-nonconstructor': 0,
 		'no-unsafe-optional-chaining': 0,
 		'@typescript-eslint/no-unused-vars': 0,
-		'promise/no-new-static': 0,
-		'promise/valid-params': 0,
 		'unicorn/no-unnecessary-await': 0,
 		'unicorn/no-thenable': 0,
 

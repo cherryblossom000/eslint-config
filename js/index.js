@@ -197,9 +197,6 @@ module.exports = {
 		],
 		quotes: [1, 'single', {avoidEscape: true}],
 
-		// ESLint Comments
-		'eslint-comments/require-description': [1, {ignore: ['eslint-enable']}],
-
 		// Prettier
 		'prettier/prettier': [
 			1,

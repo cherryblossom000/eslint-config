@@ -1,5 +1,22 @@
 # Changelog
 
+# [18.0.0](https://github.com/cherryblossom000/eslint-config/compare/v17.0.0...v18.0.0) (2023-03-01)
+
+
+* feat!: mv jsdoc to separate configs ([9b9cded](https://github.com/cherryblossom000/eslint-config/commit/9b9cded2f0dfe58c7ce163c556dee455d369bda6))
+
+
+### Features
+
+* `trailingComma: all` ([a9524c5](https://github.com/cherryblossom000/eslint-config/commit/a9524c509b06d9b91c451c6ef9818f5783e4ff85))
+* disable `eslint-comments/require-description` ([fbfd868](https://github.com/cherryblossom000/eslint-config/commit/fbfd8685c85cca792e0425665d6c7fca179e5590))
+* remove eslint-plugin-promise ([447e9dc](https://github.com/cherryblossom000/eslint-config/commit/447e9dc4c75ddc47b6a07faa2bd2946b914693cd))
+
+
+### BREAKING CHANGES
+
+* to lint JSDoc comments you must extend the `js/jsdoc` or `ts/jsdoc` config
+
 # [17.0.0](https://github.com/cherryblossom000/eslint-config/compare/v16.0.0...v17.0.0) (2023-01-26)
 
 

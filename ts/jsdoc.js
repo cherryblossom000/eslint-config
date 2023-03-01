@@ -1,3 +1,5 @@
+'use strict'
+
 module.exports = {
 	extends: '../js/jsdoc',
 	settings: {jsdoc: {mode: 'typescript'}},

@@ -1,3 +1,5 @@
+'use strict'
+
 module.exports = {
 	rules: {
 		// Can't disable new line at end of 'file' for Prettier

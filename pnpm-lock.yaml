@@ -49,8 +49,8 @@ devDependencies:
     specifier: ^4.2.1
     version: 4.2.1(eslint@8.38.0)(prettier@2.8.7)
   eslint-plugin-unicorn:
-    specifier: ^45.0.2
-    version: 45.0.2(eslint@8.38.0)
+    specifier: ^46.0.0
+    version: 46.0.0(eslint@8.38.0)
   prettier:
     specifier: ^2.8.7
     version: 2.8.7
@@ -1644,8 +1644,8 @@ packages:
       prettier-linter-helpers: 1.0.0
     dev: true
 
-  /eslint-plugin-unicorn@45.0.2(eslint@8.38.0):
-    resolution: {integrity: sha512-Y0WUDXRyGDMcKLiwgL3zSMpHrXI00xmdyixEGIg90gHnj0PcHY4moNv3Ppje/kDivdAy5vUeUr7z211ImPv2gw==}
+  /eslint-plugin-unicorn@46.0.0(eslint@8.38.0):
+    resolution: {integrity: sha512-j07WkC+PFZwk8J33LYp6JMoHa1lXc1u6R45pbSAipjpfpb7KIGr17VE2D685zCxR5VL4cjrl65kTJflziQWMDA==}
     engines: {node: '>=14.18'}
     peerDependencies:
       eslint: '>=8.28.0'

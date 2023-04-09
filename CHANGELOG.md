@@ -1,5 +1,12 @@
 # Changelog
 
+## [18.0.2](https://github.com/cherryblossom000/eslint-config/compare/v18.0.1...v18.0.2) (2023-04-09)
+
+
+### Bug Fixes
+
+* support typescript@5 ([4e4e636](https://github.com/cherryblossom000/eslint-config/commit/4e4e636161aa81092d680e5705967ee064e484a0))
+
 ## [18.0.1](https://github.com/cherryblossom000/eslint-config/compare/v18.0.0...v18.0.1) (2023-04-09)
 
 

@@ -1,5 +1,12 @@
 # Changelog
 
+## [18.0.1](https://github.com/cherryblossom000/eslint-config/compare/v18.0.0...v18.0.1) (2023-04-09)
+
+
+### Bug Fixes
+
+* support eslint-plugin-unicorn@46 ([b73426a](https://github.com/cherryblossom000/eslint-config/commit/b73426a3b435cea263c5ca8e58dd8decd6dc090b))
+
 # [18.0.0](https://github.com/cherryblossom000/eslint-config/compare/v17.0.0...v18.0.0) (2023-03-01)
 
 

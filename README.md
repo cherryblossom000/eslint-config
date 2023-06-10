@@ -65,8 +65,6 @@ another one:
 
 - `node/14`: Node.js 14
 - `node/16`: Node.js 16
-- `js/jsdoc`: Lint JSDoc comments in JavaScript files (jsdoc)
-- `ts/jsdoc`: Lint JSDoc comments in TypeScript files (jsdoc)
 
 ## License
 

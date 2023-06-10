@@ -121,6 +121,7 @@ module.exports = {
 		],
 		'@typescript-eslint/no-unnecessary-qualifier': 2,
 		'@typescript-eslint/no-unnecessary-type-constraint': 1,
+		'@typescript-eslint/no-unsafe-enum-comparison': 2,
 		'@typescript-eslint/no-useless-empty-export': 1,
 		'@typescript-eslint/parameter-properties': [
 			1,

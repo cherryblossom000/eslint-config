@@ -1,5 +1,26 @@
 # Changelog
 
+# [19.0.0](https://github.com/cherryblossom000/eslint-config/compare/v18.0.2...v19.0.0) (2023-06-10)
+
+
+### Code Refactoring
+
+* remove jsdoc configs ([45609aa](https://github.com/cherryblossom000/eslint-config/commit/45609aa258b406145b465c8170d8804f5d1b33dc))
+
+
+### Features
+
+* **browser:** enable `unicorn/prefer-blob-reading-methods` ([cf9d3d3](https://github.com/cherryblossom000/eslint-config/commit/cf9d3d3e1cad9107490d66a566cfa0978cd385bf))
+* **ts:** enable `@typescript-eslint/no-unsafe-enum-comparison` ([6899cc9](https://github.com/cherryblossom000/eslint-config/commit/6899cc94ef8ba55fed4f924bb86ced68e00bb7c3))
+
+
+### BREAKING CHANGES
+
+* `js/jsdoc` and `ts/jsdoc` do not exist anymore. Please configure
+`eslint-plugin-jsdoc` separately
+* **browser:** Requires Node.js 16, eslint v8.38, and eslint-plugin-unicorn v47.
+* **ts:** Requires `@typescript-eslint/eslint-plugin@5.58`.
+
 ## [18.0.2](https://github.com/cherryblossom000/eslint-config/compare/v18.0.1...v18.0.2) (2023-04-09)
 
 

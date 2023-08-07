@@ -55,6 +55,7 @@ This does not follow semantic versioning strictly.
 - `ts`: all of the following require @typescript-eslint
   - `index`
   - `browser` (import, compat)
+  - `fp` (functional)
   - `node`: all of the following require import and node
     - `index`
     - `commonjs`

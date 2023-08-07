@@ -1,5 +1,25 @@
 # Changelog
 
+# [20.0.0](https://github.com/cherryblossom000/eslint-config/compare/v19.0.0...v20.0.0) (2023-08-07)
+
+
+### chore
+
+* upgrade prettier ([ddd9f2f](https://github.com/cherryblossom000/eslint-config/commit/ddd9f2fb6c87ed7aad1369827b259bc5c1763a61))
+
+
+### Features
+
+* support eslint-plugin-unicorn@48 ([555ca63](https://github.com/cherryblossom000/eslint-config/commit/555ca63717631ec063eda2b9d977f55f24bacbc8))
+* **ts:** add fp config ([70f530b](https://github.com/cherryblossom000/eslint-config/commit/70f530bc9b7c361c57e47e373b82f3426311b476))
+* **ts:** use typescript-eslint@6 ([881960b](https://github.com/cherryblossom000/eslint-config/commit/881960be9e02df25d686ea5092d205859c28ee8f))
+
+
+### BREAKING CHANGES
+
+* **ts:** Requires typescript-eslint v6.
+* Requires prettier@3.
+
 # [19.0.0](https://github.com/cherryblossom000/eslint-config/compare/v18.0.2...v19.0.0) (2023-06-10)
 
 

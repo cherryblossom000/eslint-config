@@ -235,7 +235,6 @@ module.exports = {
 		'unicorn/no-this-assignment': 2,
 		'unicorn/no-typeof-undefined': 2,
 		'unicorn/no-unnecessary-await': 2,
-		'unicorn/no-unsafe-regex': 2,
 		'unicorn/no-unused-properties': 1,
 		'unicorn/no-useless-fallback-in-spread': 2,
 		'unicorn/no-useless-length-check': 2,

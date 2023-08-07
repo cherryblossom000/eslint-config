@@ -12,5 +12,6 @@ module.exports = {
 			{allowReturningBranches: 'ifExhaustive'},
 		],
 		'functional/no-promise-reject': 2,
+		'unicorn/no-array-for-each': 0,
 	},
 }

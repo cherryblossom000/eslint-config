@@ -1,5 +1,12 @@
 # Changelog
 
+## [20.0.1](https://github.com/cherryblossom000/eslint-config/compare/v20.0.0...v20.0.1) (2023-08-07)
+
+
+### Bug Fixes
+
+* **ts/fp:** disable unicorn/no-array-for-each ([f334340](https://github.com/cherryblossom000/eslint-config/commit/f334340faf5e3579585663ed9c1aa2bd1750b930))
+
 # [20.0.0](https://github.com/cherryblossom000/eslint-config/compare/v19.0.0...v20.0.0) (2023-08-07)
 
 
